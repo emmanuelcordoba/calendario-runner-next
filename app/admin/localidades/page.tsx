@@ -1,26 +1,47 @@
 import Link from 'next/link';
 import { db } from '@/lib/db';
 import { localities, provinces } from '@/lib/db/schema';
-import { asc, eq } from 'drizzle-orm';
+import { asc, eq, sql } from 'drizzle-orm';
 import { deleteLocalityAction } from '@/actions/localities';
 import DeleteButton from '@/components/admin/delete-button';
+import Pagination from '@/components/admin/pagination';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Localidades - Admin' };
 
-export default async function AdminLocalidadesPage() {
-    const rows = await db
-        .select({ locality: localities, province: provinces })
-        .from(localities)
-        .innerJoin(provinces, eq(localities.provinceId, provinces.id))
-        .orderBy(asc(provinces.name), asc(localities.name));
+const VALID_SIZES = [10, 20, 50, 100];
+const DEFAULT_SIZE = 20;
+
+interface Props {
+    searchParams: Promise<{ page?: string; size?: string }>;
+}
+
+export default async function AdminLocalidadesPage({ searchParams }: Props) {
+    const { page: pageParam, size: sizeParam } = await searchParams;
+    const pageSize = VALID_SIZES.includes(Number(sizeParam)) ? Number(sizeParam) : DEFAULT_SIZE;
+    const page = Math.max(1, Number(pageParam ?? 1));
+    const offset = (page - 1) * pageSize;
+
+    const [rows, countRow] = await Promise.all([
+        db
+            .select({ locality: localities, province: provinces })
+            .from(localities)
+            .innerJoin(provinces, eq(localities.provinceId, provinces.id))
+            .orderBy(asc(provinces.name), asc(localities.name))
+            .limit(pageSize)
+            .offset(offset),
+        db.select({ count: sql<number>`count(*)` }).from(localities).get(),
+    ]);
+    const total = Number(countRow?.count ?? 0);
 
     return (
         <div>
             <div className="mb-6 flex items-center justify-between">
                 <h1 className="text-2xl font-bold">Localidades</h1>
-                <Link href="/admin/localidades/nueva" className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90">Nueva localidad</Link>
+                <Link href="/admin/localidades/nueva" className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90">
+                    Nueva localidad
+                </Link>
             </div>
             <div className="overflow-x-auto rounded-lg border">
                 <table className="w-full text-sm">
@@ -47,10 +68,15 @@ export default async function AdminLocalidadesPage() {
                                 </td>
                             </tr>
                         ))}
-                        {rows.length === 0 && <tr><td colSpan={3} className="px-4 py-8 text-center text-muted-foreground">No hay localidades.</td></tr>}
+                        {rows.length === 0 && (
+                            <tr>
+                                <td colSpan={3} className="px-4 py-8 text-center text-muted-foreground">No hay localidades.</td>
+                            </tr>
+                        )}
                     </tbody>
                 </table>
             </div>
+            <Pagination page={page} total={total} pageSize={pageSize} basePath="/admin/localidades" />
         </div>
     );
 }

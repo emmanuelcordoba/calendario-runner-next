@@ -1,14 +1,25 @@
 import Link from 'next/link';
-import { getAllRaces } from '@/lib/queries/races';
+import { getRacesPaginated } from '@/lib/queries/races';
 import { deleteRaceAction } from '@/actions/races';
 import DeleteButton from '@/components/admin/delete-button';
+import Pagination from '@/components/admin/pagination';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Carreras - Admin' };
 
-export default async function AdminCarrerasPage() {
-    const rows = await getAllRaces();
+const VALID_SIZES = [10, 20, 50, 100];
+const DEFAULT_SIZE = 20;
+
+interface Props {
+    searchParams: Promise<{ page?: string; size?: string }>;
+}
+
+export default async function AdminCarrerasPage({ searchParams }: Props) {
+    const { page: pageParam, size: sizeParam } = await searchParams;
+    const pageSize = VALID_SIZES.includes(Number(sizeParam)) ? Number(sizeParam) : DEFAULT_SIZE;
+    const page = Math.max(1, Number(pageParam ?? 1));
+    const { rows, total } = await getRacesPaginated(page, pageSize);
 
     return (
         <div>
@@ -66,6 +77,8 @@ export default async function AdminCarrerasPage() {
                     </tbody>
                 </table>
             </div>
+
+            <Pagination page={page} total={total} pageSize={pageSize} basePath="/admin/carreras" />
         </div>
     );
 }
