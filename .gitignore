@@ -30,8 +30,18 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files
+.env
+.env.local
+.env*.local
+
+# SQLite local (desarrollo)
+local.db
+local.db-shm
+local.db-wal
+
+# migration data (CSVs with production data)
+scripts/data/*.csv
 
 # vercel
 .vercel
@@ -39,3 +49,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# JetBrains
+.idea
