@@ -26,7 +26,8 @@ export async function createEditionAction(
 
     revalidatePath('/');
     revalidatePath('/admin/ediciones');
-    redirect('/admin/ediciones');
+    const redirectTo = (formData.get('redirect_to') as string) || '/admin/ediciones';
+    redirect(redirectTo);
 }
 
 export async function updateEditionAction(
@@ -49,7 +50,8 @@ export async function updateEditionAction(
 
     revalidatePath('/');
     revalidatePath('/admin/ediciones');
-    redirect('/admin/ediciones');
+    const redirectTo = (formData.get('redirect_to') as string) || '/admin/ediciones';
+    redirect(redirectTo);
 }
 
 export async function deleteEditionAction(formData: FormData) {
@@ -58,4 +60,5 @@ export async function deleteEditionAction(formData: FormData) {
     await db.delete(editions).where(eq(editions.id, id));
     revalidatePath('/');
     revalidatePath('/admin/ediciones');
+    revalidatePath('/admin/carreras', 'layout');
 }

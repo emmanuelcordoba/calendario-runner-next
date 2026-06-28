@@ -17,7 +17,8 @@ export async function createLinkAction(
     if (!raceId || !type) return { error: 'Carrera y tipo son requeridos.' };
     await db.insert(links).values({ raceId, type, url, title });
     revalidatePath('/admin/links');
-    redirect('/admin/links');
+    const redirectTo = (formData.get('redirect_to') as string) || '/admin/links';
+    redirect(redirectTo);
 }
 
 export async function deleteLinkAction(formData: FormData) {
@@ -25,4 +26,5 @@ export async function deleteLinkAction(formData: FormData) {
     if (!id) return;
     await db.delete(links).where(eq(links.id, id));
     revalidatePath('/admin/links');
+    revalidatePath('/admin/carreras', 'layout');
 }

@@ -17,7 +17,8 @@ export async function createPlaceAction(
     if (!raceId || !provinceId) return { error: 'Carrera y provincia son requeridos.' };
     await db.insert(places).values({ raceId, provinceId, localityId, place });
     revalidatePath('/admin/lugares');
-    redirect('/admin/lugares');
+    const redirectTo = (formData.get('redirect_to') as string) || '/admin/lugares';
+    redirect(redirectTo);
 }
 
 export async function deletePlaceAction(formData: FormData) {
@@ -25,4 +26,5 @@ export async function deletePlaceAction(formData: FormData) {
     if (!id) return;
     await db.delete(places).where(eq(places.id, id));
     revalidatePath('/admin/lugares');
+    revalidatePath('/admin/carreras', 'layout');
 }

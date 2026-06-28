@@ -8,12 +8,17 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = { title: 'Nueva edición - Admin' };
 
-export default async function NuevaEdicionPage() {
+interface Props {
+    searchParams: Promise<{ raceId?: string }>;
+}
+
+export default async function NuevaEdicionPage({ searchParams }: Props) {
+    const { raceId } = await searchParams;
     const allRaces = await db.select({ id: races.id, name: races.name }).from(races).orderBy(asc(races.name));
     return (
         <div>
             <h1 className="mb-6 text-2xl font-bold">Nueva edición</h1>
-            <EditionForm races={allRaces} />
+            <EditionForm races={allRaces} defaultRaceId={raceId ? Number(raceId) : undefined} />
         </div>
     );
 }

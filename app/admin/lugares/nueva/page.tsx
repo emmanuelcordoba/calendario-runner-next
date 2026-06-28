@@ -8,7 +8,12 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = { title: 'Nuevo lugar - Admin' };
 
-export default async function NuevoLugarPage() {
+interface Props {
+    searchParams: Promise<{ raceId?: string }>;
+}
+
+export default async function NuevoLugarPage({ searchParams }: Props) {
+    const { raceId } = await searchParams;
     const [allRaces, allProvinces, allLocalities] = await Promise.all([
         db.select({ id: races.id, name: races.name }).from(races).orderBy(asc(races.name)),
         db.select().from(provinces).orderBy(asc(provinces.name)),
@@ -17,7 +22,12 @@ export default async function NuevoLugarPage() {
     return (
         <div>
             <h1 className="mb-6 text-2xl font-bold">Nuevo lugar</h1>
-            <PlaceForm races={allRaces} provinces={allProvinces} localities={allLocalities} />
+            <PlaceForm
+                races={allRaces}
+                provinces={allProvinces}
+                localities={allLocalities}
+                defaultRaceId={raceId ? Number(raceId) : undefined}
+            />
         </div>
     );
 }

@@ -14,9 +14,10 @@ interface Race { id: number; name: string }
 interface Props {
     edition?: Edition;
     races: Race[];
+    defaultRaceId?: number;
 }
 
-export default function EditionForm({ edition, races }: Props) {
+export default function EditionForm({ edition, races, defaultRaceId }: Props) {
     const action = edition ? updateEditionAction : createEditionAction;
     const [state, formAction, pending] = useActionState(action, null);
 
@@ -28,11 +29,12 @@ export default function EditionForm({ edition, races }: Props) {
     return (
         <form action={formAction} className="flex flex-col gap-4 max-w-lg">
             {edition && <input type="hidden" name="id" value={edition.id} />}
+            {defaultRaceId && !edition && <input type="hidden" name="redirect_to" value={`/admin/carreras/${defaultRaceId}`} />}
             {state?.error && <div className="rounded-md bg-destructive/10 p-3 text-sm text-destructive">{state.error}</div>}
 
             <div className="grid gap-2">
                 <Label htmlFor="race_id">Carrera</Label>
-                <select id="race_id" name="race_id" required defaultValue={edition?.raceId}
+                <select id="race_id" name="race_id" required defaultValue={edition?.raceId ?? defaultRaceId}
                     className="w-full rounded-md border bg-background px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring">
                     <option value="">Seleccioná una carrera</option>
                     {races.map((r) => <option key={r.id} value={r.id}>{r.name}</option>)}

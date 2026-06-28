@@ -147,6 +147,24 @@ export async function getUpcomingEditions(params: {
     });
 }
 
+export async function getEditionsByRaceId(
+    raceId: number,
+): Promise<{ id: number; startDate: string; endDate: string; distances: string[]; image: string | null }[]> {
+    const rows = await db
+        .select()
+        .from(editions)
+        .where(eq(editions.raceId, raceId))
+        .orderBy(asc(editions.startDate));
+
+    return rows.map((e) => ({
+        id: e.id,
+        startDate: e.startDate,
+        endDate: e.endDate,
+        distances: parseDistances(e.distances),
+        image: e.image,
+    }));
+}
+
 export async function getEditionBySlugAndYear(
     slug: string,
     year: string,

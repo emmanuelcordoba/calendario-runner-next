@@ -9,15 +9,16 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 
-export default function LinkForm({ races }: { races: { id: number; name: string }[] }) {
+export default function LinkForm({ races, defaultRaceId }: { races: { id: number; name: string }[]; defaultRaceId?: number }) {
     const [state, formAction, pending] = useActionState(createLinkAction, null);
     return (
         <form action={formAction} className="flex flex-col gap-4 max-w-lg">
+            {defaultRaceId && <input type="hidden" name="redirect_to" value={`/admin/carreras/${defaultRaceId}`} />}
             {state?.error && <div className="rounded-md bg-destructive/10 p-3 text-sm text-destructive">{state.error}</div>}
 
             <div className="grid gap-2">
                 <Label htmlFor="race_id">Carrera</Label>
-                <select id="race_id" name="race_id" required
+                <select id="race_id" name="race_id" required defaultValue={defaultRaceId}
                     className="w-full rounded-md border bg-background px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring">
                     <option value="">Seleccioná una carrera</option>
                     {races.map((r) => <option key={r.id} value={r.id}>{r.name}</option>)}
