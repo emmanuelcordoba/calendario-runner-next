@@ -1,0 +1,237 @@
+{
+    "provinces": [
+        {
+            "name": "Misiones",
+            "localities": [
+                { "name": "Posadas" },
+                { "name": "Puerto Iguazú" },
+                { "name": "Oberá" },
+                { "name": "Eldorado" },
+                { "name": "Leandro N. Alem" }
+            ]
+        },
+        {
+            "name": "San Luis",
+            "localities": [
+                { "name": "San Luis" },
+                { "name": "Villa Mercedes" },
+                { "name": "Merlo" }
+            ]
+        },
+        {
+            "name": "San Juan",
+            "localities": [
+                { "name": "San Juan" },
+                { "name": "Chimbas" }
+            ]
+        },
+        {
+            "name": "Entre Ríos",
+            "localities": [
+                { "name": "Paraná" },
+                { "name": "Concordia" },
+                { "name": "Gualeguaychú" }
+            ]
+        },
+        {
+            "name": "Santa Cruz",
+            "localities": [
+                { "name": "Río Gallegos" },
+                { "name": "Caleta Olivia" },
+                { "name": "El Calafate" },
+                { "name": "Pico Truncado" },
+                { "name": "Puerto Deseado" }
+            ]
+        },
+        {
+            "name": "Río Negro",
+            "localities": [
+                { "name": "Viedma" },
+                { "name": "San Carlos de Bariloche" },
+                { "name": "General Roca" }
+            ]
+        },
+        {
+            "name": "Chubut",
+            "localities": [
+                { "name": "Rawson" },
+                { "name": "Comodoro Rivadavia" },
+                { "name": "Trelew" },
+                { "name": "Puerto Madryn" },
+                { "name": "Esquel" },
+                { "name": "Rada Tilly" }
+            ]
+        },
+        {
+            "name": "Córdoba",
+            "localities": [
+                { "name": "Córdoba" },
+                { "name": "San Javier y Yacanto" },
+                { "name": "Mina Clavero" },
+                { "name": "Nono" },
+                { "name": "La Falda" },
+                { "name": "Villa Yacanto" },
+                { "name": "Villa Alpina" },
+                { "name": "Villa General Belgrano" },
+                { "name": "Capilla del Monte" },
+                { "name": "Cosquín" }
+            ]
+        },
+        {
+            "name": "Mendoza",
+            "localities": [
+                { "name": "Mendoza" },
+                { "name": "San Rafael" },
+                { "name": "Godoy Cruz" },
+                { "name": "Maipú" },
+                { "name": "Los Penitentes" },
+                { "name": "Luján de Cuyo" },
+                { "name": "San Martín" },
+                { "name": "Rivadavia" },
+                { "name": "Tupungato" },
+                { "name": "Junín" },
+                { "name": "Las Heras" }
+            ]
+        },
+        {
+            "name": "La Rioja",
+            "localities": [
+                { "name": "La Rioja" },
+                { "name": "Chilecito" },
+                { "name": "Chamical" },
+                { "name": "Aimogasta" },
+                { "name": "Villa Unión" },
+                { "name": "Famatina" }
+            ]
+        },
+        {
+            "name": "Catamarca",
+            "localities": [
+                { "name": "San Fernando del Valle de Catamarca" },
+                { "name": "San Isidro" },
+                { "name": "Belén" },
+                { "name": "Fiambalá" },
+                { "name": "Tinogasta" },
+                { "name": "Andalgalá" },
+                { "name": "Santa María" }
+            ]
+        },
+        {
+            "name": "La Pampa",
+            "localities": [
+                { "name": "Santa Rosa" },
+                { "name": "General Pico" },
+                { "name": "Toay" }
+            ]
+        },
+        {
+            "name": "Santiago del Estero",
+            "localities": [
+                { "name": "Santiago del Estero" },
+                { "name": "La Banda" },
+                { "name": "Frías" },
+                { "name": "Termas de Río Hondo" }
+            ]
+        },
+        {
+            "name": "Corrientes",
+            "localities": [
+                { "name": "Corrientes" },
+                { "name": "Goya" },
+                { "name": "Mercedes" }
+            ]
+        },
+        {
+            "name": "Santa Fe",
+            "localities": [
+                { "name": "Santa Fe" },
+                { "name": "Rosario" },
+                { "name": "Rafaela" },
+                { "name": "Reconquista" },
+                { "name": "Venado Tuerto" }
+            ]
+        },
+        {
+            "name": "Tucumán",
+            "localities": [
+                { "name": "San Miguel de Tucumán" },
+                { "name": "Yerba Buena" },
+                { "name": "Tafí Viejo" },
+                { "name": "Tafí del Valle" },
+                { "name": "Concepción" },
+                { "name": "Famaillá" },
+                { "name": "Monteros" },
+                { "name": "Alderetes" },
+                { "name": "Aguilares" }
+            ]
+        },
+        {
+            "name": "Neuquén",
+            "localities": [
+                { "name": "Neuquén" },
+                { "name": "San Martín de los Andes" },
+                { "name": "Villa La Angostura" },
+                { "name": "Andacollo" }
+            ]
+        },
+        {
+            "name": "Salta",
+            "localities": [
+                { "name": "Salta" },
+                { "name": "San Lorenzo" },
+                { "name": "Tartagal" },
+                { "name": "Cafayate" },
+                { "name": "Cachi" },
+                { "name": "La Caldera" },
+                { "name": "Campo Quijano" }
+            ]
+        },
+        {
+            "name": "Chaco",
+            "localities": [
+                { "name": "Resistencia" }
+            ]
+        },
+        {
+            "name": "Formosa",
+            "localities": [
+                { "name": "Formosa" },
+                { "name": "Clorinda" }
+            ]
+        },
+        {
+            "name": "Jujuy",
+            "localities": [
+                { "name": "San Salvador de Jujuy" },
+                { "name": "Tilcara" },
+                { "name": "Purmamarca" },
+                { "name": "Tumbaya" }
+            ]
+        },
+        {
+            "name": "Ciudad Autónoma de Buenos Aires",
+            "localities": [
+                { "name": "Ciudad Autónoma de Buenos Aires" }
+            ]
+        },
+        {
+            "name": "Buenos Aires",
+            "localities": [
+                { "name": "La Plata" },
+                { "name": "Mar del Plata" },
+                { "name": "Bahía Blanca" },
+                { "name": "Quilmes" },
+                { "name": "Tandil" },
+                { "name": "Lomas de Zamora" },
+                { "name": "Balcarce" }
+            ]
+        },
+        {
+            "name": "Tierra del Fuego",
+            "localities": [
+                { "name": "Ushuaia" },
+                { "name": "Río Grande" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1015 @@
+{
+    "disciplines": [
+        { "name": "Running", "description": "Carreras de calle" },
+        { "name": "Trail Running", "description": "Carreras de montaña" }
+    ],
+    "races": [
+        {
+            "name": "Cafayate Trail",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Cayafate%20Trail%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.cronobottiming.com/cafayate-trail-4ta-edicion"},
+                { "type": "Instagram", "url": "https://www.instagram.com/cafayate_trail"}
+            ],
+            "place": null,
+            "places": [{"province": "Salta", "locality": "Cafayate", "place": null}],
+            "editions": [{
+                "start_date": "2024-07-14",
+                "end_date": "2024-07-14",
+                "distances": ["7 km", "15 km", "25 km"]
+            }]
+        },
+        {
+            "name": "Champa Ultra Race",
+            "discipline": "Trail Running",
+            "description": "CHAMPA ULTRA RACE es una carrera de trail con 6 opciones de distancias, diseñadas 100% de modalidad Trail Running. Siendo el primer evento de estas características en realizarse en esta localidad serrana de Traslasierra, en el corazón del Cerro Champaquí.\n\nEl Cerro Champaquí se ubica en el sector más occidental de las sierras de Córdoba conocido como Sierras Grandes, inmediatamente al este de esta cumbre se encuentra el Valle de Calamuchita, mientras que al oeste se extiende el Valle de Traslasierra. Este cerro, representa el límite austral de la Pampa de Achala.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Champa%20Ultra%20Race%2Fchampa.png",
+            "links": [
+                { "type": "Web", "url": "https://champaultrarace.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/champaultrarace"},
+                { "type": "Facebook", "url": "https://www.facebook.com/champaultratrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "San Javier y Yacanto", "place": null}],
+            "editions": [{
+                "start_date": "2025-05-02",
+                "end_date": "2025-05-04",
+                "distances": ["9 km", "16 km", "26 km", "37 km", "55 km"]
+            }]
+        },
+        {
+            "name": "Desafío Punta Negra",
+            "discipline": "Trail Running",
+            "description": "Considerado una de las carreras de Trail Running más importantes de la región y una de las más relevantes del país.\nLa gran variedad de distancias y categorías, incluidas las categorías kids para los más pequeños, hace de este un evento para toda la familia, logrando que cada año el número de inscriptos sea mayor.\nEn la edición 2022 dimos comienzo a una nueva distancia de ultra trail, los  100km, también un hermoso circuito de  70km  y 42km  en categoría Pro, y las clásicas distancias  24km, 18 km,10km  y  5km.\nParticipantes de todo el continente llegan a la provincia a tratar de desafiarse en una competencia con todos los condimentos que tatúa el sello de la montaña no solo en tus piernas si no en tu corazón.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Desaf%C3%ADo%20Punta%20Negra%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.desafiopuntanegra.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/desafiopuntanegra"},
+                { "type": "Facebook", "url": "https://www.facebook.com/desafiopuntanegrasanjuan"}
+            ],
+            "place": null,
+            "places": [{"province": "San Juan", "locality": null, "place": "Dique Punta Negra"}],
+            "editions": [{
+                "start_date": "2024-05-23",
+                "end_date": "2024-05-26",
+                "distances": ["5 km", "10 km", "18 km", "24 km", "42 km", "70 km", "100 km"]
+            }]
+        },
+        {
+            "name": "Nono Trail Run",
+            "discipline": "Trail Running",
+            "description": "NONO® TRAIL RUN es una carrera de trail con 4 opciones de distancias, diseñadas 100% de modalidad Trail Running. Siendo el primer evento de estas características en realizarse en esta localidad serrana de Traslasierra. Se inserta en el corazón de las Altas Cumbres, con quebradas poco transitables, recorriendo la Pampa de Achala en medio de un marco imponente que brindan las sierras grandes.\n\nEl significado de Nono proviene de Ñuño, vocablo quechua que significa senos de mujer. Dos hermosos cerros (de las sierras de Achala) se levantan altivos y elegantes a la vera del río Chico, cuidando celosamente la pureza de sus aguas.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Nono%20Ultra%20Trail%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://nonotrailrun.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/nonotrailrun"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100064041249379"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Nono", "place": null}],
+            "editions": [{
+                "start_date": "2024-07-05",
+                "end_date": "2024-07-07",
+                "distances": ["12 km", "23 km", "38 km", "50 km"]
+            }]
+        },
+        {
+            "name": "UTACCH",
+            "discipline": "Trail Running",
+            "description": "UTACCH® es una de las ultras más antiguas del país y considerada una de las más duras de Sudamérica, realizando la GRAN HAZAÑA: cruzar el cordón montañoso de las Sierras Grandes de los Comechingones, con su principal espectador el Cerro Champaquí, siendo la cumbre más alta de la provincia de Córdoba.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/UTACCH%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.utacchultratrail.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/utacch.ultratrail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/amanecercomechingon"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Villa Yacanto", "place": null}],
+            "editions": [{
+                "start_date": "2024-10-03",
+                "end_date": "2024-10-06",
+                "distances": ["15 km", "26 km", "38 km", "55 km", "85 km", "100 mi"]
+            }]
+        },
+        {
+            "name": "Aconcagua Ultra Trail",
+            "discipline": "Trail Running",
+            "description": "Aconcagua Ultra Trail, es una competencia internacional que se realiza en el marco del imponente cerro Aconcagua, en la provincia de Mendoza.\n\nDesde lejos sus 6960 mts de altura impactará y sorprenderá a todos aquellos que participen de Aconcagua Ultra Trail, pero desde cerca, quienes se desafíen a las mayores distancias, podrán alcanzar hasta los 4500 MSNM, colocándose a prueba en el exigente circuito trazado dentro del Parque Provincial Aconcagua.\n\nEl cerro Aconcagua te espera para poner a prueba tus límites.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Aconcagua%20Ultra%20Trail%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://aconcaguaultratrail.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/aconcaguaultratrail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/AconcaguaUltraTrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Mendoza", "locality": "Los Penitentes", "place": null}],
+            "editions": [{
+                "start_date": "2025-02-21",
+                "end_date": "2025-02-22",
+                "distances": ["6 km", "15 km", "25 km", "42 km", "50 km", "70 km", "90 km"]
+            }]
+        },
+        {
+            "name": "Merlo Trail Ultra",
+            "discipline": "Trail Running",
+            "description": "Carrera de trail con 4 opciones de distancias.  Los circuitos de montaña y las distancias 30K, 45K y 60K te darán puntos ITRA y puntos ITRA National League.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Merlo%20Trail%20Ultra%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://merlotrailultra.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/merlotrailultra"}
+            ],
+            "place": null,
+            "places": [{"province": "San Luis", "locality": "Merlo", "place": null}],
+            "editions": [{
+                "start_date": "2024-11-15",
+                "end_date": "2024-11-17",
+                "distances": ["15 km", "30 km", "45 km", "60 km"]
+            }]
+        },
+        {
+            "name": "Tilcara Trail",
+            "discipline": "Trail Running",
+            "description": "Tilcara Trail te llevará a recorrer los imponentes paisajes de la Quebrada de Humahuaca por sus principales senderos. En distancias de 7k, 14k, 21k y 45k podrás disfrutar y correr por los coloridos cerros de Tilcara, pasando por ríos, ascendiendo y descendiendo por senderos áridos propios de la geografía del lugar pasando por el Cerro Negro, Alfarcito, El Perchel, Garganta del Diablo, parte del camino hacia Punta Corral, el Cerro Paleta del Pintor en Maimará y viñedos de altura.\nTilcara, ubicada a 84km de San Salvador de Jujuy, antiguamente era conocida como una “villa veraniega” que las familias jujeñas utilizaban para disfrutar del verano en Jujuy. Desde URKU Trail & Running te invitamos a disfrutar de un fin de semana a puro Trail y descanso para quienes te acompañen en este nuevo desafío.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Tilcara%20Trail%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://urku.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/tilcaratrail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/tilcaratrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Jujuy", "locality": "Tilcara", "place": null}],
+            "editions": [{
+                "start_date": "2024-09-14",
+                "end_date": "2024-09-15",
+                "distances": ["7 km", "14 km", "21 km", "45 km"]
+            }]
+        },
+        {
+            "name": "La Caldera Team Trail",
+            "discipline": "Trail Running",
+            "description": "Carrera de Trail Running por Equipos",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/La%20Caldera%20Team%20Trail%2Flogo.jpg",
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/lacalderateamtrail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/LaCalderaTeamTrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Salta", "locality": "La Caldera", "place": null}],
+            "editions": [{
+                "start_date": "2024-11-17",
+                "end_date": "2024-11-17",
+                "distances": ["10 km", "21 km"]
+            }]
+        },
+        {
+            "name": "Patagonia Run",
+            "discipline": "Trail Running",
+            "description": "La carrera de Ultra Trail Non-Stop más importante de Latinoamérica",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Patagonia%20Run%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.patagoniarun.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/patagonia_run"},
+                { "type": "Facebook", "url": "https://www.facebook.com/PatagoniaRunMHW"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "San Martín de los Andes", "place": null}],
+            "editions": [{
+                "start_date": "2024-04-03",
+                "end_date": "2024-04-07",
+                "distances": ["PRVertical", "10 km", "21 km", "42 km", "70 km", "110 km", "100 mi"]
+            }]
+        },
+        {
+            "name": "Ultra Trail Tafí del Valle",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.ecoatletas.com.ar"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": "Tafí del Valle", "place": null}],
+            "editions": [{
+                "start_date": "2024-05-25",
+                "end_date": "2024-05-25",
+                "distances": ["13 km", "25 km", "42 km", "50 km", "80 km", "100 km"]
+            }]
+        },
+        {
+            "name": "Expedición Conociendo la Pacha Mama",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.ecoatletas.com"}
+            ],
+            "place": null,
+            "places": [{"province": "Jujuy", "locality": "Tilcara", "place": null}],
+            "editions": [{
+                "start_date": "2024-10-11",
+                "end_date": "2024-10-13",
+                "distances":  ["10 km", "20 km", "35 km", "52 km", "100 km", "120 km", "160 km", "200 km"]
+            }]
+        },
+        {
+            "name": "Valhöll",
+            "discipline": "Trail Running",
+            "description": "La carrera más épica de Argentina\n\nUn gran desafío para los corredores donde experimentarán las más diversas sensaciones mezcladas con la calidez de nuestra gente. Valhöll corre casi exclusivamente a través de senderos de montaña que permitirán a los corredores cruzar cerros en contacto con las cumbres más hermosas, en un contexto verdaderamente único. Estamos listos para recibirte y sorprenderte con un evento de categoría en un lugar tan diverso como encantador.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Valh%C3%B6ll%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://valholl.utmb.world"},
+                { "type": "Instagram", "url": "https://www.instagram.com/argentinabyutmb"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Villa General Belgrano", "place": null}],
+            "editions": [{
+                "start_date": "2024-05-09",
+                "end_date": "2024-05-12",
+                "distances": ["11 km", "22 km", "35 km", "55 km",  "80 km", "125 km"]
+            }]
+        },
+        {
+            "name": "Fiambala Desert Trail",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Fiambala%20Desert%20Trail%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.mistiempos.com.ar"},
+                { "type": "Instagram", "url": "https://instagram.com/fiambala.trail"}
+            ],
+            "place": null,
+            "places": [{"province": "Catamarca", "locality": "Fiambala", "place": null}],
+            "editions": [{
+                "start_date": "2024-05-20",
+                "end_date": "2024-05-25",
+                "distances": ["13 km", "24 km", "35 km", "50 km", "100 km (3 etapas)", "200 km (5 etapas)"]
+            }]
+        },
+        {
+            "name": "Raid Columbia",
+            "discipline": "Trail Running",
+            "description": "Carrera de tres etapas.\n\nEtapa 1 - Tren en las nubes\nPartirán desde la estación Chorrillos a 2121 msnm, desde allí el recorrido continúa por la ruta de el Tren a las Nubes disfrutando de un paisaje único, culminando en Campo Quijano.\n\nEtapa 2 - Cerro de los siete colores\nLa segunda etapa del Raid de los Andes comienza en Tumbaya y continúa con un recorrido inmerso en el Cerro de Siete Colores y llegarán a una altura de 2820msnm.\n\nEtapa 3 - Salinas Grandes\nTransitarán por uno de los desiertos de sal más imponentes del mundo. Salinas Grandes con más de 12.000 has. de sal a cielo abierto que encandilan por la vastedad infinita del color blanco.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Raid%20Columbia%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.raidandes.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/raidcolumbia"},
+                { "type": "Facebook", "url": "https://www.facebook.com/raidcolumbia"}
+            ],
+            "place": "Salta - Jujuy",
+            "places": [
+                {"province": "Salta", "locality": null, "place": "Chorrillos"},
+                {"province": "Salta", "locality": "Campo Quijano", "place": null},
+                {"province": "Jujuy", "locality": "Tumbaya", "place": null},
+                {"province": "Jujuy", "locality": "Purmamarca", "place": null},
+                {"province": "Jujuy", "locality": null, "place": "Salinas Grandes"}
+            ],
+            "editions": [{
+                "start_date": "2024-05-03",
+                "end_date":  "2024-05-05",
+                "distances":  ["58 km"]
+            }]
+        },
+        {
+            "name": "El Cruce Saucony",
+            "discipline": "Trail Running",
+            "description": "Un nuevo desafío nos espera. En el recuerdo han quedado las experiencias vividas en la última edición, que contó con corredores de más de 45 países.\n\nComo en cada una de estas 22 ediciones, nuestro desafío es esperarlos con ideas innovadoras, distintas y únicas  porque de eso se trata El Cruce, de ser diferente.\n\nYa estamos trabajando para vivir un Cruce 2024 en medio de los paisajes más lindos de la Patagonia, como lo venimos haciendo desde hace 24 años. En esta ocasión, recorreremos los senderos del imponente Volcán Lanín, uno de los puntos más hermosos del Parque Nacional Lanín.\n\nNuestra intención es que se sumerjan en la montaña desde el momento en que comienza la carrera. Por esto, los recorridos elegidos serán duros y demandarán un importante desgaste físico. Es fundamental que entrenen a conciencia. \n\nLos dos campamentos en los que descansarán son increíbles lugares, inmersos en la naturaleza que les permitirán disfrutar de un entorno único para que su experiencia sea completa.\n\nQueremos agradecer a las comunidades de la zona por permitirnos recorrer un lugar tan agreste, conservado e increíble como los senderos del Volcán Lanín.\n\nLa ciudad anfitriona, San Martín de los Andes, será punto de acreditación y de la llegada final. Esta última se emplazará en la costa del lago Lácar.\n\nEn las últimas ediciones, salvo contadas excepciones, hemos tenido jornadas climáticas muy favorables. ¿Cómo será la siguiente edición? Nadie lo sabe.\nEl Cruce es una carrera que comienza a vivirse desde el momento en que se inscriben. La preparación física, mental y logística es a partir de hoy.\n\nPrepárense para vivir un evento de trail, aventura, acampe y convivencia con corredores de países de todo el mundo.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/El%20Cruce%20Saucony%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://elcruce.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/elcruce_ok"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100083266366025"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "San Martín de los Andes", "place": null}],
+            "editions": [{
+                "start_date": "2024-12-01",
+                "end_date":  "2024-12-05",
+                "distances":  ["100 km (3 etapas)"]
+            }]
+        },
+        {
+            "name": "Ultra Alpina",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Ultra%20Alpina%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.ultraalpina.com/"},
+                { "type": "Instagram", "url": "https://www.instagram.com/ultraalpina"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Villa Alpina", "place": null}],
+            "editions": [{
+                "start_date": "2024-06-01",
+                "end_date":  "2024-06-02",
+                "distances":  ["10 km", "21 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Desafío UTU",
+            "discipline": "Trail Running",
+            "description": "Un desafío unico\n\nQuienes se atrevan a formar parte de Desafío UTU Ultra Trail llevarán al límite su fuerza y voluntad indomables.\n\nCon cinco distancias para elegir y el KV,  \nla carrera asegura un circuito técnico y desafiante, que se interna en plena montaña e invita a recorrer el Cerro Uritorco, Overo y Las gemelas.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Desaf%C3%ADo%20UTU%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://desafioutu.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/desafioutu"},
+                { "type": "Facebook", "url": "https://www.facebook.com/ultratrailutu"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Capilla del Monte", "place": null}],
+            "editions": [{
+                "start_date": "2024-08-31",
+                "end_date":  "2024-09-01",
+                "distances":  ["KV", "10 km", "20 km", "28 km", "35 km", "55 km"]
+            }]
+        },
+        {
+            "name": "Tafí Trail Extreme Run",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Taf%C3%AD%20Trail%20Extreme%20Run%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "http://www.ecoaconquija.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/tafitrail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/tafitrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": "Tafí del Valle", "place": null}],
+            "editions": [{
+                "start_date": "2025-03-23",
+                "end_date":  "2025-03-23",
+                "distances":  ["6 km", "12 km", "20 km", "40 km"]
+            }]
+        },
+        {
+            "name": "21K Yerba Buena",
+            "discipline": "Running",
+            "description": "Yerba Buena como nunca la corriste",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/21K%20Yerba%20Buena%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "http://www.ecoaconquija.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/tafitrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": "Yerba Buena", "place": null}],
+            "editions": [{
+                "start_date": "2024-05-19",
+                "end_date":  "2024-05-19",
+                "distances":  ["5 km", "10 km", "21 km"]
+            }]
+        },
+        {
+            "name": "Maratón del Fin del Mundo",
+            "discipline": "Running",
+            "description": "La Maratón más austral del mundo",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Maraton%20del%20Fin%20del%20Mundo%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://ushuaiarun.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/maratondelfindelmundo"}
+            ],
+            "place": null,
+            "places": [{"province": "Tierra del Fuego", "locality": "Ushuaia", "place": null}],
+            "editions": [{
+                "start_date": "2024-04-21",
+                "end_date":  "2024-04-21",
+                "distances":  ["21 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Maratón de Buenos Aires",
+            "discipline": "Running",
+            "description": "El Maratón de Buenos Aires es la carrera más rápida de Latinoamérica y atrae a miles de corredores de diferentes partes del mundo.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20de%20Buenos%20Aires%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://maratondebuenosaires.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/maratondebuenosaires"}
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Ciudad Autónoma de Buenos Aires", "place": null}],
+            "editions": [{
+                "start_date": "2024-09-22",
+                "end_date":  "2024-09-22",
+                "distances":  ["42 km"]
+            }]
+        },
+        {
+            "name": "Medio Maratón de Buenos Aires",
+            "discipline": "Running",
+            "description": "El Medio Maratón de Buenos Aires es el circuito más rápido de América y en 2018 rompió la \"barrera\" de la hora",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Medio%20Marato%CC%81n%20de%20Buenos%20Aires%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://maratondebuenosaires.com/medio-maraton-de-buenos-aires-21k.html"},
+                { "type": "Instagram", "url": "https://www.instagram.com/maratondebuenosaires"}
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Ciudad Autónoma de Buenos Aires", "place": null}],
+            "editions": [{
+                "start_date": "2024-08-25",
+                "end_date":  "2024-08-25",
+                "distances":  ["42 km"]
+            }]
+        },
+        {
+            "name": "La Misión Race",
+            "discipline": "Trail Running",
+            "description": "Hombres y mujeres, peregrinos de una aventura, enfrentan con coraje y determinación una larga travesía en forma 100% autosuficiente, caminando noches y días enteros, en pleno contacto con la naturaleza, en un entorno montañoso, aceptando los caprichos del clima y superando los obstáculos naturales que solo un recorrido salvaje como el de La Misión puede ofrecer... No es una carrera.... no es un Ultra Trail.... es La Misión.... una experiencia de vida.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/La%20Misi%C3%B3n%20Race%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://lamisionrace.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/tafitrail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100068527321292"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "Villa la Angostura", "place": null}],
+            "editions": [{
+                "start_date": "2024-02-22",
+                "end_date":  "2024-02-25",
+                "distances":  ["80 km", "120 km", "160 km", "200 km"]
+            }]
+        },
+        {
+            "name": "Maratón de Mendoza",
+            "discipline": "Running",
+            "description": "Al igual que los grandes maratones del mundo, recorre importantes puntos de atracción turística. La competencia se desarrollará en un marco espectacular; paisajes entre montañas; recorrido junto al río Mendoza, a la vera de los viñedos de Luján de Cuyo y bajo una magnifica arboleda, teniendo de fondo de la cordillera de los Andes.\nDesde la largada en el Puente Colgante de la precordillerana Cacheuta, continúa por típico paisaje árido de la montaña, pasando por las zonas de viñedos y finaliza en los majestuosos portones del Parque General San Martín.\nOrganiza Fundación Filipides",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20de%20Mendoza%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://maratondemendoza.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/maraton_de_mendoza"},
+                { "type": "Facebook", "url": "https://www.facebook.com/MaratondeMendoza"}
+            ],
+            "place": null,
+            "places": [{"province": "Mendoza", "locality": "Mendoza", "place": null}],
+            "editions": [{
+                "start_date": "2024-04-28",
+                "end_date":  "2024-04-28",
+                "distances":  ["4 km", "10 km", "21 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Cuatro Refugios",
+            "discipline": "Trail Running",
+            "description": "Una competencia de trekking de montaña que conecta algunos de los refugios de montaña más conocidos de Bariloche.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Cuatro%20Refugios%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.carrera4refugios.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/carrera4refugios"},
+                { "type": "Facebook", "url": "https://www.facebook.com/4refugios"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
+            "editions": [{
+                "start_date": "2024-02-24",
+                "end_date":  "2024-02-25",
+                "distances":  ["80 km", "120 km", "160 km", "200 km"]
+            }]
+        },
+        {
+            "name": "Bariloche Ultra Trail",
+            "discipline": "Trail Running",
+            "description": "Ultra maratón de montaña, se renueva con nuevas distancias y circuitos de 10, 22, 32, 42 & 60 Kilómetros, La carrera conecta  senderos y caminos de algunos de los iconos geográficos de la ciudad de Bariloche, como el cerro Catedral, el cerro San Martin, el cerro bella Vista, el cerro Goye, Colonia Suiza, el  arroyo Casa de Piedra, el lago Moreno, entre otros, además La BRUT  esta certificado por ITRA, así que que esperas para venir a correr a la capital Nacional del Turismo Aventura.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Bariloche%20Ultra%20Trail%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://brut.run"},
+                { "type": "Instagram", "url": "https://www.instagram.com/brutbariloche"},
+                { "type": "Facebook", "url": "https://www.facebook.com/brutrun"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
+            "editions": [{
+                "start_date": "2024-11-24",
+                "end_date":  "2024-11-24",
+                "distances":  ["10 km", "22 km", "32 km", "42 km", "60 km"]
+            }]
+        },
+        {
+            "name": "Bariloche 100",
+            "discipline": "Trail Running",
+            "description": "Bariloche 100 es el gran evento de trail run en la Patagonia Argentina. Cuenta con 6 distancias que recorrerán diferentes senderos de montañas, desde donde podrán apreciar las vistas de la imponente cordillera de los Andes, atravesar bosques milenarios y estar siempre en contacto con el lago Nahuel Huapi.\nY hay algo más; todas las distancias terminan en el emblemático Centro Cívico de la ciudad.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Bariloche%20100%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.bariloche100.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/bariloche100"},
+                { "type": "Facebook", "url": "https://www.facebook.com/Bariloche100"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
+            "editions": [{
+                "start_date": "2024-03-16",
+                "end_date":  "2024-03-16",
+                "distances":  ["12 km", "25 km", "37 km", "50 km", "75 km", "100 km"]
+            }]
+        },
+        {
+            "name": "La Etapa",
+            "discipline": "Trail Running",
+            "description": "Una carrera para los corredores de trail que quieran experimentar lo que se siente en una etapa de El Cruce. Serán 33 kilómetros por los senderos de los cerros cercanos a San Martín de los Andes. La largada será a pocos kilómetros de SMA y la llegada en plena ciudad, siendo parte de la gran experiencia que es El Cruce.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/La%20Etapa%2Flaetapa.png",
+            "links": [
+                { "type": "Web", "url": "https://laetapa.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/laetapaok"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "San Martin de los Andes", "place": null}],
+            "editions": [{
+                "start_date": "2024-12-01",
+                "end_date":  "2024-12-01",
+                "distances":  ["33 km"]
+            }]
+        },
+        {
+            "name": "El Paso Austral",
+            "discipline": "Trail Running",
+            "description": "El “Paso Austral – Ultra Trail” es una carrera de trail run con formato “non stop” 100% por senderos. Esta se desarrolla dentro del Parque Nacional Nahuel Huapi (Bariloche, Argentina) y el Parque Nacional Vicente  Pérez Rosales (Chile), atravesando así la Cordillera de Los Andes por el mítico Paso de los Vuriloches.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/El%20Paso%20Austral%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://elpasoaustral.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/elpasoaustralultratrail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/elpasoautralultratrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
+            "editions": [{
+                "start_date": "2024-03-01",
+                "end_date":  "2024-03-03",
+                "distances":  ["25 km", "50 km", "70 km", "120 km"]
+            }]
+        },
+        {
+            "name": "Cruce Tandilia",
+            "discipline": "Trail Running",
+            "description": "Cruce Tandilia nace como una carrera de dos etapas con distancias de 21 y 42km y con el correr del tiempo fue adecuando su formato a los gustos de los corredores.  Hoy se ha convertido en la carrera elegida para iniciar el año y propone llegar a Tandil para vivir 3 días de trail running en las sierras más antiguas de Argentina.\nTiene 4 distancias de trail en una o dos etapas y la carrera “Vertical” que completa junto al Mini Cruce (la carrera de los peques) la propuesta de hacer deporte y vacaciones en una ciudad que tiene todo para vivir una experiencia increíble en familia o con amigos.  Las categorías Matrimonio y Padre/hij@ ofrecen la posibilidad de poner un objetivo que une y fortalece los vínculos familiares en una vivencia memorable.\n2000 corredores de todo el país y también del exterior se reúnen cada enero para largar bajo la bandera la primera prueba del año en una fiesta que cuida cada detalle del kit, remera y por sobre todo el trato cálido y cordial.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Cruce%20Tandilia%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://crucetandilia.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/crucetandilia"},
+                { "type": "Facebook", "url": "https://www.facebook.com/CruceTandilia"}
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Tandil", "place": null}],
+            "editions": [{
+                "start_date": "2025-01-10",
+                "end_date":  "2025-01-15",
+                "distances":  ["8 km", "15 km", "30 km", "50 km"]
+            }]
+        },
+        {
+            "name": "Epic Patagonia",
+            "discipline": "Trail Running",
+            "description": "EPIC recorre puntos icónicos de Villa La Angostura que incluyen el Cerro O´Connor y el Cerro Bayo con sus exigentes ascensos y descensos, filos increíbles y vistas únicas.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Epic%20Patagonia%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://epic-patagonia.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/epicpatagonia"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100094243508946"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "Villa La Angostura", "place": null}],
+            "editions": [{
+                "start_date": "2024-02-17",
+                "end_date":  "2024-02-18",
+                "distances":  ["10 km", "21 km", "35 km", "50 km", "70 km"]
+            }]
+        },
+        {
+            "name": "Trail del Viento",
+            "discipline": "Trail Running",
+            "description": "Su Paisaje\nEn todo su territorio podemos apreciar lagunas de altura que dan lugar a arroyos bellísimos, valles impactantes, cumbres con vistas inolvidables, hogar de una gran diversidad de flora y fauna salvaje. Todo esto acompañado de las Comunidades Rurales del Norte Neuquino, que con su calidez y hospitalidad generan esas ganas de siempre volver.\nEstas y otras características, nos dan un escenario propicio para el encuentro con la aventura en ultra-distancia, la montaña y la cultura de la zona.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Trail%20del%20Viento%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://traildelviento.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/trail_delviento"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100070193923519"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "Andacollo", "place": null}],
+            "editions": [{
+                "start_date": "2024-10-13",
+                "end_date":  "2024-10-13",
+                "distances":  ["10 km", "30 km", "45 km"]
+            }]
+        },
+        {
+            "name": "Las Vallas Sky Running",
+            "discipline": "Trail Running",
+            "description": "Carrera de Montaña en Puna Catamarqueña",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Las%20Vallas%20Sky%20Running%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.instagram.com/lasvallas.skyrunning"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100083245781184"}
+            ],
+            "place": null,
+            "places": [{"province": "Catamarca", "locality": "Belén", "place": null}],
+            "editions": [{
+                "start_date": "2024-03-29",
+                "end_date":  "2024-03-31",
+                "distances":  ["9 km", "15 km", "21 km", "35 km", "52 km"]
+            }]
+        },
+        {
+            "name": "Qhapaqñan",
+            "discipline": "Trail Running",
+            "description": "En el corazón de Cafayate, nace Qhapañanan, más que una carrera de trail running, es una experiencia que fusiona la pasión por el deporte con la riqueza cultural y la belleza natural de nuestra región.\n\nCon una trayectoria sólida desde 2021, nos enorgullece ser un faro de energía, exploración y comunidad porque creemos que el trail running es mucho más que recorrer kilómetros, es una conexión profunda con la cultura local y los impresionantes paisajes que nos rodean.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Qhapaq%C3%B1an%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://trailrunningcafayate.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/trailrunning.cafayate"}
+            ],
+            "place": null,
+            "places": [{"province": "Salta", "locality": "Cafayate", "place": null}],
+            "editions": [{
+                "start_date": "2024-10-13",
+                "end_date":  "2024-10-13",
+                "distances":  ["3 km", "9 km", "15 km", "22 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Extremo 42K",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Extremo%20Tucum%C3%A1n%20Taf%C3%AD%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://extremotucuman.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/extremotucuman1"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100051956836320"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": null, "place": "San Javier"}],
+            "editions": [{
+                "start_date": "2024-04-20",
+                "end_date":  "2024-04-20",
+                "distances":  ["Kids", "10 km", "21 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Extremo Tucumán Tafí",
+            "discipline": "Trail Running",
+            "description": "Es una competencia de Ultra Trail, y de Trail Running que une Yerba Buena con Tafí del Valle. El recorrido se realiza recorriendo montañas y atravesando valles. Cruzando ríos, ascendiendo y descendiendo empinadas cuestas para llegar al Valle de Tafí.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Extremo%20Tucum%C3%A1n%20Taf%C3%AD%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://extremotucuman.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/extremotucuman1"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100051956836320"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": "Tafí del Valle", "place": null}],
+            "editions": [{
+                "start_date": "2024-09-20",
+                "end_date":  "2024-09-21",
+                "distances":  ["3 km Kids", "6 km", "10 km", "21 km", "45 km", "75 km"]
+            }]
+        },
+        {
+            "name": "K42",
+            "discipline": "Trail Running",
+            "description": "Más que una carrera, una experiencia.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/K42%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://argentina.kseries.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/k42series"},
+                { "type": "Facebook", "url": "https://www.facebook.com/K42Series"}
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "Villa La Angostura", "place": null}],
+            "editions": [{
+                "start_date": "2024-11-08",
+                "end_date":  "2024-11-10",
+                "distances":  ["K Future", "Grand K", "Relevos 2x21km", "15 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Run Altas Cumbres",
+            "discipline": "Trail Running",
+            "description": "Run Altas Cumbres es la carrera de running de montaña que te propone superarte disfrutando de un recorrido único en Córdoba Argentina.\nUna aventura de montaña, pensada por runners para runners. Desde lo más profundo del corazón de la montaña RunAC llega para desafiarte. Una aventura única. Empieza mucho antes del conteo previo a largar. Empieza cuando la imaginás, cuando entrenás para llegar a ella, cuando en tu mente ponés esa meta, una difícil pero no imposible. Corré Run Altas Cumbres, corré sin límites. La aventura recién empieza.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Run%20Altas%20Cumbres%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://runaltascumbres.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/runaltascumbres"},
+                { "type": "Facebook", "url": "https://www.facebook.com/runaltascumbres"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Mina Clavero", "place": null}],
+            "editions": [{
+                "start_date": "2025-03-22",
+                "end_date":  "2025-03-22",
+                "distances":  ["6.5 km", "10 km", "21 km", "42 km", "60 km"]
+            }]
+        },
+        {
+            "name": "Running Trip",
+            "discipline": "Trail Running",
+            "description": "Carrera itinerante trail running. Un evento deportivo y cultural pensado y creado para que encuentres todo lo que buscás al salir a correr en un solo lugar.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Running%20Trip%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://runningtrip.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/running_trip"},
+                { "type": "Facebook", "url": "https://www.facebook.com/runningtripoficial"}
+            ],
+            "place": null,
+            "places": [{"province": "Salta", "locality": "San Lorenzo", "place": null}],
+            "editions": [{
+                "start_date": "2024-06-20",
+                "end_date":  "2024-06-22",
+                "distances":  ["Vertical", "5 km", "15 km", "30 km"]
+            }]
+        },
+        {
+            "name": "The Mountain Trail",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/The%20Mountain%20Trail%2Flogo.png",
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/selva.aventura.outdoors"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": null, "place": "Cerro San Javier"}],
+            "editions": [{
+                "start_date": "2024-06-15",
+                "end_date":  "2024-06-16",
+                "distances":  ["6 km", "12 km", "21 km", "42 km en equipos"]
+            }]
+        },
+        {
+            "name": "Turmalina Ultra Trail",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Turmalina%20Ultra%20Trail%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://turmalinaut.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/turmalinaut"},
+                { "type": "Facebook", "url": "https://www.facebook.com/Turmalinaut"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "La Falda", "place": null}],
+            "editions": [{
+                "start_date": "2024-06-07",
+                "end_date":  "2024-06-09",
+                "distances":  ["6 km", "12 km", "20 km", "34 km", "53 km"]
+            }]
+        },
+        {
+            "name": "Medio Maratón de Salta",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Medio%20Marat%C3%B3n%20de%20Salta%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://raceseries.newbalance.com.ar/2024/21k-salta"}
+            ],
+            "place": null,
+            "places": [{"province": "Salta", "locality": "Salta", "place": null}],
+            "editions": [{
+                "start_date": "2024-05-26",
+                "end_date":  "2024-05-26",
+                "distances":  ["10 km", "21 km"]
+            }]
+        },
+        {
+            "name": "Media Maratón de Santiago del Estero",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Media%20Marat%C3%B3n%20de%20Santiago%20del%20Estero%2Flogo.jpg",
+            "links": [
+                { "type": "Facebook", "url": "https://www.facebook.com/p/La-Ciudad-Corre-100083006722456"}
+            ],
+            "place": null,
+            "places": [{"province": "Santiago del Estero", "locality": "Santiago del Estero", "place": null}],
+            "editions": [{
+                "start_date": "2024-07-07",
+                "end_date":  "2024-07-07",
+                "distances":  ["10 km", "21 km"]
+            }]
+        },
+        {
+            "name": "Ushuaia Trail Race",
+            "discipline": "Trail Running",
+            "description": "La carrera de trail running más austral de Argentina.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Ushuaia%20Trail%20Race%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://ushuaiatrailrace.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/ushuaiatrailrace"},
+                { "type": "Facebook", "url": "https://www.facebook.com/ushuaiatrailrace"}
+            ],
+            "place": null,
+            "places": [{"province": "Tierra del Fuego", "locality": "Ushuaia", "place": null}],
+            "editions": [{
+                "start_date": "2024-12-06",
+                "end_date":  "2024-12-07",
+                "distances":  ["10 km", "21 km", "30 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Ultra Odissea - El Paso de la Arena",
+            "discipline": "Trail Running",
+            "description": "Ultra Odissea: El Paso de la Arena es un evento deportivo de trail running (Modalidad non stop) que desde el año 2017 se lleva a cabo en el interior de la provincia de Entre Ríos (a 30 kilómetros de Paraná, capital provincial). El circuito transita el territorio de Paso de la Arena, Espinillo Norte, Sauce Montrull, La Picada y Colonia Crespo. El epicentro del evento será Escuela Del Resero perteneciente a Comuna Colonia Crespo.\nEn los distintos circuitos de \"El Paso de la Arena\" atravesaran montes típicos del verde suelo entrerriano, campos, lechos de arroyos, bosques en galería, barrancas, caminos rurales y cruces de agua donde podrán apreciar la conservación de flora y fauna autóctona. El terreno tiene desnivel pero la dificultad principal radica en los cambios constantes como trepadas, cuestas, suelo arenoso, barro, bosques cerrados que hacen trabado al circuito. Algunos de los obstáculos naturales pueden ser troncos, piedras, arena suelta, curvas cerradas que definen al circuito como trabado, técnico y muy entretenido. La temperatura en las ediciones anteriores estuvo entre 18 y 26 grados con días soleados en su mayoría.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Ultra%20Odissea%20-%20El%20Paso%20de%20la%20Arena%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.odisseatr.com.ar/pda"},
+                { "type": "Instagram", "url": "https://www.instagram.com/odisseatr"},
+                { "type": "Facebook", "url": "https://www.facebook.com/OdisseaTR"}
+            ],
+            "place": null,
+            "places": [{"province": "Entre Ríos", "locality": null, "place": "Paso de la Arena"}],
+            "editions": [{
+                "start_date": "2024-09-22",
+                "end_date":  "2024-09-22",
+                "distances":  ["7 km", "10 km", "21 km", "38 km", "60 km"]
+            }]
+        },
+        {
+            "name": "Maratón Posadas",
+            "discipline": "Running",
+            "description": "",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20Posadas%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://maratonposadas.tierrarojasoft.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/maratonposadas"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=61559134202609"}
+            ],
+            "place": null,
+            "places": [{"province": "Misiones", "locality": "Posadas", "place": null}],
+            "editions": [{
+                "start_date": "2024-08-11",
+                "end_date":  "2024-08-11",
+                "distances":  ["5 km", "10 km", "21 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Maratón Independencia",
+            "discipline": "Running",
+            "description": "El Maratón Independencia, se realiza en la provincia de Tucumán, con un recorrido que incluye en su mayoría el municipio de San Miguel de Tucumán, y en parte el municipio de Yerba Buena.",
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.ecoatletas.com"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": "San Miguel de Tucumán", "place": null}],
+            "editions": [{
+                "start_date": "2024-07-21",
+                "end_date":  "2024-07-21",
+                "distances":  ["3 km", "10 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Taficillo Trail",
+            "discipline": "Trail Running",
+            "description": "",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Taficillo%20Trail%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "http://ecoaconquija.com.ar"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": "Tafí Viejo", "place": null}],
+            "editions": [{
+                "start_date": "2024-08-04",
+                "end_date":  "2024-08-04",
+                "distances":  ["6 km", "10 km", "15 km", "30 km"]
+            }]
+        },
+        {
+            "name": "Cruce Calchaquí",
+            "discipline": "Running",
+            "description": "El Cruce Calchaquí es un evento deportivo compuesto de una competencia de postas en plena naturaleza, utilizando los caminos rurales, rutas nacionales y rutas provinciales, en un recorrido por la región de los Valles Calchaquíes, uniendo las provincias de Salta y Tucumán.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Cruce%20Calchaqu%C3%AD%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://organizacioncalchaqui.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/organizacioncalchaqui"},
+                { "type": "Facebook", "url": "https://www.facebook.com/fundvallescalchaquies"}
+            ],
+            "place": "Valles Calchaquíes (Tucumán - Salta)",
+            "places": [
+                {"province": "Tucumán", "locality": "Tafí del Valle", "place": null},
+                {"province": "Salta", "locality": "Cafayate", "place": null}
+            ],
+            "editions": [{
+                "start_date": "2024-08-31",
+                "end_date":  "2024-08-31",
+                "distances":  ["21 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Bachicha Trail",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Bachicha%20Trail%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.grupohets.org"},
+                { "type": "Instagram", "url": "https://www.instagram.com/bachicha.trail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100064669510434"}
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Balcarce", "place": null}],
+            "editions": [{
+                "start_date": "2024-07-07",
+                "end_date":  "2024-07-07",
+                "distances":  ["10 km", "21 km"]
+            }]
+        },
+        {
+            "name": "Chicoana Trail",
+            "discipline": "Trail Running",
+            "description": "Chicoana Trail es una carrera de trail running organizada por FC Running que se realizará en la Finca La Vida, Ruta 33, Km 13, Provincia de Salta. \n\nChicoana\nInmerso en la naturaleza profunda de las Yungas se encuentra Chicoana. Un pueblo mágico y tradicional de inigualables paisajes de selvas, montañas, ríos y quebradas.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Chicoana%20Trail%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://fcrunning.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/chicoanatrail"},
+                { "type": "Facebook", "url": "https://www.facebook.com/ChicoanaTrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Salta", "locality": "Chicoana", "place": null}],
+            "editions": [{
+                "start_date": "2024-08-18",
+                "end_date":  "2024-08-18",
+                "distances":  ["7 km", "14 km", "21 km", "35 km", "50 km"]
+            }]
+        },
+        {
+            "name": "Aventura Franca Austral",
+            "discipline": "Trail Running",
+            "description": "Cross de Aventura en el Área Natural Protegida El Doradillo. Corriendo junto a Ballenas en un ambiente único y exclusivo (solo para 450 atletas)",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Aventura%20Franca%20Austral%2Flogo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://aventurafrancaaustral.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/aventura_franca_austral"},
+                { "type": "Facebook", "url": "https://www.facebook.com/aventurafrancaaustral"}
+            ],
+            "place": null,
+            "places": [{"province": "Chubut", "locality": "Puerto Madryn", "place": null}],
+            "editions": [{
+                "start_date": "2024-08-04",
+                "end_date":  "2024-08-04",
+                "distances":  ["7 km", "11 km", "19 km", "26 km"]
+            }]
+        },
+        {
+            "name": "Destino Madryn",
+            "discipline": "Trail Running",
+            "description": "En Destino Madryn, vivimos y respiramos el running por los senderos con una pasión que nos impulsa a superar límites. Desde su humilde inicio en 2018 con 500 valientes corredores, hemos experimentado un crecimiento exponencial. En 2023, nos enorgullecemos de haber reunido a más de 1500 apasionados del running en los hermosos senderos de nuestra región.\n\nNos consideramos más que una simple carrera; somos una experiencia única en la que celebramos la dedicación y esfuerzo de cada participante. Nos encanta agasajar al corredor, brindando un evento que va más allá de la competencia, creando memorias que perduran en el tiempo.\n\nPero no solo se trata de kilómetros y zancadas. Destino Madryn tiene el privilegio de estar ubicada en una de las ciudades más hermosas del mundo, Puerto Madryn. Sus impresionantes paisajes costeros, la majestuosidad del Océano Atlántico y la riqueza de su vida marina son el telón de fondo",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Destino%20Madryn/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.destinomadryncarreradeaventura.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/destinomadryncarrera"},
+                { "type": "Facebook", "url": "https://www.facebook.com/destinomadryncarreradeaventura"}
+            ],
+            "place": null,
+            "places": [{"province": "Chubut", "locality": "Puerto Madryn", "place": null}],
+            "editions": [{
+                "start_date": "2024-09-08",
+                "end_date":  "2024-09-08",
+                "distances":  ["6 km", "15 km", "19 km", "25 km", "50 km"]
+            }]
+        },
+        {
+            "name": "Maraton de San Juan",
+            "discipline": "Running",
+            "description": "La carrera de 42 km comienza entre montañas, desde el Dique Punta Negra, y continúa a lo largo del perilago, pasando por cerros y viñedos, cruzando la Quebrada de Zonda, el Autódromo Eduardo Copello y transitando por la Ruta del Sol antes de llegar a la Avenida Libertador General San Martin. Este tramo está rodeado de un hermoso boulevard y una arboleda típica que te acompañará hasta el corazón de la Ciudad de San Juan. En este tramo, recorrerás los lugares más emblemáticos de nuestra provincia, como la Casa de Gobierno, el Estadio Aldo Cantoni, el Parque de Mayo, la Casa Natal de Sarmiento y la Catedral de San Juan. Todo esto forma parte del atractivo del circuito, culminando y coronándote con una medalla en el pintoresco frente del Teatro del Bicentenario.\n\nAdemás de la carrera de 42 km, también ofrecemos distancias de 21 km, 10 km y 5 km, por lo que todos pueden ser parte de la Fiesta Urbana del Running. Tanto los profesionales que buscan mejorar sus tiempos como los aficionados que desean disfrutar del deporte en el contexto de un gran evento que reúne a corredores de todo el país y países limítrofes.\n\nLas distancias de 42km y 21km se encuentran certificadas por la WORLDATHLETICS y la C.A.D.A lo que significa una garantía de calidad, medición precisa del recorrido, reconocimiento internacional, seguridad para los corredores y una oportunidad para el ranking y la calificación.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Maraton%20de%20San%20Juan/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.maratondesanjuan.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/maratondesanjuan"},
+                { "type": "Facebook", "url": "https://www.facebook.com/MaratondeSanJuan"}
+            ],
+            "place": null,
+            "places": [{"province": "San Juan", "locality": "San Juan", "place": null}],
+            "editions": [{
+                "start_date": "2024-07-28",
+                "end_date":  "2024-07-28",
+                "distances":  ["5 km", "10 km", "21 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Cosquin Trail",
+            "discipline": "Trail Running",
+            "description": "Cerro Pan de Azucar\nEs el punto emblematico de la ciudad de Cosquin.\nHacia allí llegarán todos los corredores en todas las distancias.\nPara hacerlo deberán subir por una pared técnica, con fuertes precipicios y una inclinación que deberás respetar para no dejar todo en ese primer tramo de la carrera.\nSenderos con mucha pendiente, piedras y las mejores vistas de Córdoba.\nTodo ante la atenta mirada del sol",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Consqu%C3%ADn%20Trail/logo.png",
+            "links": [
+                { "type": "Web", "url": "https://cosquintrail.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/cosquin_trail"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Cosquín", "place": null}],
+            "editions": [{
+                "start_date": "2024-08-17",
+                "end_date":  "2024-08-17",
+                "distances":  ["16 km", "26 km", "36 km", "50 km"]
+            }]
+        },
+        {
+            "name": "",
+            "discipline": "Trail Running",
+            "description": "",
+            "image": null,
+            "links": [
+                { "type": "Web", "url": ""},
+                { "type": "Instagram", "url": ""},
+                { "type": "Facebook", "url": ""}
+            ],
+            "place": null,
+            "places": [{"province": "", "locality": "", "place": null}],
+            "editions": [{
+                "start_date": "2024-00-00",
+                "end_date":  "2024-00-00",
+                "distances":  ["10 km"]
+            }]
+        }
+    ]
+}

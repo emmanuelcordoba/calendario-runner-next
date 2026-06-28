@@ -9,7 +9,9 @@
     "start": "next start",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "migrate": "tsx scripts/migrate-from-mysql.ts"
+    "migrate": "tsx scripts/migrate-from-mysql.ts",
+    "seed": "tsx scripts/seed.ts",
+    "db:reset": "node -e \"['local.db','local.db-shm','local.db-wal'].forEach(f=>{try{require('fs').unlinkSync(f)}catch{}})\" && pnpm db:push && pnpm seed"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",

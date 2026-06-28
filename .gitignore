@@ -40,7 +40,7 @@ local.db
 local.db-shm
 local.db-wal
 
-# migration data (CSVs with production data)
+# CSVs exportados de MySQL (migración única desde Laravel — no commitear)
 scripts/data/*.csv
 
 # vercel
