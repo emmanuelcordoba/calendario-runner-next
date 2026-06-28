@@ -3,6 +3,7 @@ import { db } from '@/lib/db';
 import { localities, provinces } from '@/lib/db/schema';
 import { asc, eq } from 'drizzle-orm';
 import { deleteLocalityAction } from '@/actions/localities';
+import DeleteButton from '@/components/admin/delete-button';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
@@ -38,10 +39,10 @@ export default async function AdminLocalidadesPage() {
                                 <td className="px-4 py-3 text-right">
                                     <div className="flex items-center justify-end gap-2">
                                         <Link href={`/admin/localidades/${locality.id}`} className="text-primary underline-offset-4 hover:underline">Editar</Link>
-                                        <form action={deleteLocalityAction}>
+                                        <DeleteButton action={deleteLocalityAction} message="¿Eliminar localidad?">
                                             <input type="hidden" name="id" value={locality.id} />
-                                            <button type="submit" className="text-destructive underline-offset-4 hover:underline" onClick={(e) => { if (!confirm('¿Eliminar?')) e.preventDefault(); }}>Eliminar</button>
-                                        </form>
+                                            <button type="submit" className="text-destructive underline-offset-4 hover:underline">Eliminar</button>
+                                        </DeleteButton>
                                     </div>
                                 </td>
                             </tr>

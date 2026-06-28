@@ -3,6 +3,7 @@ import { db } from '@/lib/db';
 import { links, races } from '@/lib/db/schema';
 import { asc, eq } from 'drizzle-orm';
 import { deleteLinkAction } from '@/actions/links';
+import DeleteButton from '@/components/admin/delete-button';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
@@ -40,10 +41,10 @@ export default async function AdminLinksPage() {
                                     {link.url ? <a href={link.url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">{link.url}</a> : '—'}
                                 </td>
                                 <td className="px-4 py-3 text-right">
-                                    <form action={deleteLinkAction}>
+                                    <DeleteButton action={deleteLinkAction} message="¿Eliminar link?">
                                         <input type="hidden" name="id" value={link.id} />
-                                        <button type="submit" className="text-destructive underline-offset-4 hover:underline" onClick={(e) => { if (!confirm('¿Eliminar link?')) e.preventDefault(); }}>Eliminar</button>
-                                    </form>
+                                        <button type="submit" className="text-destructive underline-offset-4 hover:underline">Eliminar</button>
+                                    </DeleteButton>
                                 </td>
                             </tr>
                         ))}

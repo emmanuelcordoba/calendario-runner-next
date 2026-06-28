@@ -3,6 +3,7 @@ import { db } from '@/lib/db';
 import { users } from '@/lib/db/schema';
 import { asc } from 'drizzle-orm';
 import { deleteUserAction } from '@/actions/users';
+import DeleteButton from '@/components/admin/delete-button';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
@@ -36,10 +37,10 @@ export default async function AdminUsuariosPage() {
                                 <td className="px-4 py-3 text-right">
                                     <div className="flex items-center justify-end gap-2">
                                         <Link href={`/admin/usuarios/${user.id}`} className="text-primary underline-offset-4 hover:underline">Editar</Link>
-                                        <form action={deleteUserAction}>
+                                        <DeleteButton action={deleteUserAction} message="¿Eliminar usuario?">
                                             <input type="hidden" name="id" value={user.id} />
-                                            <button type="submit" className="text-destructive underline-offset-4 hover:underline" onClick={(e) => { if (!confirm('¿Eliminar usuario?')) e.preventDefault(); }}>Eliminar</button>
-                                        </form>
+                                            <button type="submit" className="text-destructive underline-offset-4 hover:underline">Eliminar</button>
+                                        </DeleteButton>
                                     </div>
                                 </td>
                             </tr>

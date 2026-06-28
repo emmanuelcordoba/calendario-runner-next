@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getAllRaces } from '@/lib/queries/races';
 import { deleteRaceAction } from '@/actions/races';
+import DeleteButton from '@/components/admin/delete-button';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
@@ -45,18 +46,12 @@ export default async function AdminCarrerasPage() {
                                         >
                                             Editar
                                         </Link>
-                                        <form action={deleteRaceAction}>
+                                        <DeleteButton action={deleteRaceAction} message="¿Eliminar esta carrera?">
                                             <input type="hidden" name="id" value={race.id} />
-                                            <button
-                                                type="submit"
-                                                className="text-destructive underline-offset-4 hover:underline"
-                                                onClick={(e) => {
-                                                    if (!confirm('¿Eliminar esta carrera?')) e.preventDefault();
-                                                }}
-                                            >
+                                            <button type="submit" className="text-destructive underline-offset-4 hover:underline">
                                                 Eliminar
                                             </button>
-                                        </form>
+                                        </DeleteButton>
                                     </div>
                                 </td>
                             </tr>
