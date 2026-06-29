@@ -15,11 +15,13 @@
             ],
             "place": null,
             "places": [{"province": "Salta", "locality": "Cafayate", "place": null}],
-            "editions": [{
-                "start_date": "2024-07-14",
-                "end_date": "2024-07-14",
-                "distances": ["7 km", "15 km", "25 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-07-14",
+                    "end_date": "2024-07-14",
+                    "distances": ["7 km", "15 km", "25 km"]
+                }
+            ]
         },
         {
             "name": "Champa Ultra Race",
@@ -33,16 +35,23 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "San Javier y Yacanto", "place": null}],
-            "editions": [{
-                "start_date": "2025-05-02",
-                "end_date": "2025-05-04",
-                "distances": ["9 km", "16 km", "26 km", "37 km", "55 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2025-05-02",
+                    "end_date": "2025-05-04",
+                    "distances": ["9 km", "16 km", "26 km", "37 km", "55 km"]
+                },
+                {
+                    "start_date": "2026-05-01",
+                    "end_date": "2026-05-03",
+                    "distances": ["10 km", "16 km", "24 km", "30 km", "42 km", "60 km"]
+                }
+            ]
         },
         {
             "name": "Desafío Punta Negra",
             "discipline": "Trail Running",
-            "description": "Considerado una de las carreras de Trail Running más importantes de la región y una de las más relevantes del país.\nLa gran variedad de distancias y categorías, incluidas las categorías kids para los más pequeños, hace de este un evento para toda la familia, logrando que cada año el número de inscriptos sea mayor.\nEn la edición 2022 dimos comienzo a una nueva distancia de ultra trail, los  100km, también un hermoso circuito de  70km  y 42km  en categoría Pro, y las clásicas distancias  24km, 18 km,10km  y  5km.\nParticipantes de todo el continente llegan a la provincia a tratar de desafiarse en una competencia con todos los condimentos que tatúa el sello de la montaña no solo en tus piernas si no en tu corazón.",
+            "description": "Considerado una de las carreras de Trail Running más importantes de la región y una de las más relevantes del país.\nLa gran variedad de distancias y categorías, incluidas las categorías kids para los más pequeños, hace de este un evento para toda la familia, logrando que cada año el número de inscriptos sea mayor.\nEn la edición 2022 dimos comienzo a una nueva distancia de ultra trail, los 100km, también un hermoso circuito de 70km y 42km en categoría Pro, y las clásicas distancias 24km,18 km,10km y 5km.\nParticipantes de todo el continente llegan a la provincia a tratar de desafiarse en una competencia con todos los condimentos que tatúa el sello de la montaña no solo en tus piernas si no en tu corazón.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Desaf%C3%ADo%20Punta%20Negra%2Flogo.png",
             "links": [
                 { "type": "Web", "url": "https://www.desafiopuntanegra.com.ar"},
@@ -51,11 +60,18 @@
             ],
             "place": null,
             "places": [{"province": "San Juan", "locality": null, "place": "Dique Punta Negra"}],
-            "editions": [{
-                "start_date": "2024-05-23",
-                "end_date": "2024-05-26",
-                "distances": ["5 km", "10 km", "18 km", "24 km", "42 km", "70 km", "100 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-05-23",
+                    "end_date": "2024-05-26",
+                    "distances": ["5 km", "10 km", "18 km", "24 km", "42 km", "70 km", "100 km"]
+                },
+                {
+                    "start_date": "2026-05-22",
+                    "end_date": "2026-05-24",
+                    "distances": ["5 km", "12 km", "20 km", "30 km", "42 km", "70 km", "100 km"]
+                }
+            ]
         },
         {
             "name": "Nono Trail Run",
@@ -69,11 +85,18 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "Nono", "place": null}],
-            "editions": [{
-                "start_date": "2024-07-05",
-                "end_date": "2024-07-07",
-                "distances": ["12 km", "23 km", "38 km", "50 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-07-05",
+                    "end_date": "2024-07-07",
+                    "distances": ["12 km", "23 km", "38 km", "50 km"]
+                },
+                {
+                    "start_date": "2026-07-09",
+                    "end_date": "2026-07-11",
+                    "distances": ["12 km", "23 km", "42 km", "60 km"]
+                }
+            ]
         },
         {
             "name": "UTACCH",
@@ -87,11 +110,18 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "Villa Yacanto", "place": null}],
-            "editions": [{
-                "start_date": "2024-10-03",
-                "end_date": "2024-10-06",
-                "distances": ["15 km", "26 km", "38 km", "55 km", "85 km", "100 mi"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-10-03",
+                    "end_date": "2024-10-06",
+                    "distances": ["15 km", "26 km", "38 km", "55 km", "85 km", "100 mi"]
+                },
+                {
+                    "start_date": "2026-10-09",
+                    "end_date": "2026-10-12",
+                    "distances": ["15 km", "26 km", "38 km", "55 km", "75 km", "100 km", "100 mi"]
+                }
+            ]
         },
         {
             "name": "Aconcagua Ultra Trail",
@@ -105,11 +135,18 @@
             ],
             "place": null,
             "places": [{"province": "Mendoza", "locality": "Los Penitentes", "place": null}],
-            "editions": [{
-                "start_date": "2025-02-21",
-                "end_date": "2025-02-22",
-                "distances": ["6 km", "15 km", "25 km", "42 km", "50 km", "70 km", "90 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2025-02-21",
+                    "end_date": "2025-02-22",
+                    "distances": ["6 km", "15 km", "25 km", "42 km", "50 km", "70 km", "90 km"]
+                },
+                {
+                    "start_date": "2026-02-20",
+                    "end_date": "2026-02-21",
+                    "distances": ["6 km", "15 km", "25 km", "42 km", "50 km", "70 km"]
+                }
+            ]
         },
         {
             "name": "Merlo Trail Ultra",
@@ -122,16 +159,23 @@
             ],
             "place": null,
             "places": [{"province": "San Luis", "locality": "Merlo", "place": null}],
-            "editions": [{
-                "start_date": "2024-11-15",
-                "end_date": "2024-11-17",
-                "distances": ["15 km", "30 km", "45 km", "60 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-11-15",
+                    "end_date": "2024-11-17",
+                    "distances": ["15 km", "30 km", "45 km", "60 km"]
+                },
+                {
+                    "start_date": "2026-06-05",
+                    "end_date": "2026-06-07",
+                    "distances": ["6 km", "11 km", "22 km", "37 km", "56 km"]
+                }
+            ]
         },
         {
             "name": "Tilcara Trail",
             "discipline": "Trail Running",
-            "description": "Tilcara Trail te llevará a recorrer los imponentes paisajes de la Quebrada de Humahuaca por sus principales senderos. En distancias de 7k, 14k, 21k y 45k podrás disfrutar y correr por los coloridos cerros de Tilcara, pasando por ríos, ascendiendo y descendiendo por senderos áridos propios de la geografía del lugar pasando por el Cerro Negro, Alfarcito, El Perchel, Garganta del Diablo, parte del camino hacia Punta Corral, el Cerro Paleta del Pintor en Maimará y viñedos de altura.\nTilcara, ubicada a 84km de San Salvador de Jujuy, antiguamente era conocida como una “villa veraniega” que las familias jujeñas utilizaban para disfrutar del verano en Jujuy. Desde URKU Trail & Running te invitamos a disfrutar de un fin de semana a puro Trail y descanso para quienes te acompañen en este nuevo desafío.",
+            "description": "Tilcara Trail te llevará a recorrer los imponentes paisajes de la Quebrada de Humahuaca por sus principales senderos. En distancias de 7k, 14k, 21k y 45k podrás disfrutar y correr por los coloridos cerros de Tilcara, pasando por ríos, ascendiendo y descendiendo por senderos áridos propios de la geografía del lugar pasando por el Cerro Negro, Alfarcito, El Perchel, Garganta del Diablo, parte del camino hacia Punta Corral, el Cerro Paleta del Pintor en Maimará y viñedos de altura.\nTilcara, ubicada a 84km de San Salvador de Jujuy, antiguamente era conocida como una \"villa veraniega\" que las familias jujeñas utilizaban para disfrutar del verano en Jujuy. Desde URKU Trail & Running te invitamos a disfrutar de un fin de semana a puro Trail y descanso para quienes te acompañen en este nuevo desafío.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Tilcara%20Trail%2Flogo.png",
             "links": [
                 { "type": "Web", "url": "https://urku.com.ar"},
@@ -140,11 +184,18 @@
             ],
             "place": null,
             "places": [{"province": "Jujuy", "locality": "Tilcara", "place": null}],
-            "editions": [{
-                "start_date": "2024-09-14",
-                "end_date": "2024-09-15",
-                "distances": ["7 km", "14 km", "21 km", "45 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-09-14",
+                    "end_date": "2024-09-15",
+                    "distances": ["7 km", "14 km", "21 km", "45 km"]
+                },
+                {
+                    "start_date": "2026-09-14",
+                    "end_date": "2026-09-15",
+                    "distances": ["7 km", "14 km", "21 km", "45 km"]
+                }
+            ]
         },
         {
             "name": "La Caldera Team Trail",
@@ -157,11 +208,13 @@
             ],
             "place": null,
             "places": [{"province": "Salta", "locality": "La Caldera", "place": null}],
-            "editions": [{
-                "start_date": "2024-11-17",
-                "end_date": "2024-11-17",
-                "distances": ["10 km", "21 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-11-17",
+                    "end_date": "2024-11-17",
+                    "distances": ["10 km", "21 km"]
+                }
+            ]
         },
         {
             "name": "Patagonia Run",
@@ -175,11 +228,23 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "San Martín de los Andes", "place": null}],
-            "editions": [{
-                "start_date": "2024-04-03",
-                "end_date": "2024-04-07",
-                "distances": ["PRVertical", "10 km", "21 km", "42 km", "70 km", "110 km", "100 mi"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-04-03",
+                    "end_date": "2024-04-07",
+                    "distances": ["PRVertical", "10 km", "21 km", "42 km", "70 km", "110 km", "100 mi"]
+                },
+                {
+                    "start_date": "2026-04-08",
+                    "end_date": "2026-04-12",
+                    "distances": ["PRVertical", "10 km", "21 km", "42 km", "70 km", "110 km", "100 mi"]
+                },
+                {
+                    "start_date": "2027-04-07",
+                    "end_date": "2027-04-11",
+                    "distances": ["PRVertical", "10 km", "21 km", "42 km", "70 km", "110 km", "100 mi"]
+                }
+            ]
         },
         {
             "name": "Ultra Trail Tafí del Valle",
@@ -191,11 +256,13 @@
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": "Tafí del Valle", "place": null}],
-            "editions": [{
-                "start_date": "2024-05-25",
-                "end_date": "2024-05-25",
-                "distances": ["13 km", "25 km", "42 km", "50 km", "80 km", "100 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-05-25",
+                    "end_date": "2024-05-25",
+                    "distances": ["13 km", "25 km", "42 km", "50 km", "80 km", "100 km"]
+                }
+            ]
         },
         {
             "name": "Expedición Conociendo la Pacha Mama",
@@ -207,11 +274,13 @@
             ],
             "place": null,
             "places": [{"province": "Jujuy", "locality": "Tilcara", "place": null}],
-            "editions": [{
-                "start_date": "2024-10-11",
-                "end_date": "2024-10-13",
-                "distances":  ["10 km", "20 km", "35 km", "52 km", "100 km", "120 km", "160 km", "200 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-10-11",
+                    "end_date": "2024-10-13",
+                    "distances": ["10 km", "20 km", "35 km", "52 km", "100 km", "120 km", "160 km", "200 km"]
+                }
+            ]
         },
         {
             "name": "Valhöll",
@@ -224,11 +293,18 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "Villa General Belgrano", "place": null}],
-            "editions": [{
-                "start_date": "2024-05-09",
-                "end_date": "2024-05-12",
-                "distances": ["11 km", "22 km", "35 km", "55 km",  "80 km", "125 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-05-09",
+                    "end_date": "2024-05-12",
+                    "distances": ["11 km", "22 km", "35 km", "55 km", "80 km", "125 km"]
+                },
+                {
+                    "start_date": "2026-05-15",
+                    "end_date": "2026-05-17",
+                    "distances": ["11 km", "22 km", "35 km", "55 km", "80 km", "125 km"]
+                }
+            ]
         },
         {
             "name": "Fiambala Desert Trail",
@@ -241,11 +317,13 @@
             ],
             "place": null,
             "places": [{"province": "Catamarca", "locality": "Fiambala", "place": null}],
-            "editions": [{
-                "start_date": "2024-05-20",
-                "end_date": "2024-05-25",
-                "distances": ["13 km", "24 km", "35 km", "50 km", "100 km (3 etapas)", "200 km (5 etapas)"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-05-20",
+                    "end_date": "2024-05-25",
+                    "distances": ["13 km", "24 km", "35 km", "50 km", "100 km (3 etapas)", "200 km (5 etapas)"]
+                }
+            ]
         },
         {
             "name": "Raid Columbia",
@@ -265,11 +343,13 @@
                 {"province": "Jujuy", "locality": "Purmamarca", "place": null},
                 {"province": "Jujuy", "locality": null, "place": "Salinas Grandes"}
             ],
-            "editions": [{
-                "start_date": "2024-05-03",
-                "end_date":  "2024-05-05",
-                "distances":  ["58 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-05-03",
+                    "end_date": "2024-05-05",
+                    "distances": ["58 km"]
+                }
+            ]
         },
         {
             "name": "El Cruce Saucony",
@@ -283,11 +363,18 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "San Martín de los Andes", "place": null}],
-            "editions": [{
-                "start_date": "2024-12-01",
-                "end_date":  "2024-12-05",
-                "distances":  ["100 km (3 etapas)"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-12-01",
+                    "end_date": "2024-12-05",
+                    "distances": ["100 km (3 etapas)"]
+                },
+                {
+                    "start_date": "2026-12-05",
+                    "end_date": "2026-12-11",
+                    "distances": ["100 km (3 etapas)"]
+                }
+            ]
         },
         {
             "name": "Ultra Alpina",
@@ -300,11 +387,18 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "Villa Alpina", "place": null}],
-            "editions": [{
-                "start_date": "2024-06-01",
-                "end_date":  "2024-06-02",
-                "distances":  ["10 km", "21 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-06-01",
+                    "end_date": "2024-06-02",
+                    "distances": ["10 km", "21 km", "42 km"]
+                },
+                {
+                    "start_date": "2026-03-06",
+                    "end_date": "2026-03-07",
+                    "distances": ["6 km", "12 km", "24 km", "42 km", "60 km"]
+                }
+            ]
         },
         {
             "name": "Desafío UTU",
@@ -318,11 +412,18 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "Capilla del Monte", "place": null}],
-            "editions": [{
-                "start_date": "2024-08-31",
-                "end_date":  "2024-09-01",
-                "distances":  ["KV", "10 km", "20 km", "28 km", "35 km", "55 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-08-31",
+                    "end_date": "2024-09-01",
+                    "distances": ["KV", "10 km", "20 km", "28 km", "35 km", "55 km"]
+                },
+                {
+                    "start_date": "2026-08-29",
+                    "end_date": "2026-08-30",
+                    "distances": ["KV", "10 km", "20 km", "28 km", "35 km", "55 km", "70 km"]
+                }
+            ]
         },
         {
             "name": "Tafí Trail Extreme Run",
@@ -336,11 +437,13 @@
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": "Tafí del Valle", "place": null}],
-            "editions": [{
-                "start_date": "2025-03-23",
-                "end_date":  "2025-03-23",
-                "distances":  ["6 km", "12 km", "20 km", "40 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2025-03-23",
+                    "end_date": "2025-03-23",
+                    "distances": ["6 km", "12 km", "20 km", "40 km"]
+                }
+            ]
         },
         {
             "name": "21K Yerba Buena",
@@ -353,11 +456,13 @@
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": "Yerba Buena", "place": null}],
-            "editions": [{
-                "start_date": "2024-05-19",
-                "end_date":  "2024-05-19",
-                "distances":  ["5 km", "10 km", "21 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-05-19",
+                    "end_date": "2024-05-19",
+                    "distances": ["5 km", "10 km", "21 km"]
+                }
+            ]
         },
         {
             "name": "Maratón del Fin del Mundo",
@@ -370,14 +475,21 @@
             ],
             "place": null,
             "places": [{"province": "Tierra del Fuego", "locality": "Ushuaia", "place": null}],
-            "editions": [{
-                "start_date": "2024-04-21",
-                "end_date":  "2024-04-21",
-                "distances":  ["21 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-04-21",
+                    "end_date": "2024-04-21",
+                    "distances": ["21 km", "42 km"]
+                },
+                {
+                    "start_date": "2026-04-20",
+                    "end_date": "2026-04-20",
+                    "distances": ["21 km", "42 km"]
+                }
+            ]
         },
         {
-            "name": "Maratón de Buenos Aires",
+            "name": "Maratón de Buenos Aires",
             "discipline": "Running",
             "description": "El Maratón de Buenos Aires es la carrera más rápida de Latinoamérica y atrae a miles de corredores de diferentes partes del mundo.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20de%20Buenos%20Aires%2Flogo.png",
@@ -387,14 +499,21 @@
             ],
             "place": null,
             "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Ciudad Autónoma de Buenos Aires", "place": null}],
-            "editions": [{
-                "start_date": "2024-09-22",
-                "end_date":  "2024-09-22",
-                "distances":  ["42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-09-22",
+                    "end_date": "2024-09-22",
+                    "distances": ["42 km"]
+                },
+                {
+                    "start_date": "2026-09-20",
+                    "end_date": "2026-09-20",
+                    "distances": ["42 km"]
+                }
+            ]
         },
         {
-            "name": "Medio Maratón de Buenos Aires",
+            "name": "Medio Maratón de Buenos Aires",
             "discipline": "Running",
             "description": "El Medio Maratón de Buenos Aires es el circuito más rápido de América y en 2018 rompió la \"barrera\" de la hora",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Medio%20Marato%CC%81n%20de%20Buenos%20Aires%2Flogo.png",
@@ -404,11 +523,18 @@
             ],
             "place": null,
             "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Ciudad Autónoma de Buenos Aires", "place": null}],
-            "editions": [{
-                "start_date": "2024-08-25",
-                "end_date":  "2024-08-25",
-                "distances":  ["42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-08-25",
+                    "end_date": "2024-08-25",
+                    "distances": ["21 km"]
+                },
+                {
+                    "start_date": "2026-08-23",
+                    "end_date": "2026-08-23",
+                    "distances": ["21 km"]
+                }
+            ]
         },
         {
             "name": "La Misión Race",
@@ -422,11 +548,13 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "Villa la Angostura", "place": null}],
-            "editions": [{
-                "start_date": "2024-02-22",
-                "end_date":  "2024-02-25",
-                "distances":  ["80 km", "120 km", "160 km", "200 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-02-22",
+                    "end_date": "2024-02-25",
+                    "distances": ["80 km", "120 km", "160 km", "200 km"]
+                }
+            ]
         },
         {
             "name": "Maratón de Mendoza",
@@ -440,11 +568,18 @@
             ],
             "place": null,
             "places": [{"province": "Mendoza", "locality": "Mendoza", "place": null}],
-            "editions": [{
-                "start_date": "2024-04-28",
-                "end_date":  "2024-04-28",
-                "distances":  ["4 km", "10 km", "21 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-04-28",
+                    "end_date": "2024-04-28",
+                    "distances": ["4 km", "10 km", "21 km", "42 km"]
+                },
+                {
+                    "start_date": "2026-05-03",
+                    "end_date": "2026-05-03",
+                    "distances": ["4 km", "10 km", "21 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Cuatro Refugios",
@@ -458,11 +593,13 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
-            "editions": [{
-                "start_date": "2024-02-24",
-                "end_date":  "2024-02-25",
-                "distances":  ["80 km", "120 km", "160 km", "200 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-02-24",
+                    "end_date": "2024-02-25",
+                    "distances": ["80 km", "120 km", "160 km", "200 km"]
+                }
+            ]
         },
         {
             "name": "Bariloche Ultra Trail",
@@ -476,11 +613,18 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
-            "editions": [{
-                "start_date": "2024-11-24",
-                "end_date":  "2024-11-24",
-                "distances":  ["10 km", "22 km", "32 km", "42 km", "60 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-11-24",
+                    "end_date": "2024-11-24",
+                    "distances": ["10 km", "22 km", "32 km", "42 km", "60 km"]
+                },
+                {
+                    "start_date": "2026-11-19",
+                    "end_date": "2026-11-20",
+                    "distances": ["10 km", "22 km", "32 km", "42 km", "60 km"]
+                }
+            ]
         },
         {
             "name": "Bariloche 100",
@@ -494,11 +638,18 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
-            "editions": [{
-                "start_date": "2024-03-16",
-                "end_date":  "2024-03-16",
-                "distances":  ["12 km", "25 km", "37 km", "50 km", "75 km", "100 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-03-16",
+                    "end_date": "2024-03-16",
+                    "distances": ["12 km", "25 km", "37 km", "50 km", "75 km", "100 km"]
+                },
+                {
+                    "start_date": "2026-03-14",
+                    "end_date": "2026-03-15",
+                    "distances": ["12 km", "27 km", "42 km", "57 km", "80 km", "100 km"]
+                }
+            ]
         },
         {
             "name": "La Etapa",
@@ -511,16 +662,18 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "San Martin de los Andes", "place": null}],
-            "editions": [{
-                "start_date": "2024-12-01",
-                "end_date":  "2024-12-01",
-                "distances":  ["33 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-12-01",
+                    "end_date": "2024-12-01",
+                    "distances": ["33 km"]
+                }
+            ]
         },
         {
             "name": "El Paso Austral",
             "discipline": "Trail Running",
-            "description": "El “Paso Austral – Ultra Trail” es una carrera de trail run con formato “non stop” 100% por senderos. Esta se desarrolla dentro del Parque Nacional Nahuel Huapi (Bariloche, Argentina) y el Parque Nacional Vicente  Pérez Rosales (Chile), atravesando así la Cordillera de Los Andes por el mítico Paso de los Vuriloches.",
+            "description": "El \"Paso Austral – Ultra Trail\" es una carrera de trail run con formato \"non stop\" 100% por senderos. Esta se desarrolla dentro del Parque Nacional Nahuel Huapi (Bariloche, Argentina) y el Parque Nacional Vicente  Pérez Rosales (Chile), atravesando así la Cordillera de Los Andes por el mítico Paso de los Vuriloches.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/El%20Paso%20Austral%2Flogo.png",
             "links": [
                 { "type": "Web", "url": "https://elpasoaustral.com"},
@@ -529,16 +682,18 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
-            "editions": [{
-                "start_date": "2024-03-01",
-                "end_date":  "2024-03-03",
-                "distances":  ["25 km", "50 km", "70 km", "120 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-03-01",
+                    "end_date": "2024-03-03",
+                    "distances": ["25 km", "50 km", "70 km", "120 km"]
+                }
+            ]
         },
         {
             "name": "Cruce Tandilia",
             "discipline": "Trail Running",
-            "description": "Cruce Tandilia nace como una carrera de dos etapas con distancias de 21 y 42km y con el correr del tiempo fue adecuando su formato a los gustos de los corredores.  Hoy se ha convertido en la carrera elegida para iniciar el año y propone llegar a Tandil para vivir 3 días de trail running en las sierras más antiguas de Argentina.\nTiene 4 distancias de trail en una o dos etapas y la carrera “Vertical” que completa junto al Mini Cruce (la carrera de los peques) la propuesta de hacer deporte y vacaciones en una ciudad que tiene todo para vivir una experiencia increíble en familia o con amigos.  Las categorías Matrimonio y Padre/hij@ ofrecen la posibilidad de poner un objetivo que une y fortalece los vínculos familiares en una vivencia memorable.\n2000 corredores de todo el país y también del exterior se reúnen cada enero para largar bajo la bandera la primera prueba del año en una fiesta que cuida cada detalle del kit, remera y por sobre todo el trato cálido y cordial.",
+            "description": "Cruce Tandilia nace como una carrera de dos etapas con distancias de 21 y 42km y con el correr del tiempo fue adecuando su formato a los gustos de los corredores.  Hoy se ha convertido en la carrera elegida para iniciar el año y propone llegar a Tandil para vivir 3 días de trail running en las sierras más antiguas de Argentina.\nTiene 4 distancias de trail en una o dos etapas y la carrera \"Vertical\" que completa junto al Mini Cruce (la carrera de los peques) la propuesta de hacer deporte y vacaciones en una ciudad que tiene todo para vivir una experiencia increíble en familia o con amigos.  Las categorías Matrimonio y Padre/hij@ ofrecen la posibilidad de poner un objetivo que une y fortalece los vínculos familiares en una vivencia memorable.\n2000 corredores de todo el país y también del exterior se reúnen cada enero para largar bajo la bandera la primera prueba del año en una fiesta que cuida cada detalle del kit, remera y por sobre todo el trato cálido y cordial.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Cruce%20Tandilia%2Flogo.jpg",
             "links": [
                 { "type": "Web", "url": "https://crucetandilia.com.ar"},
@@ -547,11 +702,18 @@
             ],
             "place": null,
             "places": [{"province": "Buenos Aires", "locality": "Tandil", "place": null}],
-            "editions": [{
-                "start_date": "2025-01-10",
-                "end_date":  "2025-01-15",
-                "distances":  ["8 km", "15 km", "30 km", "50 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2025-01-10",
+                    "end_date": "2025-01-15",
+                    "distances": ["8 km", "15 km", "30 km", "50 km"]
+                },
+                {
+                    "start_date": "2026-01-09",
+                    "end_date": "2026-01-11",
+                    "distances": ["8 km", "15 km", "30 km", "50 km"]
+                }
+            ]
         },
         {
             "name": "Epic Patagonia",
@@ -565,11 +727,18 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "Villa La Angostura", "place": null}],
-            "editions": [{
-                "start_date": "2024-02-17",
-                "end_date":  "2024-02-18",
-                "distances":  ["10 km", "21 km", "35 km", "50 km", "70 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-02-17",
+                    "end_date": "2024-02-18",
+                    "distances": ["10 km", "21 km", "35 km", "50 km", "70 km"]
+                },
+                {
+                    "start_date": "2026-02-17",
+                    "end_date": "2026-02-18",
+                    "distances": ["10 km", "21 km", "35 km", "50 km", "70 km"]
+                }
+            ]
         },
         {
             "name": "Trail del Viento",
@@ -583,11 +752,13 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "Andacollo", "place": null}],
-            "editions": [{
-                "start_date": "2024-10-13",
-                "end_date":  "2024-10-13",
-                "distances":  ["10 km", "30 km", "45 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-10-13",
+                    "end_date": "2024-10-13",
+                    "distances": ["10 km", "30 km", "45 km"]
+                }
+            ]
         },
         {
             "name": "Las Vallas Sky Running",
@@ -600,11 +771,13 @@
             ],
             "place": null,
             "places": [{"province": "Catamarca", "locality": "Belén", "place": null}],
-            "editions": [{
-                "start_date": "2024-03-29",
-                "end_date":  "2024-03-31",
-                "distances":  ["9 km", "15 km", "21 km", "35 km", "52 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-03-29",
+                    "end_date": "2024-03-31",
+                    "distances": ["9 km", "15 km", "21 km", "35 km", "52 km"]
+                }
+            ]
         },
         {
             "name": "Qhapaqñan",
@@ -617,11 +790,18 @@
             ],
             "place": null,
             "places": [{"province": "Salta", "locality": "Cafayate", "place": null}],
-            "editions": [{
-                "start_date": "2024-10-13",
-                "end_date":  "2024-10-13",
-                "distances":  ["3 km", "9 km", "15 km", "22 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-10-13",
+                    "end_date": "2024-10-13",
+                    "distances": ["3 km", "9 km", "15 km", "22 km", "42 km"]
+                },
+                {
+                    "start_date": "2026-10-11",
+                    "end_date": "2026-10-11",
+                    "distances": ["3 km", "9 km", "15 km", "22 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Extremo 42K",
@@ -635,11 +815,13 @@
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": null, "place": "San Javier"}],
-            "editions": [{
-                "start_date": "2024-04-20",
-                "end_date":  "2024-04-20",
-                "distances":  ["Kids", "10 km", "21 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-04-20",
+                    "end_date": "2024-04-20",
+                    "distances": ["Kids", "10 km", "21 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Extremo Tucumán Tafí",
@@ -653,11 +835,18 @@
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": "Tafí del Valle", "place": null}],
-            "editions": [{
-                "start_date": "2024-09-20",
-                "end_date":  "2024-09-21",
-                "distances":  ["3 km Kids", "6 km", "10 km", "21 km", "45 km", "75 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-09-20",
+                    "end_date": "2024-09-21",
+                    "distances": ["3 km Kids", "6 km", "10 km", "21 km", "45 km", "75 km"]
+                },
+                {
+                    "start_date": "2026-09-19",
+                    "end_date": "2026-09-19",
+                    "distances": ["3 km Kids", "6 km", "10 km", "21 km", "30 km", "45 km", "75 km"]
+                }
+            ]
         },
         {
             "name": "K42",
@@ -671,11 +860,18 @@
             ],
             "place": null,
             "places": [{"province": "Neuquén", "locality": "Villa La Angostura", "place": null}],
-            "editions": [{
-                "start_date": "2024-11-08",
-                "end_date":  "2024-11-10",
-                "distances":  ["K Future", "Grand K", "Relevos 2x21km", "15 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-11-08",
+                    "end_date": "2024-11-10",
+                    "distances": ["K Future", "Grand K", "Relevos 2x21km", "15 km", "42 km"]
+                },
+                {
+                    "start_date": "2026-11-05",
+                    "end_date": "2026-11-08",
+                    "distances": ["K Future", "Grand K", "Relevos 2x21km", "15 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Run Altas Cumbres",
@@ -689,11 +885,18 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "Mina Clavero", "place": null}],
-            "editions": [{
-                "start_date": "2025-03-22",
-                "end_date":  "2025-03-22",
-                "distances":  ["6.5 km", "10 km", "21 km", "42 km", "60 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2025-03-22",
+                    "end_date": "2025-03-22",
+                    "distances": ["6.5 km", "10 km", "21 km", "42 km", "60 km"]
+                },
+                {
+                    "start_date": "2026-03-28",
+                    "end_date": "2026-03-28",
+                    "distances": ["6.5 km", "10 km", "21 km", "42 km", "60 km"]
+                }
+            ]
         },
         {
             "name": "Running Trip",
@@ -707,11 +910,13 @@
             ],
             "place": null,
             "places": [{"province": "Salta", "locality": "San Lorenzo", "place": null}],
-            "editions": [{
-                "start_date": "2024-06-20",
-                "end_date":  "2024-06-22",
-                "distances":  ["Vertical", "5 km", "15 km", "30 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-06-20",
+                    "end_date": "2024-06-22",
+                    "distances": ["Vertical", "5 km", "15 km", "30 km"]
+                }
+            ]
         },
         {
             "name": "The Mountain Trail",
@@ -723,11 +928,13 @@
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": null, "place": "Cerro San Javier"}],
-            "editions": [{
-                "start_date": "2024-06-15",
-                "end_date":  "2024-06-16",
-                "distances":  ["6 km", "12 km", "21 km", "42 km en equipos"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-06-15",
+                    "end_date": "2024-06-16",
+                    "distances": ["6 km", "12 km", "21 km", "42 km en equipos"]
+                }
+            ]
         },
         {
             "name": "Turmalina Ultra Trail",
@@ -741,11 +948,18 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "La Falda", "place": null}],
-            "editions": [{
-                "start_date": "2024-06-07",
-                "end_date":  "2024-06-09",
-                "distances":  ["6 km", "12 km", "20 km", "34 km", "53 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-06-07",
+                    "end_date": "2024-06-09",
+                    "distances": ["6 km", "12 km", "20 km", "34 km", "53 km"]
+                },
+                {
+                    "start_date": "2026-06-26",
+                    "end_date": "2026-06-28",
+                    "distances": ["6 km", "11 km", "21 km", "36 km", "51 km", "66 km"]
+                }
+            ]
         },
         {
             "name": "Medio Maratón de Salta",
@@ -757,11 +971,13 @@
             ],
             "place": null,
             "places": [{"province": "Salta", "locality": "Salta", "place": null}],
-            "editions": [{
-                "start_date": "2024-05-26",
-                "end_date":  "2024-05-26",
-                "distances":  ["10 km", "21 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-05-26",
+                    "end_date": "2024-05-26",
+                    "distances": ["10 km", "21 km"]
+                }
+            ]
         },
         {
             "name": "Media Maratón de Santiago del Estero",
@@ -773,11 +989,13 @@
             ],
             "place": null,
             "places": [{"province": "Santiago del Estero", "locality": "Santiago del Estero", "place": null}],
-            "editions": [{
-                "start_date": "2024-07-07",
-                "end_date":  "2024-07-07",
-                "distances":  ["10 km", "21 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-07-07",
+                    "end_date": "2024-07-07",
+                    "distances": ["10 km", "21 km"]
+                }
+            ]
         },
         {
             "name": "Ushuaia Trail Race",
@@ -791,11 +1009,18 @@
             ],
             "place": null,
             "places": [{"province": "Tierra del Fuego", "locality": "Ushuaia", "place": null}],
-            "editions": [{
-                "start_date": "2024-12-06",
-                "end_date":  "2024-12-07",
-                "distances":  ["10 km", "21 km", "30 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-12-06",
+                    "end_date": "2024-12-07",
+                    "distances": ["10 km", "21 km", "30 km", "42 km"]
+                },
+                {
+                    "start_date": "2026-12-11",
+                    "end_date": "2026-12-12",
+                    "distances": ["9 km", "15 km", "21 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Ultra Odissea - El Paso de la Arena",
@@ -809,11 +1034,13 @@
             ],
             "place": null,
             "places": [{"province": "Entre Ríos", "locality": null, "place": "Paso de la Arena"}],
-            "editions": [{
-                "start_date": "2024-09-22",
-                "end_date":  "2024-09-22",
-                "distances":  ["7 km", "10 km", "21 km", "38 km", "60 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-09-22",
+                    "end_date": "2024-09-22",
+                    "distances": ["7 km", "10 km", "21 km", "38 km", "60 km"]
+                }
+            ]
         },
         {
             "name": "Maratón Posadas",
@@ -827,11 +1054,18 @@
             ],
             "place": null,
             "places": [{"province": "Misiones", "locality": "Posadas", "place": null}],
-            "editions": [{
-                "start_date": "2024-08-11",
-                "end_date":  "2024-08-11",
-                "distances":  ["5 km", "10 km", "21 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-08-11",
+                    "end_date": "2024-08-11",
+                    "distances": ["5 km", "10 km", "21 km", "42 km"]
+                },
+                {
+                    "start_date": "2026-08-09",
+                    "end_date": "2026-08-09",
+                    "distances": ["5 km", "10 km", "21 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Maratón Independencia",
@@ -843,11 +1077,13 @@
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": "San Miguel de Tucumán", "place": null}],
-            "editions": [{
-                "start_date": "2024-07-21",
-                "end_date":  "2024-07-21",
-                "distances":  ["3 km", "10 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-07-21",
+                    "end_date": "2024-07-21",
+                    "distances": ["3 km", "10 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Taficillo Trail",
@@ -859,11 +1095,13 @@
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": "Tafí Viejo", "place": null}],
-            "editions": [{
-                "start_date": "2024-08-04",
-                "end_date":  "2024-08-04",
-                "distances":  ["6 km", "10 km", "15 km", "30 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-08-04",
+                    "end_date": "2024-08-04",
+                    "distances": ["6 km", "10 km", "15 km", "30 km"]
+                }
+            ]
         },
         {
             "name": "Cruce Calchaquí",
@@ -880,11 +1118,13 @@
                 {"province": "Tucumán", "locality": "Tafí del Valle", "place": null},
                 {"province": "Salta", "locality": "Cafayate", "place": null}
             ],
-            "editions": [{
-                "start_date": "2024-08-31",
-                "end_date":  "2024-08-31",
-                "distances":  ["21 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-08-31",
+                    "end_date": "2024-08-31",
+                    "distances": ["21 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Bachicha Trail",
@@ -898,11 +1138,18 @@
             ],
             "place": null,
             "places": [{"province": "Buenos Aires", "locality": "Balcarce", "place": null}],
-            "editions": [{
-                "start_date": "2024-07-07",
-                "end_date":  "2024-07-07",
-                "distances":  ["10 km", "21 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-07-07",
+                    "end_date": "2024-07-07",
+                    "distances": ["10 km", "21 km"]
+                },
+                {
+                    "start_date": "2026-07-05",
+                    "end_date": "2026-07-05",
+                    "distances": ["10 km", "22 km", "37 km"]
+                }
+            ]
         },
         {
             "name": "Chicoana Trail",
@@ -916,11 +1163,18 @@
             ],
             "place": null,
             "places": [{"province": "Salta", "locality": "Chicoana", "place": null}],
-            "editions": [{
-                "start_date": "2024-08-18",
-                "end_date":  "2024-08-18",
-                "distances":  ["7 km", "14 km", "21 km", "35 km", "50 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-08-18",
+                    "end_date": "2024-08-18",
+                    "distances": ["7 km", "14 km", "21 km", "35 km", "50 km"]
+                },
+                {
+                    "start_date": "2026-08-16",
+                    "end_date": "2026-08-16",
+                    "distances": ["3 km", "7 km", "14 km", "21 km"]
+                }
+            ]
         },
         {
             "name": "Aventura Franca Austral",
@@ -934,11 +1188,13 @@
             ],
             "place": null,
             "places": [{"province": "Chubut", "locality": "Puerto Madryn", "place": null}],
-            "editions": [{
-                "start_date": "2024-08-04",
-                "end_date":  "2024-08-04",
-                "distances":  ["7 km", "11 km", "19 km", "26 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-08-04",
+                    "end_date": "2024-08-04",
+                    "distances": ["7 km", "11 km", "19 km", "26 km"]
+                }
+            ]
         },
         {
             "name": "Destino Madryn",
@@ -952,11 +1208,13 @@
             ],
             "place": null,
             "places": [{"province": "Chubut", "locality": "Puerto Madryn", "place": null}],
-            "editions": [{
-                "start_date": "2024-09-08",
-                "end_date":  "2024-09-08",
-                "distances":  ["6 km", "15 km", "19 km", "25 km", "50 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-09-08",
+                    "end_date": "2024-09-08",
+                    "distances": ["6 km", "15 km", "19 km", "25 km", "50 km"]
+                }
+            ]
         },
         {
             "name": "Maraton de San Juan",
@@ -970,11 +1228,18 @@
             ],
             "place": null,
             "places": [{"province": "San Juan", "locality": "San Juan", "place": null}],
-            "editions": [{
-                "start_date": "2024-07-28",
-                "end_date":  "2024-07-28",
-                "distances":  ["5 km", "10 km", "21 km", "42 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-07-28",
+                    "end_date": "2024-07-28",
+                    "distances": ["5 km", "10 km", "21 km", "42 km"]
+                },
+                {
+                    "start_date": "2026-07-26",
+                    "end_date": "2026-07-26",
+                    "distances": ["5 km", "10 km", "21 km", "42 km"]
+                }
+            ]
         },
         {
             "name": "Cosquin Trail",
@@ -987,11 +1252,18 @@
             ],
             "place": null,
             "places": [{"province": "Córdoba", "locality": "Cosquín", "place": null}],
-            "editions": [{
-                "start_date": "2024-08-17",
-                "end_date":  "2024-08-17",
-                "distances":  ["16 km", "26 km", "36 km", "50 km"]
-            }]
+            "editions": [
+                {
+                    "start_date": "2024-08-17",
+                    "end_date": "2024-08-17",
+                    "distances": ["16 km", "26 km", "36 km", "50 km"]
+                },
+                {
+                    "start_date": "2026-08-20",
+                    "end_date": "2026-08-20",
+                    "distances": ["16 km", "26 km", "36 km", "50 km"]
+                }
+            ]
         },
         {
             "name": "",
