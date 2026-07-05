@@ -78,7 +78,7 @@ pnpm build      # Build de producción
 pnpm start      # Iniciar servidor de producción
 ```
 
-### Base de datos
+### Base de datos (local)
 
 ```bash
 pnpm db:push    # Aplicar el schema (crea las tablas si no existen)
@@ -86,6 +86,16 @@ pnpm db:studio  # Abrir Drizzle Studio (UI visual de la base)
 pnpm seed       # Cargar datos desde scripts/data/*.json
 pnpm db:reset   # ⚠ Resetear todo: borra local.db, recrea tablas y carga el seed
 ```
+
+### Base de datos (producción)
+
+```bash
+pnpm db:push:prod   # Aplicar el schema en Turso producción
+pnpm db:seed:prod   # Cargar datos en producción
+pnpm db:reset:prod  # ⚠ Resetear producción completo
+```
+
+> Estos comandos leen las credenciales desde `.env.production.local` (ver abajo).
 
 ---
 
@@ -204,6 +214,27 @@ turso auth login
 turso db create calendario-runner
 turso db show calendario-runner --url
 turso db tokens create calendario-runner
+```
+
+O bien desde el **Vercel Marketplace** → Storage → Add Integration → Turso, que configura las variables automáticamente.
+
+**Apuntar los comandos locales a producción:**
+
+Creá `.env.production.local` con las credenciales de Turso producción:
+
+```
+TURSO_DATABASE_URL=libsql://tu-base.turso.io
+TURSO_AUTH_TOKEN=tu-token-de-produccion
+```
+
+> `.env.production.local` está en `.gitignore` — nunca se commitea.
+
+Luego ejecutá contra producción desde tu máquina:
+
+```bash
+pnpm db:push:prod   # aplica el schema en la DB de producción
+pnpm db:seed:prod   # carga los datos en producción
+pnpm db:reset:prod  # ⚠ resetea producción completo
 ```
 
 Vercel detecta automáticamente que el proyecto usa `pnpm` por el `pnpm-lock.yaml`.
