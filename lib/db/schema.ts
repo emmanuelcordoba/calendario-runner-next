@@ -46,6 +46,7 @@ export const races = sqliteTable('races', {
     description: text('description'),
     image: text('image'),
     place: text('place'),
+    published: integer('published', { mode: 'boolean' }).notNull().default(false),
     createdAt: text('created_at').default(sql`CURRENT_TIMESTAMP`),
     updatedAt: text('updated_at').default(sql`CURRENT_TIMESTAMP`),
 });
@@ -59,6 +60,7 @@ export const editions = sqliteTable('editions', {
     endDate: text('end_date').notNull(),
     distances: text('distances').notNull().default('[]'),
     image: text('image'),
+    published: integer('published', { mode: 'boolean' }).notNull().default(false),
     createdAt: text('created_at').default(sql`CURRENT_TIMESTAMP`),
     updatedAt: text('updated_at').default(sql`CURRENT_TIMESTAMP`),
 });

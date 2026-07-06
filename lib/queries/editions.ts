@@ -60,7 +60,11 @@ export async function getUpcomingEditions(params: {
     const from = params.from || defaultFrom;
     const to = params.to || defaultTo;
 
-    const conditions = [between(editions.startDate, from, to)];
+    const conditions = [
+        between(editions.startDate, from, to),
+        eq(editions.published, true),
+        eq(races.published, true),
+    ];
 
     const rows = await db
         .select({
@@ -149,7 +153,7 @@ export async function getUpcomingEditions(params: {
 
 export async function getEditionsByRaceId(
     raceId: number,
-): Promise<{ id: number; startDate: string; endDate: string; distances: string[]; image: string | null }[]> {
+): Promise<{ id: number; startDate: string; endDate: string; distances: string[]; image: string | null; published: boolean }[]> {
     const rows = await db
         .select()
         .from(editions)
@@ -162,6 +166,7 @@ export async function getEditionsByRaceId(
         endDate: e.endDate,
         distances: parseDistances(e.distances),
         image: e.image,
+        published: e.published,
     }));
 }
 
@@ -185,6 +190,8 @@ export async function getEditionBySlugAndYear(
             and(
                 eq(races.slug, slug),
                 between(editions.startDate, startOfYear, endOfYear),
+                eq(editions.published, true),
+                eq(races.published, true),
             ),
         )
         .get();

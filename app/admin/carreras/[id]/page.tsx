@@ -8,10 +8,11 @@ import { getEditionsByRaceId } from '@/lib/queries/editions';
 import { db } from '@/lib/db';
 import { links, places, provinces, localities } from '@/lib/db/schema';
 import { eq } from 'drizzle-orm';
-import { deleteEditionAction } from '@/actions/editions';
+import { deleteEditionAction, toggleEditionPublishedAction } from '@/actions/editions';
 import { deleteLinkAction } from '@/actions/links';
 import { deletePlaceAction } from '@/actions/places';
 import DeleteButton from '@/components/admin/delete-button';
+import PublishToggle from '@/components/admin/publish-toggle';
 import RaceForm from '../race-form';
 import type { Metadata } from 'next';
 
@@ -65,6 +66,7 @@ export default async function EditarCarreraPage({ params }: Props) {
                                 <th className="px-4 py-3 text-left font-medium">Inicio</th>
                                 <th className="px-4 py-3 text-left font-medium">Fin</th>
                                 <th className="px-4 py-3 text-left font-medium">Distancias</th>
+                                <th className="px-4 py-3 text-center font-medium">Publicada</th>
                                 <th className="px-4 py-3 text-right font-medium">Acciones</th>
                             </tr>
                         </thead>
@@ -74,6 +76,15 @@ export default async function EditarCarreraPage({ params }: Props) {
                                     <td className="px-4 py-3 text-muted-foreground">{ed.startDate}</td>
                                     <td className="px-4 py-3 text-muted-foreground">{ed.endDate}</td>
                                     <td className="px-4 py-3 text-muted-foreground">{ed.distances.join(', ')}</td>
+                                    <td className="px-4 py-3 text-center">
+                                        <div className="flex justify-center">
+                                            <PublishToggle
+                                                id={ed.id}
+                                                published={ed.published}
+                                                action={toggleEditionPublishedAction}
+                                            />
+                                        </div>
+                                    </td>
                                     <td className="px-4 py-3 text-right">
                                         <div className="flex items-center justify-end gap-2">
                                             <Link href={`/admin/ediciones/${ed.id}`} className="text-primary underline-offset-4 hover:underline">Editar</Link>
@@ -86,7 +97,7 @@ export default async function EditarCarreraPage({ params }: Props) {
                                 </tr>
                             ))}
                             {editions.length === 0 && (
-                                <tr><td colSpan={4} className="px-4 py-6 text-center text-muted-foreground">Sin ediciones.</td></tr>
+                                <tr><td colSpan={5} className="px-4 py-6 text-center text-muted-foreground">Sin ediciones.</td></tr>
                             )}
                         </tbody>
                     </table>

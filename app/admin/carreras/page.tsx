@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { getRacesPaginated } from '@/lib/queries/races';
-import { deleteRaceAction } from '@/actions/races';
+import { deleteRaceAction, toggleRacePublishedAction } from '@/actions/races';
 import DeleteButton from '@/components/admin/delete-button';
+import PublishToggle from '@/components/admin/publish-toggle';
 import Pagination from '@/components/admin/pagination';
 import type { Metadata } from 'next';
 
@@ -40,6 +41,7 @@ export default async function AdminCarrerasPage({ searchParams }: Props) {
                             <th className="px-4 py-3 text-left font-medium">Nombre</th>
                             <th className="px-4 py-3 text-left font-medium">Disciplina</th>
                             <th className="px-4 py-3 text-left font-medium">Lugar</th>
+                            <th className="px-4 py-3 text-center font-medium">Publicada</th>
                             <th className="px-4 py-3 text-right font-medium">Acciones</th>
                         </tr>
                     </thead>
@@ -49,6 +51,15 @@ export default async function AdminCarrerasPage({ searchParams }: Props) {
                                 <td className="px-4 py-3 font-medium">{race.name}</td>
                                 <td className="px-4 py-3 text-muted-foreground">{discipline.name}</td>
                                 <td className="px-4 py-3 text-muted-foreground">{race.place ?? '—'}</td>
+                                <td className="px-4 py-3 text-center">
+                                    <div className="flex justify-center">
+                                        <PublishToggle
+                                            id={race.id}
+                                            published={race.published}
+                                            action={toggleRacePublishedAction}
+                                        />
+                                    </div>
+                                </td>
                                 <td className="px-4 py-3 text-right">
                                     <div className="flex items-center justify-end gap-2">
                                         <Link
@@ -69,7 +80,7 @@ export default async function AdminCarrerasPage({ searchParams }: Props) {
                         ))}
                         {rows.length === 0 && (
                             <tr>
-                                <td colSpan={4} className="px-4 py-8 text-center text-muted-foreground">
+                                <td colSpan={5} className="px-4 py-8 text-center text-muted-foreground">
                                     No hay carreras cargadas.
                                 </td>
                             </tr>

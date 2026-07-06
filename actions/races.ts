@@ -64,3 +64,12 @@ export async function deleteRaceAction(formData: FormData) {
     revalidatePath('/');
     revalidatePath('/admin/carreras');
 }
+
+export async function toggleRacePublishedAction(formData: FormData) {
+    const id = Number(formData.get('id'));
+    const current = formData.get('published') === 'true';
+    if (!id) return;
+    await db.update(races).set({ published: !current }).where(eq(races.id, id));
+    revalidatePath('/');
+    revalidatePath('/admin/carreras');
+}

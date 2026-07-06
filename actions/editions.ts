@@ -62,3 +62,13 @@ export async function deleteEditionAction(formData: FormData) {
     revalidatePath('/admin/ediciones');
     revalidatePath('/admin/carreras', 'layout');
 }
+
+export async function toggleEditionPublishedAction(formData: FormData) {
+    const id = Number(formData.get('id'));
+    const current = formData.get('published') === 'true';
+    if (!id) return;
+    await db.update(editions).set({ published: !current }).where(eq(editions.id, id));
+    revalidatePath('/');
+    revalidatePath('/admin/ediciones');
+    revalidatePath('/admin/carreras', 'layout');
+}

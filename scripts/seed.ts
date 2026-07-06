@@ -113,6 +113,7 @@ async function seed() {
                 disciplineId,
                 description: raceData.description || null,
                 image: raceData.image || null,
+                published: true,
             })
             .returning({ id: races.id });
 
@@ -124,6 +125,7 @@ async function seed() {
                 startDate: ed.start_date,
                 endDate: ed.end_date,
                 distances: JSON.stringify(ed.distances),
+                published: true,
             });
         }
 
