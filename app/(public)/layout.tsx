@@ -33,12 +33,14 @@ export default async function PublicLayout({ children }: PropsWithChildren) {
                     </>
                 ) : (
                     <>
-                        <Link
-                            href="/login"
-                            className="text-foreground/80 transition-colors hover:text-foreground"
-                        >
-                            Iniciar sesión
-                        </Link>
+                        {process.env.LOGIN_LINK_ENABLED !== 'false' && (
+                            <Link
+                                href="/login"
+                                className="text-foreground/80 transition-colors hover:text-foreground"
+                            >
+                                Iniciar sesión
+                            </Link>
+                        )}
                         {process.env.REGISTRATION_ENABLED === 'true' && (
                             <Link
                                 href="/register"
