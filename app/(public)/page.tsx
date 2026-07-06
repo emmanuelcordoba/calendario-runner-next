@@ -15,11 +15,21 @@ export default async function HomePage({ searchParams }: Props) {
 
     const today = new Date();
     const defaultFrom = today.toISOString().split('T')[0];
-    const defaultTo = new Date(
-        new Date().setFullYear(new Date().getFullYear() + 1),
-    )
-        .toISOString()
-        .split('T')[0];
+
+    // Plazo por defecto: desde hoy hasta 3 meses, extendido hasta el domingo
+    // que cierra esa semana (semanas de lunes a domingo). Se calcula en UTC
+    // para que coincida con la fecha que produce toISOString().
+    const threeMonthsAhead = new Date(
+        Date.UTC(
+            today.getUTCFullYear(),
+            today.getUTCMonth() + 3,
+            today.getUTCDate(),
+        ),
+    );
+    const dayOfWeek = threeMonthsAhead.getUTCDay(); // 0 = domingo, 1 = lunes, ...
+    const daysUntilSunday = dayOfWeek === 0 ? 0 : 7 - dayOfWeek;
+    threeMonthsAhead.setUTCDate(threeMonthsAhead.getUTCDate() + daysUntilSunday);
+    const defaultTo = threeMonthsAhead.toISOString().split('T')[0];
 
     const from = params.from || defaultFrom;
     const to = params.to || defaultTo;
