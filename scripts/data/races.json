@@ -1266,6 +1266,337 @@
             ]
         },
         {
+            "name": "Carrera TT",
+            "discipline": "Trail Running",
+            "description": "Una experiencia única de trail running en el corazón de las yungas tucumanas. Desafía tus límites en La Sala.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Carrera%20TT/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.carreratt.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/carrera.tt"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=61590207371789"}
+            ],
+            "place": null,
+            "places": [{"province": "Tucumán", "locality": "", "place": "La Sala"}],
+            "editions": [{
+                "start_date": "2026-08-01",
+                "end_date":  "2026-08-01",
+                "distances":  ["15 km", "22 km", "42 km"]
+            }]
+        },
+        {
+            "name": "Maratón de la Bandera",
+            "discipline": "Running",
+            "description": "Preparate para vivir una experiencia inolvidable en la vibrante ciudad de Rosario, donde el deporte, la historia y la pasión se fusionan en uno de los eventos más emblemáticos del calendario atlético: la Maratón Internacional de la Bandera.\n\nEste encuentro no solo celebra el espíritu deportivo, sino también el profundo vínculo cultural con nuestra ciudad y su legado patriótico. La maratón, que recorre 42,195 km, nació en 1999 gracias a la iniciativa de la Asociación Rosarina de Atletismo, y tuvo su primera edición en 2002.\n\nDesde entonces, ha evolucionado hasta convertirse en una cita de referencia tanto a nivel nacional como internacional. Cada año, en el mes de junio y en honor al Día de la Bandera, corredores de todo el mundo se dan cita para atravesar los rincones más icónicos de Rosario: el imponente Monumento a la Bandera, el verde del Parque de la Independencia y la elegancia del Bulevar Oroño.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20de%20la%20Bandera/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://42krosario.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/42krosario_oficial"},
+                { "type": "Facebook", "url": "https://www.facebook.com/42krosario"}
+            ],
+            "place": null,
+            "places": [{"province": "Santa Fe", "locality": "Rosario", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-06-28",
+                    "end_date": "2026-06-28",
+                    "distances": ["10 km", "42 km"]
+                }
+            ]
+        },
+        {
+            "name": "Media Maratón de Rosario",
+            "discipline": "Running",
+            "description": "La Media Maratón Ciudad de Rosario, conocido también como el 21K Rosario, tuvo su primera edición en el año 2001. Desde entonces, ha sido organizado anualmente por la Asociación Rosarina de Atletismo (ARDA), la misma entidad que organiza la maratón de distancia olímpica en la ciudad. Este evento se ha consolidado como una de las medias maratones más importantes y concurridas de la República Argentina. A lo largo de los años, ha atraído a miles de corredores de todo el país y del mundo, quienes disfrutan de un recorrido pintoresco que incluye algunos de los lugares más emblemáticos de Rosario, como el Parque de la Independencia, el Parque Urquiza, el Bulevar Oroño y la Avenida Pellegrini.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20de%20la%20Bandera/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://21krosario.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/21krosario_oficial"},
+                { "type": "Facebook", "url": "https://www.facebook.com/42krosario"}
+            ],
+            "place": null,
+            "places": [{"province": "Santa Fe", "locality": "Rosario", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-05-10",
+                    "end_date": "2026-05-10",
+                    "distances": ["8 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "Maratón de Mar del Plata",
+            "discipline": "Running",
+            "description": "Viví el Maratón de Mar del Plata: uno de los eventos más emblemáticos del país, donde el desafío se combina con paisajes espectaculares y vistas únicas del Atlántico.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/NB%20Race%20Series/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.newbalance.com.ar/42k-mar-del-plata-2026/race-series-mdp-42k.html"},
+                { "type": "Instagram", "url": "https://www.instagram.com/nb.raceseries"},
+                { "type": "Facebook", "url": "https://www.facebook.com/NB.RaceSeries"}
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Mar del Plata", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-04-19",
+                    "end_date": "2026-04-19",
+                    "distances": ["10 km", "21 km", "42 km"]
+                }
+            ]
+        },
+        {
+            "name": "Medio Maratón de La Plata",
+            "discipline": "Running",
+            "description": "Viví un medio maratón donde cada kilómetro respira costanera, acantilados, playas y esa energía única que solo “La Feliz” sabe transmitir. El circuito te lleva por sus postales más emblemáticas: la rambla, el Atlántico de fondo y el pulso inconfundible de la ciudad.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/NB%20Race%20Series/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://www.newbalance.com.ar/21k-mar-de-plata-2026/race-series-mdp-21k.html"},
+                { "type": "Instagram", "url": "https://www.instagram.com/nb.raceseries"},
+                { "type": "Facebook", "url": "https://www.facebook.com/NB.RaceSeries"}
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "La Plata", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-14",
+                    "end_date": "2026-11-14",
+                    "distances": ["5 km" ,"10 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "Media Maratón de Santa Fe",
+            "discipline": "Running",
+            "description": "Santa Fe te invita a vivir una experiencia única, donde cada kilómetro late al compás del paisaje costero y de su historia. Con un recorrido que abraza la Costanera oeste y este, atraviesa el icónico Puente Colgante y la modernidad del Puerto santafesino, esta carrera combina lo mejor de la ciudad: su belleza natural, su identidad y su energía.\n\nEl circuito, plano, rápido y panorámico, ofrece vistas privilegiadas del río y de los espacios más emblemáticos de la capital santafesina. Las rectas amplias, la brisa de la Setúbal y la calidez de la gente crean el escenario ideal para disfrutar, superarte y alcanzar nuevas marcas.\n\nVení a correr donde la ciudad se abre, el río te impulsa y cada paso cuenta una historia.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Media%20Marat%C3%B3n%20de%20Santa%20Fe/logo.png",
+            "links": [
+                { "type": "Web", "url": "https://sites.google.com/humanidadesucsf.edu.ar/21ksantafe/inicio"},
+                { "type": "Instagram", "url": "https://www.instagram.com/21ksantafe"}
+            ],
+            "place": null,
+            "places": [{"province": "Santa Fe", "locality": "Santa Fe", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-03-15",
+                    "end_date": "2026-03-15",
+                    "distances": ["5 km", "10 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "Media Maratón de Mendoza",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Media%20Marat%C3%B3n%20de%20Mendoza/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://mediamaratondemendoza.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/mediamaratondemendoza"},
+                { "type": "Facebook", "url": "https://www.facebook.com/mediamaratondemendoza"}
+            ],
+            "place": null,
+            "places": [{"province": "Mendoza", "locality": "Mendoza", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-03-22",
+                    "end_date": "2026-03-22",
+                    "distances": ["10 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "Maratón de Río Cuarto",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20de%20R%C3%ADo%20Cuarto/logo.png",
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/maratondeportesrioiv"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Río Cuarto", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-05-17",
+                    "end_date": "2026-05-17",
+                    "distances": ["5 km", "10 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "Maratón de Formosa",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20de%20Formosa/logo.jpg",
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/maratonfsa"},
+                { "type": "Facebook", "url": "https://www.facebook.com/p/Maraton-Formosa-61572186419286"}
+            ],
+            "place": null,
+            "places": [{"province": "Formosa", "locality": "Formosa", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-04-26",
+                    "end_date": "2026-04-26",
+                    "distances": ["7 km", "21 km", "42 km"]
+                }
+            ]
+        },
+        {
+            "name": "Ultra Champaquí",
+            "discipline": "Trail Running",
+            "description": "Una verdadera revolución del Trail Running se aproxima en La Cumbrecita y queremos proponerte nuevas experiencias que te movilicen a desafiarte como nunca antes.\nUltra Champaquí tendrá 4 diferentes distancias, para que puedas elegir y participar en la que más se acomode a tu capacidad y a tu nivel de entrenamiento.\n\n\nAl ser La Cumbrecita su epicentro, la carrera se desarrollara íntegramente dentro de la Reserva Hídrica Champaquí, en las Sierras de los Comechingones. \nLa majestuosidad de los paisajes y la exigencia de sus recorridos serán el sello distintivo de esta carrera, que transcurrirá casi en su totalidad por senderos y huellas de montaña.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Ultra%20Champaqu%C3%AD/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://ultrachampaqui.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/ultrachampaqui"},
+                { "type": "Facebook", "url": "https://www.facebook.com/Grupoultrasport"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "La Cumbrecita", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-08-07",
+                    "end_date": "2026-08-09",
+                    "distances": ["12 km", "21 km", "35 km", "50 km"]
+                }
+            ]
+        },
+        {
+            "name": "Xtreme Race",
+            "discipline": "Trail Running",
+            "description": "XtremeRace es la carrera de ultra trail mas dura y exigente de las sierras de Córdoba. Te lleva al límite de lo extremo.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Xtreme%20Race/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://xtremerace.com.ar"},
+                { "type": "Instagram", "url": "https://www.instagram.com/xtremeracear"},
+                { "type": "Facebook", "url": "https://www.facebook.com/XtremeRaceAR"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Villa Giardino", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-20",
+                    "end_date": "2026-11-22",
+                    "distances": ["7 km", "13 km", "25 km", "40 km", "62 km", "100 km"]
+                }
+            ]
+        },
+        {
+            "name": "Tandil Ultra Trail",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Tandil%20Ultra%20Trail/logo.jpg",
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/tandilultratrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Tandil", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-08-09",
+                    "end_date": "2026-08-09",
+                    "distances": ["12 km", "25 km", "50 km"]
+                }
+            ]
+        },
+        {
+            "name": "Paranay Trail",
+            "discipline": "Trail Running",
+            "description": "Es una Carrera de aventuras por senderos en Montes en el corazón de la selva misionera, naturaleza pura, con nuestro majestuoso arroyo Paranay que desemboca en el río Paraná. También con recorridos por chacras y caminos vecinales de nuestra ciudad: El Alcázar, Misiones, Argentina.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Paranay%20Trail/logo.png",
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/paranaytrail"}
+            ],
+            "place": null,
+            "places": [{"province": "Misiones", "locality": "El Alcázar", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-05",
+                    "end_date": "2026-09-06",
+                    "distances": ["8 km", "15 km", "25 km"]
+                }
+            ]
+        },
+        {
+            "name": "Ultra Fitz Roy",
+            "discipline": "Trail Running",
+            "description": "Viví la experiencia definitiva del Trail Running en el corazón de la Patagonia. Corré por senderos desafiantes, rodeado de paisajes majestuosos en El Chaltén, Santa Cruz. Sentí la fuerza de la montaña y la conexión con la naturaleza en cada paso.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Ultra%20Fitz%20Roy/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://ultrafitzroy.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/ultrafitzroy"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=61556070886953"}
+            ],
+            "place": null,
+            "places": [{"province": "Santa Cruz", "locality": "El Chaltén", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-15",
+                    "end_date": "2026-10-17",
+                    "distances": ["10 km", "21 km", "42 km", "70 km", "100 km"]
+                }
+            ]
+        },
+        {
+            "name": "Q Trail Esquel",
+            "discipline": "Trail Running",
+            "description": "Es una carrera de montaña que ofrece la oportunidad de disfrutar y experimentar la naturaleza en su máximo esplendor. Bosques, senderos, montañas, árboles nativos, flora y fauna autóctona, cascadas, aguas cristalinas de ríos y lagunas conforman dicho escenario para vivir una aventura diferente e inigualable.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Q%20Trail/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://qtrailesquel.com"},
+                { "type": "Instagram", "url": "https://www.instagram.com/qtrail_esquel"},
+                { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=61555628573812"}
+            ],
+            "place": null,
+            "places": [{"province": "Chubut", "locality": "Esquel", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-12-06",
+                    "end_date": "2026-12-06",
+                    "distances": ["10 km", "21 km", "32 km", "50 km"]
+                }
+            ]
+        },
+        {
+            "name": "Bariloche by UTMB",
+            "discipline": "Trail Running",
+            "description": "Patagonia Bariloche by UTMB te invita a vivir una experiencia inolvidable en el corazón de la región más espectacular de Argentina. Corre entre montañas, bosques y lagos de ensueño, y experimenta la esencia de la aventura y el desafío en un entorno natural sin igual. ¡Prepárate para conquistar la Patagonia!",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Bariloche%20by%20UTMB/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://bariloche.utmb.world"},
+                { "type": "Instagram", "url": "https://www.instagram.com/barilocheutmb/"},
+                { "type": "Facebook", "url": "https://www.facebook.com/BarilochebyUTMB"}
+            ],
+            "place": null,
+            "places": [{"province": "Río Negro", "locality": "San Carlos de Bariloche", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-18",
+                    "end_date": "2026-11-22",
+                    "distances": ["12 km", "22 km", "33 km", "55 km", "80 km", "130 km"]
+                }
+            ]
+        },
+
+        {
+            "name": "Ushuaia by UTMB",
+            "discipline": "Trail Running",
+            "description": "Ushuaia by UTMB se embarca hacia el fin del mundo en USHUAIA, en la magia del final de la Patagonia austral, en el extremo sur de la Argentina, el fin del mundo o como la llaman algunos: el principio de todo. Un evento con personalidad, con ADN PROPIO, que mantendrá su esencia de evento vibrante y desafío épico. ¿Estás preparado para vivir la experiencia Ushuaia by UTMB?",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Ushuaia%20by%20UTMB/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://ushuaia.utmb.world"},
+                { "type": "Instagram", "url": "https://www.instagram.com/ushuaia.byutmb"},
+                { "type": "Facebook", "url": "https://www.facebook.com/UshuaiabyUTMB"}
+            ],
+            "place": null,
+            "places": [{"province": "Tierra del Fuego", "locality": "Ushuaia", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-03-18",
+                    "end_date": "2026-03-22",
+                    "distances": ["12 km", "22 km", "32 km", "50 km", "85 km", "130 km"]
+                }
+            ]
+        },
+        {
             "name": "",
             "discipline": "Trail Running",
             "description": "",
