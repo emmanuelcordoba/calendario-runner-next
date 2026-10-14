@@ -1,5 +1,6 @@
 'use server';
 
+import { requireAdmin, verifyAdmin } from '@/lib/authz';
 import { db } from '@/lib/db';
 import { races } from '@/lib/db/schema';
 import { eq } from 'drizzle-orm';
@@ -20,6 +21,8 @@ export async function createRaceAction(
     _prev: { error?: string } | null,
     formData: FormData,
 ): Promise<{ error?: string }> {
+    if (!(await verifyAdmin())) return { error: 'No autorizado.' };
+
     const name = (formData.get('name') as string)?.trim();
     const disciplineId = Number(formData.get('discipline_id'));
     const description = (formData.get('description') as string)?.trim() || null;
@@ -40,6 +43,8 @@ export async function updateRaceAction(
     _prev: { error?: string } | null,
     formData: FormData,
 ): Promise<{ error?: string }> {
+    if (!(await verifyAdmin())) return { error: 'No autorizado.' };
+
     const id = Number(formData.get('id'));
     const name = (formData.get('name') as string)?.trim();
     const disciplineId = Number(formData.get('discipline_id'));
@@ -58,6 +63,8 @@ export async function updateRaceAction(
 }
 
 export async function deleteRaceAction(formData: FormData) {
+    await requireAdmin();
+
     const id = Number(formData.get('id'));
     if (!id) return;
     await db.delete(races).where(eq(races.id, id));
@@ -66,6 +73,8 @@ export async function deleteRaceAction(formData: FormData) {
 }
 
 export async function toggleRacePublishedAction(formData: FormData) {
+    await requireAdmin();
+
     const id = Number(formData.get('id'));
     const current = formData.get('published') === 'true';
     if (!id) return;

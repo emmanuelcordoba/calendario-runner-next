@@ -1,5 +1,6 @@
 'use server';
 
+import { requireAdmin, verifyAdmin } from '@/lib/authz';
 import { db } from '@/lib/db';
 import { places } from '@/lib/db/schema';
 import { eq } from 'drizzle-orm';
@@ -10,6 +11,8 @@ export async function createPlaceAction(
     _prev: { error?: string } | null,
     formData: FormData,
 ): Promise<{ error?: string }> {
+    if (!(await verifyAdmin())) return { error: 'No autorizado.' };
+
     const raceId = Number(formData.get('race_id'));
     const provinceId = Number(formData.get('province_id'));
     const localityId = Number(formData.get('locality_id')) || null;
@@ -22,6 +25,8 @@ export async function createPlaceAction(
 }
 
 export async function deletePlaceAction(formData: FormData) {
+    await requireAdmin();
+
     const id = Number(formData.get('id'));
     if (!id) return;
     await db.delete(places).where(eq(places.id, id));

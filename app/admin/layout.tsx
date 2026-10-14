@@ -2,7 +2,8 @@ export const dynamic = 'force-dynamic';
 
 import { PropsWithChildren } from 'react';
 import Link from 'next/link';
-import { auth } from '@/lib/auth';
+import { redirect } from 'next/navigation';
+import { verifyAdmin } from '@/lib/authz';
 import { logoutAction } from '@/actions/auth';
 
 const navItems = [
@@ -13,7 +14,11 @@ const navItems = [
 ];
 
 export default async function AdminLayout({ children }: PropsWithChildren) {
-    const session = await auth();
+    // Segunda barrera, no la principal: por Partial Rendering el layout no se
+    // re-ejecuta en navegación client-side. Las páginas las cubre `proxy.ts` y
+    // las mutaciones su propio chequeo en `lib/authz.ts`.
+    const admin = await verifyAdmin();
+    if (!admin) redirect('/login');
 
     return (
         <div className="flex min-h-screen">
@@ -33,7 +38,7 @@ export default async function AdminLayout({ children }: PropsWithChildren) {
                     ))}
                 </nav>
                 <div className="mt-8 border-t pt-4 px-3">
-                    <p className="text-xs text-muted-foreground">{session?.user?.name}</p>
+                    <p className="text-xs text-muted-foreground">{admin.name}</p>
                     <form action={logoutAction} className="mt-2">
                         <button
                             type="submit"

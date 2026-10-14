@@ -1,5 +1,6 @@
 'use server';
 
+import { requireAdmin, verifyAdmin } from '@/lib/authz';
 import { db } from '@/lib/db';
 import { links } from '@/lib/db/schema';
 import { eq } from 'drizzle-orm';
@@ -10,6 +11,8 @@ export async function createLinkAction(
     _prev: { error?: string } | null,
     formData: FormData,
 ): Promise<{ error?: string }> {
+    if (!(await verifyAdmin())) return { error: 'No autorizado.' };
+
     const raceId = Number(formData.get('race_id'));
     const type = formData.get('type') as string;
     const url = (formData.get('url') as string)?.trim() || null;
@@ -22,6 +25,8 @@ export async function createLinkAction(
 }
 
 export async function deleteLinkAction(formData: FormData) {
+    await requireAdmin();
+
     const id = Number(formData.get('id'));
     if (!id) return;
     await db.delete(links).where(eq(links.id, id));

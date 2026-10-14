@@ -1,5 +1,6 @@
 'use server';
 
+import { requireAdmin, verifyAdmin } from '@/lib/authz';
 import { db } from '@/lib/db';
 import { users } from '@/lib/db/schema';
 import { eq } from 'drizzle-orm';
@@ -11,6 +12,8 @@ export async function createUserAction(
     _prev: { error?: string } | null,
     formData: FormData,
 ): Promise<{ error?: string }> {
+    if (!(await verifyAdmin())) return { error: 'No autorizado.' };
+
     const name = (formData.get('name') as string)?.trim();
     const email = (formData.get('email') as string)?.trim().toLowerCase();
     const password = formData.get('password') as string;
@@ -29,6 +32,8 @@ export async function updateUserAction(
     _prev: { error?: string } | null,
     formData: FormData,
 ): Promise<{ error?: string }> {
+    if (!(await verifyAdmin())) return { error: 'No autorizado.' };
+
     const id = Number(formData.get('id'));
     const name = (formData.get('name') as string)?.trim();
     const email = (formData.get('email') as string)?.trim().toLowerCase();
@@ -51,6 +56,8 @@ export async function updateUserAction(
 }
 
 export async function deleteUserAction(formData: FormData) {
+    await requireAdmin();
+
     const id = Number(formData.get('id'));
     if (!id) return;
     await db.delete(users).where(eq(users.id, id));

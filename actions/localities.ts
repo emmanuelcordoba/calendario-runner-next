@@ -1,5 +1,6 @@
 'use server';
 
+import { requireAdmin, verifyAdmin } from '@/lib/authz';
 import { db } from '@/lib/db';
 import { localities } from '@/lib/db/schema';
 import { eq } from 'drizzle-orm';
@@ -10,6 +11,8 @@ export async function createLocalityAction(
     _prev: { error?: string } | null,
     formData: FormData,
 ): Promise<{ error?: string }> {
+    if (!(await verifyAdmin())) return { error: 'No autorizado.' };
+
     const name = (formData.get('name') as string)?.trim();
     const provinceId = Number(formData.get('province_id'));
     if (!name || !provinceId) return { error: 'Nombre y provincia son requeridos.' };
@@ -22,6 +25,8 @@ export async function updateLocalityAction(
     _prev: { error?: string } | null,
     formData: FormData,
 ): Promise<{ error?: string }> {
+    if (!(await verifyAdmin())) return { error: 'No autorizado.' };
+
     const id = Number(formData.get('id'));
     const name = (formData.get('name') as string)?.trim();
     const provinceId = Number(formData.get('province_id'));
@@ -32,6 +37,8 @@ export async function updateLocalityAction(
 }
 
 export async function deleteLocalityAction(formData: FormData) {
+    await requireAdmin();
+
     const id = Number(formData.get('id'));
     if (!id) return;
     await db.delete(localities).where(eq(localities.id, id));
