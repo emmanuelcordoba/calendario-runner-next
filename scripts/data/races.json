@@ -505,7 +505,6 @@
             "description": "La Maratón más austral del mundo",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Maraton%20del%20Fin%20del%20Mundo%2Flogo.jpg",
             "links": [
-                { "type": "Web", "url": "https://ushuaiarun.com"},
                 { "type": "Instagram", "url": "https://www.instagram.com/maratondelfindelmundo"}
             ],
             "place": null,
@@ -1683,7 +1682,6 @@
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/9K%20Independencia/logo.jpg",
             "links": [
                 { "type": "Web", "url": "https://9kindependencia.com.ar" },
-                { "type": "Web", "url": "https://sportsfacilities.com.ar/" },
                 { "type": "Instagram", "url": "https://www.instagram.com/sportsfacilities"},
                 { "type": "Facebook", "url": "https://www.facebook.com/Sportsfacilities"}
             ],
@@ -1724,7 +1722,7 @@
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Medio%20Marat%C3%B3n%20de%20Salta%2Flogo.png",
             "links": [
                 { "type": "Web", "url": "https://www.newbalance.com.ar/30k-buenos-aires-2026/race-series-bsas-30k.html" },
-                { "type": "Web", "url": "https://sportsfacilities.com.ar/" },
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/carrera/nb-30k-buenos-aires-3/" },
                 { "type": "Instagram", "url": "https://www.instagram.com/nb.raceseries"},
                 { "type": "Facebook", "url": "https://www.facebook.com/NB.RaceSeries"}
             ],
@@ -1745,7 +1743,7 @@
             "image": null,
             "links": [
                 { "type": "Web", "url": "https://www.newbalance.com.ar/15k-bsas-2026/race-series-15k-bsas-2026.html" },
-                { "type": "Web", "url": "https://sportsfacilities.com.ar/" },
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/carrera/nb-15k-buenos-aires-2026/" },
                 { "type": "Instagram", "url": "https://www.instagram.com/nb.raceseries"},
                 { "type": "Facebook", "url": "https://www.facebook.com/NB.RaceSeries"}
             ],
@@ -1903,7 +1901,7 @@
             "image": null,
             "links": [
                 { "type": "Instagram", "url": "https://www.instagram.com/p/DYNZjNCCQwc/" },
-                { "type": "Web", "url": "https://sportsfacilities.com.ar/" }
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/carrera/nb-trail-tandil-2026/" }
             ],
             "place": null,
             "places": [{"province": "Buenos Aires", "locality": "Tandil", "place": null}],
@@ -2258,8 +2256,7 @@
             "description": null,
             "image": null,
             "links": [
-                { "type": "Web", "url": "https://www.newbalance.com.ar/21k-mar-de-plata-2026/race-series-mdp-21k.html?" },
-                { "type": "Web", "url": "https://sportsfacilities.com.ar/" }
+                { "type": "Web", "url": "https://www.newbalance.com.ar/21k-mar-de-plata-2026/race-series-mdp-21k.html?" }
             ],
             "place": null,
             "places": [{"province": "Buenos Aires", "locality": "Mar del Plata", "place": null}],
@@ -2296,8 +2293,7 @@
             "description": null,
             "image": null,
             "links": [
-                { "type": "Web", "url": "https://www.newbalance.com.ar/milla-urbana-2026/race-series-milla-urbana.html" },
-                { "type": "Web", "url": "https://sportsfacilities.com.ar/" }
+                { "type": "Web", "url": "https://www.newbalance.com.ar/milla-urbana-2026/race-series-milla-urbana.html" }
             ],
             "place": null,
             "places": [{"province": "Ciudad de Buenos Aires", "locality": "San Nicolás", "place": null}],
