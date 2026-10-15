@@ -336,7 +336,7 @@
                 { "type": "Instagram", "url": "https://instagram.com/fiambala.trail"}
             ],
             "place": null,
-            "places": [{"province": "Catamarca", "locality": "Fiambala", "place": null}],
+            "places": [{"province": "Catamarca", "locality": "Fiambalá", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-05-20",
@@ -454,7 +454,7 @@
                     "distances": ["KV", "10 km", "20 km", "28 km", "35 km", "55 km"]
                 },
                 {
-                    "start_date": "2026-08-29",
+                    "start_date": "2026-08-28",
                     "end_date": "2026-08-30",
                     "distances": ["KV", "10 km", "20 km", "28 km", "35 km", "55 km", "70 km"]
                 }
@@ -581,7 +581,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100068527321292"}
             ],
             "place": null,
-            "places": [{"province": "Neuquén", "locality": "Villa la Angostura", "place": null}],
+            "places": [{"province": "Neuquén", "locality": "Villa La Angostura", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-02-22",
@@ -636,7 +636,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/4refugios"}
             ],
             "place": null,
-            "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
+            "places": [{"province": "Río Negro", "locality": "San Carlos de Bariloche", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-02-24",
@@ -661,7 +661,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/brutrun"}
             ],
             "place": null,
-            "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
+            "places": [{"province": "Río Negro", "locality": "San Carlos de Bariloche", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-11-24",
@@ -686,7 +686,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/Bariloche100"}
             ],
             "place": null,
-            "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
+            "places": [{"province": "Río Negro", "locality": "San Carlos de Bariloche", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-03-16",
@@ -715,7 +715,7 @@
                 { "type": "Instagram", "url": "https://www.instagram.com/laetapaok"}
             ],
             "place": null,
-            "places": [{"province": "Neuquén", "locality": "San Martin de los Andes", "place": null}],
+            "places": [{"province": "Neuquén", "locality": "San Martín de los Andes", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-12-01",
@@ -740,7 +740,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/elpasoautralultratrail"}
             ],
             "place": null,
-            "places": [{"province": "Neuquén", "locality": "San Carlos de Bariloche", "place": null}],
+            "places": [{"province": "Río Negro", "locality": "San Carlos de Bariloche", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-03-01",
@@ -1296,7 +1296,7 @@
             ]
         },
         {
-            "name": "Maraton de San Juan",
+            "name": "Maratón de San Juan",
             "discipline": "Running",
             "description": "La carrera de 42 km comienza entre montañas, desde el Dique Punta Negra, y continúa a lo largo del perilago, pasando por cerros y viñedos, cruzando la Quebrada de Zonda, el Autódromo Eduardo Copello y transitando por la Ruta del Sol antes de llegar a la Avenida Libertador General San Martin. Este tramo está rodeado de un hermoso boulevard y una arboleda típica que te acompañará hasta el corazón de la Ciudad de San Juan. En este tramo, recorrerás los lugares más emblemáticos de nuestra provincia, como la Casa de Gobierno, el Estadio Aldo Cantoni, el Parque de Mayo, la Casa Natal de Sarmiento y la Catedral de San Juan. Todo esto forma parte del atractivo del circuito, culminando y coronándote con una medalla en el pintoresco frente del Teatro del Bicentenario.\n\nAdemás de la carrera de 42 km, también ofrecemos distancias de 21 km, 10 km y 5 km, por lo que todos pueden ser parte de la Fiesta Urbana del Running. Tanto los profesionales que buscan mejorar sus tiempos como los aficionados que desean disfrutar del deporte en el contexto de un gran evento que reúne a corredores de todo el país y países limítrofes.\n\nLas distancias de 42km y 21km se encuentran certificadas por la WORLDATHLETICS y la C.A.D.A lo que significa una garantía de calidad, medición precisa del recorrido, reconocimiento internacional, seguridad para los corredores y una oportunidad para el ranking y la calificación.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Maraton%20de%20San%20Juan/logo.jpg",
@@ -1338,8 +1338,8 @@
                     "distances": ["16 km", "26 km", "36 km", "50 km"]
                 },
                 {
-                    "start_date": "2026-08-20",
-                    "end_date": "2026-08-20",
+                    "start_date": "2026-08-15",
+                    "end_date": "2026-08-16",
                     "distances": ["16 km", "26 km", "36 km", "50 km"]
                 }
             ]
@@ -1686,7 +1686,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/Sportsfacilities"}
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Palermo", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-07-09",
@@ -1727,7 +1727,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/NB.RaceSeries"}
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Villa Soldati", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Villa Soldati", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-07-19",
@@ -1748,7 +1748,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/NB.RaceSeries"}
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Palermo", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-08-02",
@@ -1825,11 +1825,11 @@
                 { "type": "Instagram", "url": "https://www.instagram.com/clubdecorredoresok/" }
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Vicente López", "place": null}],
+            "places": [{"province": "Buenos Aires", "locality": "Vicente López", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-06-28",
-                    "end_date": "2026-09-28",
+                    "end_date": "2026-06-28",
                     "distances": ["5 km", "10 km"]
                 }
             ]
@@ -1844,7 +1844,7 @@
                 { "type": "Web", "url": "https://clubdecorredores.com/" }
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": null, "place": "Costanera Sur"}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": null, "place": "Costanera Sur"}],
             "editions": [
                 {
                     "start_date": "2026-09-06",
@@ -1961,7 +1961,7 @@
                 { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
             ],
             "place": null,
-            "places": [{"province": "Entre Ríos", "locality": "Caseros", "place": null}],
+            "places": [{"province": "Buenos Aires", "locality": "Caseros", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-09-13",
@@ -2018,7 +2018,7 @@
                 { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
             ],
             "place": null,
-            "places": [{"province": "Buenos Aires", "locality": "Vicente Lopez", "place": null}],
+            "places": [{"province": "Buenos Aires", "locality": "Vicente López", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-09-27",
@@ -2110,7 +2110,7 @@
                 { "type": "Web", "url": "https://misiondxt.com/" }
             ],
             "place": null,
-            "places": [{"province": "Córdoba", "locality": "Docta", "place": null}],
+            "places": [{"province": "Córdoba", "locality": "Córdoba", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-10-17",
@@ -2129,7 +2129,7 @@
                 { "type": "Web", "url": "https://clubdecorredores.com/" }
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Palermo", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-10-18",
@@ -2184,7 +2184,7 @@
                 { "type": "Web", "url": "https://clubdecorredores.com/" }
             ],
             "place": null,
-            "places": [{"province": "Buenos Aires", "locality": "Vicente Lopez", "place": null}],
+            "places": [{"province": "Buenos Aires", "locality": "Vicente López", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-10-25",
@@ -2222,7 +2222,7 @@
                 { "type": "Web", "url": "https://clubdecorredores.com/" }
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Palermo", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-11-01",
@@ -2296,7 +2296,7 @@
                 { "type": "Web", "url": "https://www.newbalance.com.ar/milla-urbana-2026/race-series-milla-urbana.html" }
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "San Nicolás", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "San Nicolás", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-11-21",
@@ -2315,7 +2315,7 @@
                 { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Palermo", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-11-22",
@@ -2370,7 +2370,7 @@
                 { "type": "Instagram", "url": "https://www.instagram.com/carrerasmaratonesnandu/" }
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Puerto Madero", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Puerto Madero", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-11-28",
@@ -2389,7 +2389,7 @@
                 { "type": "Web", "url": "https://www.instagram.com/wayrasporttiming/" }
             ],
             "place": null,
-            "places": [{"province": "Chubut", "locality": "Lago Puelo", "place": null}],
+            "places": [{"province": "Río Negro", "locality": "El Bolsón", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-12-12",
@@ -2408,7 +2408,7 @@
                 { "type": "Web", "url": "https://clubdecorredores.com/" }
             ],
             "place": null,
-            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Palermo", "place": null}],
             "editions": [
                 {
                     "start_date": "2026-12-20",
