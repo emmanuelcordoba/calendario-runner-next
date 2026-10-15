@@ -3,19 +3,10 @@
 import { requireAdmin, verifyAdmin } from '@/lib/authz';
 import { db } from '@/lib/db';
 import { races } from '@/lib/db/schema';
+import { slugify } from '@/lib/slug';
 import { eq } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-
-function generateSlug(text: string): string {
-    return text
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[̀-ͯ]/g, '')
-        .replace(/[^a-z0-9\s-]/g, '')
-        .trim()
-        .replace(/\s+/g, '-');
-}
 
 export async function createRaceAction(
     _prev: { error?: string } | null,
@@ -31,7 +22,7 @@ export async function createRaceAction(
 
     if (!name || !disciplineId) return { error: 'Nombre y disciplina son requeridos.' };
 
-    const slug = generateSlug(name);
+    const slug = slugify(name);
     await db.insert(races).values({ name, slug, disciplineId, description, image, place });
 
     revalidatePath('/');

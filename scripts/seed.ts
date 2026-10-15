@@ -12,6 +12,7 @@ import {
     places,
     links,
 } from '../lib/db/schema';
+import { slugify } from '../lib/slug';
 
 config({ path: resolve(process.cwd(), '.env.local') });
 
@@ -20,16 +21,6 @@ const client = createClient({
     authToken: process.env.TURSO_AUTH_TOKEN || undefined,
 });
 const db = drizzle(client);
-
-function slugify(text: string): string {
-    return text
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[̀-ͯ]/g, '')
-        .replace(/[^a-z0-9\s-]/g, '')
-        .trim()
-        .replace(/\s+/g, '-');
-}
 
 async function seed() {
     const rootDir = resolve(process.cwd(), 'scripts/data');
