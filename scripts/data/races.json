@@ -461,7 +461,7 @@
             ]
         },
         {
-            "name": "Tafí Trail Extreme Run",
+            "name": "Tafí Trail",
             "discipline": "Trail Running",
             "description": null,
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Taf%C3%AD%20Trail%20Extreme%20Run%2Flogo.jpg",
@@ -626,7 +626,7 @@
             ]
         },
         {
-            "name": "Cuatro Refugios",
+            "name": "4 Refugios",
             "discipline": "Trail Running",
             "description": "Una competencia de trekking de montaña que conecta algunos de los refugios de montaña más conocidos de Bariloche.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Cuatro%20Refugios%2Flogo.png",
@@ -651,7 +651,7 @@
             ]
         },
         {
-            "name": "Bariloche Ultra Trail",
+            "name": "BRUT Bariloche Running",
             "discipline": "Trail Running",
             "description": "Ultra maratón de montaña, se renueva con nuevas distancias y circuitos de 10, 22, 32, 42 & 60 Kilómetros, La carrera conecta  senderos y caminos de algunos de los iconos geográficos de la ciudad de Bariloche, como el cerro Catedral, el cerro San Martin, el cerro bella Vista, el cerro Goye, Colonia Suiza, el  arroyo Casa de Piedra, el lago Moreno, entre otros, además La BRUT  esta certificado por ITRA, así que que esperas para venir a correr a la capital Nacional del Turismo Aventura.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Bariloche%20Ultra%20Trail%2Flogo.png",
@@ -1011,7 +1011,7 @@
             ]
         },
         {
-            "name": "Turmalina Ultra Trail",
+            "name": "Turmalina Ultra Run",
             "discipline": "Trail Running",
             "description": null,
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Turmalina%20Ultra%20Trail%2Flogo.png",
@@ -2232,7 +2232,7 @@
             ]
         },
         {
-            "name": "EcoTrail Festival",
+            "name": "EcoTrail Castelli",
             "discipline": "Trail Running",
             "description": null,
             "image": null,
@@ -2325,7 +2325,7 @@
             ]
         },
         {
-            "name": "Ushuaia EPIC - Trail Running",
+            "name": "Ushuaia Epic Trail",
             "discipline": "Trail Running",
             "description": null,
             "image": null,
