@@ -20,6 +20,11 @@
                     "start_date": "2024-07-14",
                     "end_date": "2024-07-14",
                     "distances": ["7 km", "15 km", "25 km"]
+                },
+                {
+                    "start_date": "2026-11-22",
+                    "end_date": "2026-11-22",
+                    "distances": ["9 km", "15 km", "25 km"]
                 }
             ]
         },
@@ -44,6 +49,11 @@
                 {
                     "start_date": "2026-05-01",
                     "end_date": "2026-05-03",
+                    "distances": ["10 km", "16 km", "24 km", "30 km", "42 km", "60 km"]
+                },
+                {
+                    "start_date": "2027-04-30",
+                    "end_date": "2027-05-02",
                     "distances": ["10 km", "16 km", "24 km", "30 km", "42 km", "60 km"]
                 }
             ]
@@ -169,6 +179,11 @@
                     "start_date": "2026-06-05",
                     "end_date": "2026-06-07",
                     "distances": ["6 km", "11 km", "22 km", "37 km", "56 km"]
+                },
+                {
+                    "start_date": "2027-06-04",
+                    "end_date": "2027-06-06",
+                    "distances": ["8 km", "15 km", "26 km", "37 km", "56 km", "70 km"]
                 }
             ]
         },
@@ -303,6 +318,11 @@
                     "start_date": "2026-05-15",
                     "end_date": "2026-05-17",
                     "distances": ["11 km", "22 km", "35 km", "55 km", "80 km", "125 km"]
+                },
+                {
+                    "start_date": "2027-05-14",
+                    "end_date": "2027-05-16",
+                    "distances": ["7 km", "12 km", "21 km", "30 km", "42 km", "60 km"]
                 }
             ]
         },
@@ -322,11 +342,16 @@
                     "start_date": "2024-05-20",
                     "end_date": "2024-05-25",
                     "distances": ["13 km", "24 km", "35 km", "50 km", "100 km (3 etapas)", "200 km (5 etapas)"]
+                },
+                {
+                    "start_date": "2027-04-19",
+                    "end_date": "2027-04-24",
+                    "distances": ["10 km", "21 km", "35 km", "50 km", "100 km (3 etapas)"]
                 }
             ]
         },
         {
-            "name": "Raid Columbia",
+            "name": "Raid de Los Andes",
             "discipline": "Trail Running",
             "description": "Carrera de tres etapas.\n\nEtapa 1 - Tren en las nubes\nPartirán desde la estación Chorrillos a 2121 msnm, desde allí el recorrido continúa por la ruta de el Tren a las Nubes disfrutando de un paisaje único, culminando en Campo Quijano.\n\nEtapa 2 - Cerro de los siete colores\nLa segunda etapa del Raid de los Andes comienza en Tumbaya y continúa con un recorrido inmerso en el Cerro de Siete Colores y llegarán a una altura de 2820msnm.\n\nEtapa 3 - Salinas Grandes\nTransitarán por uno de los desiertos de sal más imponentes del mundo. Salinas Grandes con más de 12.000 has. de sal a cielo abierto que encandilan por la vastedad infinita del color blanco.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Raid%20Columbia%2Flogo.jpg",
@@ -348,6 +373,11 @@
                     "start_date": "2024-05-03",
                     "end_date": "2024-05-05",
                     "distances": ["58 km"]
+                },
+                {
+                    "start_date": "2027-05-15",
+                    "end_date": "2027-05-16",
+                    "distances": ["36 km (2 etapas)"]
                 }
             ]
         },
@@ -397,6 +427,11 @@
                     "start_date": "2026-03-06",
                     "end_date": "2026-03-07",
                     "distances": ["6 km", "12 km", "24 km", "42 km", "60 km"]
+                },
+                {
+                    "start_date": "2027-03-05",
+                    "end_date": "2027-03-06",
+                    "distances": ["12 km", "24 km", "42 km", "60 km"]
                 }
             ]
         },
@@ -553,6 +588,11 @@
                     "start_date": "2024-02-22",
                     "end_date": "2024-02-25",
                     "distances": ["80 km", "120 km", "160 km", "200 km"]
+                },
+                {
+                    "start_date": "2027-02-18",
+                    "end_date": "2027-02-21",
+                    "distances": ["40 km", "60 km", "80 km", "120 km", "160 km", "200 km"]
                 }
             ]
         },
@@ -578,6 +618,11 @@
                     "start_date": "2026-05-03",
                     "end_date": "2026-05-03",
                     "distances": ["4 km", "10 km", "21 km", "42 km"]
+                },
+                {
+                    "start_date": "2027-05-02",
+                    "end_date": "2027-05-02",
+                    "distances": ["4 km", "10 km", "21 km", "42 km"]
                 }
             ]
         },
@@ -598,6 +643,11 @@
                     "start_date": "2024-02-24",
                     "end_date": "2024-02-25",
                     "distances": ["80 km", "120 km", "160 km", "200 km"]
+                },
+                {
+                    "start_date": "2027-02-26",
+                    "end_date": "2027-02-28",
+                    "distances": []
                 }
             ]
         },
@@ -648,6 +698,11 @@
                     "start_date": "2026-03-14",
                     "end_date": "2026-03-15",
                     "distances": ["12 km", "27 km", "42 km", "57 km", "80 km", "100 km"]
+                },
+                {
+                    "start_date": "2027-03-13",
+                    "end_date": "2027-03-13",
+                    "distances": ["12 km", "28 km", "42 km", "57 km", "80 km", "100 km"]
                 }
             ]
         },
@@ -667,6 +722,11 @@
                     "start_date": "2024-12-01",
                     "end_date": "2024-12-01",
                     "distances": ["33 km"]
+                },
+                {
+                    "start_date": "2026-12-05",
+                    "end_date": "2026-12-06",
+                    "distances": ["15 km", "33 km"]
                 }
             ]
         },
@@ -687,6 +747,11 @@
                     "start_date": "2024-03-01",
                     "end_date": "2024-03-03",
                     "distances": ["25 km", "50 km", "70 km", "120 km"]
+                },
+                {
+                    "start_date": "2027-02-19",
+                    "end_date": "2027-02-20",
+                    "distances": ["10 km", "25 km", "40 km", "70 km"]
                 }
             ]
         },
@@ -711,6 +776,11 @@
                 {
                     "start_date": "2026-01-09",
                     "end_date": "2026-01-11",
+                    "distances": ["8 km", "15 km", "30 km", "50 km"]
+                },
+                {
+                    "start_date": "2027-01-08",
+                    "end_date": "2027-01-10",
                     "distances": ["8 km", "15 km", "30 km", "50 km"]
                 }
             ]
@@ -895,6 +965,11 @@
                     "start_date": "2026-03-28",
                     "end_date": "2026-03-28",
                     "distances": ["6.5 km", "10 km", "21 km", "42 km", "60 km"]
+                },
+                {
+                    "start_date": "2027-03-20",
+                    "end_date": "2027-03-20",
+                    "distances": ["10 km", "21 km", "45 km", "60 km"]
                 }
             ]
         },
@@ -958,6 +1033,11 @@
                     "start_date": "2026-06-26",
                     "end_date": "2026-06-28",
                     "distances": ["6 km", "11 km", "21 km", "36 km", "51 km", "66 km"]
+                },
+                {
+                    "start_date": "2027-06-04",
+                    "end_date": "2027-06-06",
+                    "distances": ["8 km", "15 km", "26 km", "37 km", "53 km"]
                 }
             ]
         },
@@ -1536,7 +1616,7 @@
             ]
         },
         {
-            "name": "Q Trail Esquel",
+            "name": "Q Trail",
             "discipline": "Trail Running",
             "description": "Es una carrera de montaña que ofrece la oportunidad de disfrutar y experimentar la naturaleza en su máximo esplendor. Bosques, senderos, montañas, árboles nativos, flora y fauna autóctona, cascadas, aguas cristalinas de ríos y lagunas conforman dicho escenario para vivir una aventura diferente e inigualable.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Q%20Trail/logo.jpg",
@@ -1556,7 +1636,7 @@
             ]
         },
         {
-            "name": "Bariloche by UTMB",
+            "name": "Patagonia Bariloche by UTMB",
             "discipline": "Trail Running",
             "description": "Patagonia Bariloche by UTMB te invita a vivir una experiencia inolvidable en el corazón de la región más espectacular de Argentina. Corre entre montañas, bosques y lagos de ensueño, y experimenta la esencia de la aventura y el desafío en un entorno natural sin igual. ¡Prepárate para conquistar la Patagonia!",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Bariloche%20by%20UTMB/logo.jpg",
@@ -1593,6 +1673,770 @@
                     "start_date": "2026-03-18",
                     "end_date": "2026-03-22",
                     "distances": ["12 km", "22 km", "32 km", "50 km", "85 km", "130 km"]
+                }
+            ]
+        },
+        {
+            "name": "9K Independencia",
+            "discipline": "Running",
+            "description": "La largada más celeste y blanca de la historia.",
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/9K%20Independencia/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://9kindependencia.com.ar" },
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/" },
+                { "type": "Instagram", "url": "https://www.instagram.com/sportsfacilities"},
+                { "type": "Facebook", "url": "https://www.facebook.com/Sportsfacilities"}
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-07-09",
+                    "end_date": "2026-07-09",
+                    "distances": ["3 km", "9 km"]
+                }
+            ]
+        },
+        {
+            "name": "Vuelta al Lago Epecuén",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Vuelta%20al%20Lago%20Epecuen/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "http://vueltalagoepecuen.com" },
+                { "type": "Instagram", "url": "https://www.instagram.com/vueltaallagoepecuen" },
+                { "type": "Facebook", "url": "https://www.facebook.com/vueltaallagoepecuen"}
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Villa Epecuén", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-07-12",
+                    "end_date": "2026-07-12",
+                    "distances": ["11 km", "21 km", "2x30K", "60 km"]
+                }
+            ]
+        },
+        {
+            "name": "NB 30K Buenos Aires",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Medio%20Marat%C3%B3n%20de%20Salta%2Flogo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.newbalance.com.ar/30k-buenos-aires-2026/race-series-bsas-30k.html" },
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/" },
+                { "type": "Instagram", "url": "https://www.instagram.com/nb.raceseries"},
+                { "type": "Facebook", "url": "https://www.facebook.com/NB.RaceSeries"}
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Villa Soldati", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-07-19",
+                    "end_date": "2026-07-19",
+                    "distances": ["10 km", "30 km"]
+                }
+            ]
+        },
+        {
+            "name": "NB 15K Buenos Aires",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.newbalance.com.ar/15k-bsas-2026/race-series-15k-bsas-2026.html" },
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/" },
+                { "type": "Instagram", "url": "https://www.instagram.com/nb.raceseries"},
+                { "type": "Facebook", "url": "https://www.facebook.com/NB.RaceSeries"}
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-08-02",
+                    "end_date": "2026-08-02",
+                    "distances": ["15 km"]
+                }
+            ]
+        },
+        {
+            "name": "Carlos Paz Trail Running",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Vuelta%20al%20Lago%20Epecuen/logo.jpg",
+            "links": [
+                { "type": "Web", "url": "https://misiondxt.com/carlos-paz-trail-running-2026/" },
+                { "type": "Instagram", "url": "https://www.instagram.com/carlospaz.trailrunning"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Villa Carlos Paz", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-08-01",
+                    "end_date": "2026-08-02",
+                    "distances": ["8 km", "14 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "Pura Trail",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Pura%20Trail/logo.png",
+            "links": [
+                { "type": "Web", "url": "https://esfuerzodeportivosr.com.ar/puratrail2026" },
+                { "type": "Instagram", "url": "https://www.instagram.com/puratrail" }
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Achiras", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-08-01",
+                    "end_date": "2026-08-02",
+                    "distances": ["7 km", "14 km", "24 km"]
+                }
+            ]
+        },
+        {
+            "name": "OSDE Ultra Trail",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Rio%20Cuarto%20Trail%20Run/logo.png",
+            "links": [
+                { "type": "Web", "url": "https://www.riocuartotrailrun.com.ar/osde-ut" },
+                { "type": "Instagram", "url": "https://www.instagram.com/riocuartotrailrun" },
+                { "type": "Facebook", "url": "https://www.facebook.com/RioCuartoTrailRun"}
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Alpa Corral", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-05",
+                    "end_date": "2026-09-05",
+                    "distances": ["7 km", "15 km", "25 km", "42 km", "60 km"]
+                }
+            ]
+        },
+        {
+            "name": "Circuito de las Estaciones - Invierno",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Circuito%20de%20las%20Estaciones/invierno-logo.png",
+            "links": [
+                { "type": "Web", "url": "https://clubdecorredores.com/" },
+                { "type": "Instagram", "url": "https://www.instagram.com/clubdecorredoresok/" }
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Vicente López", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-06-28",
+                    "end_date": "2026-09-28",
+                    "distances": ["5 km", "10 km"]
+                }
+            ]
+        },
+        {
+            "name": "Circuito de las Estaciones - Primavera",
+            "discipline": "Running",
+            "description": null,
+            "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Circuito%20de%20las%20Estaciones/primavera-logo.png",
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/clubdecorredoresok/" },
+                { "type": "Web", "url": "https://clubdecorredores.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": null, "place": "Costanera Sur"}],
+            "editions": [
+                {
+                    "start_date": "2026-09-06",
+                    "end_date": "2026-09-06",
+                    "distances": ["5 km", "10 km"]
+                }
+            ]
+        },
+        {
+            "name": "Cross de Los Pagos de Areco",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://lagosdebsas.ar/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "San Antonio de Areco", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-06",
+                    "end_date": "2026-09-06",
+                    "distances": ["5 km", "12 km"]
+                }
+            ]
+        },
+
+
+
+        
+        {
+            "name": "Maratón Solidaria Siglo 21",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://misiondxt.com/2026-2/" },
+                { "type": "Web", "url": "https://misiondxt.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Córdoba", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-06",
+                    "end_date": "2026-09-06",
+                    "distances": ["2 km", "5 km", "10 km"]
+                }
+            ]
+        },
+        {
+            "name": "NB All Terrain Tandil",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/p/DYNZjNCCQwc/" },
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Tandil", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-06",
+                    "end_date": "2026-09-06",
+                    "distances": ["10 km", "20 km", "30 km"]
+                }
+            ]
+        },
+        {
+            "name": "ASICS K21 Villa Pehuenia",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/kseriesarg/" },
+                { "type": "Web", "url": "https://www.patagoniaeventos.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "Villa Pehuenia", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-06",
+                    "end_date": "2026-09-06",
+                    "distances": ["10 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "UTN Corre",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://misiondxt.com/2026-2/" },
+                { "type": "Web", "url": "https://misiondxt.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Villa María", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-13",
+                    "end_date": "2026-09-13",
+                    "distances": ["2 km", "5 km", "10 km", "15 km"]
+                }
+            ]
+        },
+        {
+            "name": "ASI Run",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://asi.com.ar/run2026/" },
+                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+            ],
+            "place": null,
+            "places": [{"province": "Entre Ríos", "locality": "Caseros", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-13",
+                    "end_date": "2026-09-13",
+                    "distances": ["1 km", "3 km", "10 km"]
+                }
+            ]
+        },
+        {
+            "name": "Arredondo Trail Race",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/arredondo.trailrace/" },
+                { "type": "Web", "url": "https://www.instagram.com/aventuraxcba/" }
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "San Antonio de Arredondo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-20",
+                    "end_date": "2026-09-20",
+                    "distances": ["6 km", "12 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "EcoTrail Chascomús",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://ecotrail.run/index/" },
+                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Chascomús", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-27",
+                    "end_date": "2026-09-27",
+                    "distances": ["5 km", "10 km", "16 km", "23 km"]
+                }
+            ]
+        },
+        {
+            "name": "Anime Run",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/iloverunn/" },
+                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Vicente Lopez", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-27",
+                    "end_date": "2026-09-27",
+                    "distances": ["3 km", "7 km"]
+                }
+            ]
+        },
+        {
+            "name": "Natural Race",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.naturalrace.com.ar/" }
+            ],
+            "place": null,
+            "places": [{"province": "Mendoza", "locality": "Mendoza", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-09-27",
+                    "end_date": "2026-09-27",
+                    "distances": []
+                }
+            ]
+        },
+        {
+            "name": "Ultra Trail Amanecer Comechingón",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.utacchultratrail.com/utacch-2026/" },
+                { "type": "Web", "url": "https://mountainrace.com.ar/" }
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Villa Yacanto", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-09",
+                    "end_date": "2026-10-09",
+                    "distances": ["15 km", "26 km", "38 km", "55 km", "100 km", "100 mi"]
+                }
+            ]
+        },
+        {
+            "name": "Ultra Trail Tierras del Diablo",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.grupohets.org/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Balcarce", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-11",
+                    "end_date": "2026-10-11",
+                    "distances": ["10 km", "25 km", "50 km"]
+                }
+            ]
+        },
+        {
+            "name": "Cumbre del Currumahuida",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/cumbredelcurrumahuida/" }
+            ],
+            "place": null,
+            "places": [{"province": "Chubut", "locality": "Lago Puelo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-11",
+                    "end_date": "2026-10-11",
+                    "distances": ["5 km", "10 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "Docta Corre de Noche",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://misiondxt.com/2026-2/" },
+                { "type": "Web", "url": "https://misiondxt.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Docta", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-17",
+                    "end_date": "2026-10-17",
+                    "distances": ["5 km", "10 km", "15 km"]
+                }
+            ]
+        },
+        {
+            "name": "Saucony Baires 15K",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/clubdecorredoresok/" },
+                { "type": "Web", "url": "https://clubdecorredores.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-18",
+                    "end_date": "2026-10-18",
+                    "distances": ["5 km", "15 km"]
+                }
+            ]
+        },
+        {
+            "name": "Cross Bajo las Estrellas",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://lagosdebsas.ar/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Luján", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-24",
+                    "end_date": "2026-10-24",
+                    "distances": []
+                }
+            ]
+        },
+        {
+            "name": "Puma 10K San Isidro",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/carrerasmaratonesnandu/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "San Isidro", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-25",
+                    "end_date": "2026-10-25",
+                    "distances": ["10 km"]
+                }
+            ]
+        },
+        {
+            "name": "McDonald's Run - Mixta",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://clubdecorredores.com/carreras/521/McDonalds-RUN/" },
+                { "type": "Web", "url": "https://clubdecorredores.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Vicente Lopez", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-25",
+                    "end_date": "2026-10-25",
+                    "distances": ["5 km", "10 km"]
+                }
+            ]
+        },
+        {
+            "name": "XTrail Series - Pumanku",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://pumanku.xtrail.run/" },
+                { "type": "Web", "url": "https://xtrailamerica.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Córdoba", "locality": "Villa de Soto", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-10-25",
+                    "end_date": "2026-10-25",
+                    "distances": ["8 km", "17 km", "31 km"]
+                }
+            ]
+        },
+        {
+            "name": "Hoka Run",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://clubdecorredores.com/carreras/523/Hoka/" },
+                { "type": "Web", "url": "https://clubdecorredores.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-01",
+                    "end_date": "2026-11-01",
+                    "distances": ["5 km", "10 km"]
+                }
+            ]
+        },
+        {
+            "name": "EcoTrail Festival",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://ecotrail.run/index/" },
+                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Castelli", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-08",
+                    "end_date": "2026-11-08",
+                    "distances": ["7 km", "16 km"]
+                }
+            ]
+        },
+        {
+            "name": "NB Media Maratón de Mar del Plata",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.newbalance.com.ar/21k-mar-de-plata-2026/race-series-mdp-21k.html?" },
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Mar del Plata", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-08",
+                    "end_date": "2026-11-08",
+                    "distances": ["5 km", "10 km", "21 km"]
+                }
+            ]
+        },
+        {
+            "name": "Calvario Race Moquehue",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://calvariorace.com.ar/" },
+                { "type": "Web", "url": "https://nyctrek.com.ar/" }
+            ],
+            "place": null,
+            "places": [{"province": "Neuquén", "locality": "Moquehue", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-21",
+                    "end_date": "2026-11-22",
+                    "distances": ["15 km", "25 km", "45 km"]
+                }
+            ]
+        },
+        {
+            "name": "NB Milla Urbana",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://www.newbalance.com.ar/milla-urbana-2026/race-series-milla-urbana.html" },
+                { "type": "Web", "url": "https://sportsfacilities.com.ar/" }
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "San Nicolás", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-21",
+                    "end_date": "2026-11-21",
+                    "distances": ["0.8 km", "1 mi"]
+                }
+            ]
+        },
+        {
+            "name": "Carrera Verde",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/iloverunn/" },
+                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-22",
+                    "end_date": "2026-11-22",
+                    "distances": ["3 km", "7 km", "15 km"]
+                }
+            ]
+        },
+        {
+            "name": "Ushuaia EPIC - Trail Running",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://ushuaiaepic.com.ar/la-carrera/" },
+                { "type": "Web", "url": "https://www.instagram.com/elfuegodeportivoeventos/" }
+            ],
+            "place": null,
+            "places": [{"province": "Tierra del Fuego", "locality": "Ushuaia", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-22",
+                    "end_date": "2026-11-22",
+                    "distances": ["16 km"]
+                }
+            ]
+        },
+        {
+            "name": "Desafío Pittamiglio",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/grupo_mil_horizontes/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Las Flores", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-22",
+                    "end_date": "2026-11-22",
+                    "distances": []
+                }
+            ]
+        },
+        {
+            "name": "Adidas 10K Night Run",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/carrerasmaratonesnandu/" }
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Puerto Madero", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-11-28",
+                    "end_date": "2026-11-28",
+                    "distances": ["10 km"]
+                }
+            ]
+        },
+        {
+            "name": "Desafío Wayra",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://ticketsati.com/event/desafio_wayra" },
+                { "type": "Web", "url": "https://www.instagram.com/wayrasporttiming/" }
+            ],
+            "place": null,
+            "places": [{"province": "Chubut", "locality": "Lago Puelo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-12-12",
+                    "end_date": "2026-12-13",
+                    "distances": ["8 km", "15 km", "25 km", "35 km", "50 km"]
+                }
+            ]
+        },
+        {
+            "name": "Circuito de las Estaciones - Verano",
+            "discipline": "Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Instagram", "url": "https://www.instagram.com/clubdecorredoresok/" },
+                { "type": "Web", "url": "https://clubdecorredores.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Ciudad de Buenos Aires", "locality": "Palermo", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2026-12-20",
+                    "end_date": "2026-12-20",
+                    "distances": ["5 km", "10 km"]
+                }
+            ]
+        },
+        {
+            "name": "Adventure Race Tandil",
+            "discipline": "Trail Running",
+            "description": null,
+            "image": null,
+            "links": [
+                { "type": "Web", "url": "https://adventurerace.com.ar/" },
+                { "type": "Web", "url": "https://clubdecorredores.com/" }
+            ],
+            "place": null,
+            "places": [{"province": "Buenos Aires", "locality": "Tandil", "place": null}],
+            "editions": [
+                {
+                    "start_date": "2027-03-14",
+                    "end_date": "2027-03-14",
+                    "distances": ["8 km", "15 km", "27 km"]
                 }
             ]
         },
