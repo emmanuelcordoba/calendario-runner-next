@@ -41,7 +41,10 @@ async function seed() {
             place: string | null;
             links: { type: string; url: string }[];
             places: { province: string; locality: string | null; place: string | null }[];
-            editions: { start_date: string; end_date: string; distances: string[] }[];
+            // `published` es opcional y por defecto true: solo se escribe en el
+            // JSON para ocultar del sitio una carrera o edición sin borrarla.
+            published?: boolean;
+            editions: { start_date: string; end_date: string; distances: string[]; published?: boolean }[];
         }[];
     };
 
@@ -104,7 +107,7 @@ async function seed() {
                 disciplineId,
                 description: raceData.description || null,
                 image: raceData.image || null,
-                published: true,
+                published: raceData.published !== false,
             })
             .returning({ id: races.id });
 
@@ -116,7 +119,7 @@ async function seed() {
                 startDate: ed.start_date,
                 endDate: ed.end_date,
                 distances: JSON.stringify(ed.distances),
-                published: true,
+                published: ed.published !== false && raceData.published !== false,
             });
         }
 

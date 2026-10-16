@@ -204,11 +204,6 @@
                     "start_date": "2024-09-14",
                     "end_date": "2024-09-15",
                     "distances": ["7 km", "14 km", "21 km", "45 km"]
-                },
-                {
-                    "start_date": "2026-09-14",
-                    "end_date": "2026-09-15",
-                    "distances": ["7 km", "14 km", "21 km", "45 km"]
                 }
             ]
         },
@@ -821,6 +816,7 @@
         },
         {
             "name": "Epic Patagonia",
+            "published": false,
             "discipline": "Trail Running",
             "description": "EPIC recorre puntos icónicos de Villa La Angostura que incluyen el Cerro O´Connor y el Cerro Bayo con sus exigentes ascensos y descensos, filos increíbles y vistas únicas.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Epic%20Patagonia%2Flogo.jpg",
@@ -835,11 +831,6 @@
                 {
                     "start_date": "2024-02-17",
                     "end_date": "2024-02-18",
-                    "distances": ["10 km", "21 km", "35 km", "50 km", "70 km"]
-                },
-                {
-                    "start_date": "2026-02-17",
-                    "end_date": "2026-02-18",
                     "distances": ["10 km", "21 km", "35 km", "50 km", "70 km"]
                 }
             ]
