@@ -64,7 +64,7 @@
             "description": "Considerado una de las carreras de Trail Running más importantes de la región y una de las más relevantes del país.\nLa gran variedad de distancias y categorías, incluidas las categorías kids para los más pequeños, hace de este un evento para toda la familia, logrando que cada año el número de inscriptos sea mayor.\nEn la edición 2022 dimos comienzo a una nueva distancia de ultra trail, los 100km, también un hermoso circuito de 70km y 42km en categoría Pro, y las clásicas distancias 24km,18 km,10km y 5km.\nParticipantes de todo el continente llegan a la provincia a tratar de desafiarse en una competencia con todos los condimentos que tatúa el sello de la montaña no solo en tus piernas si no en tu corazón.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Desaf%C3%ADo%20Punta%20Negra%2Flogo.png",
             "links": [
-                { "type": "Web", "url": "https://www.desafiopuntanegra.com.ar"},
+                { "type": "Web", "url": "https://desafiopuntanegra.com"},
                 { "type": "Instagram", "url": "https://www.instagram.com/desafiopuntanegra"},
                 { "type": "Facebook", "url": "https://www.facebook.com/desafiopuntanegrasanjuan"}
             ],
@@ -1046,7 +1046,7 @@
             "description": null,
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Medio%20Marat%C3%B3n%20de%20Salta%2Flogo.png",
             "links": [
-                { "type": "Web", "url": "https://raceseries.newbalance.com.ar/2024/21k-salta"}
+                { "type": "Web", "url": "https://prensa.municipalidadsalta.gob.ar/tag/medio-maraton-new-balance"}
             ],
             "place": null,
             "places": [{"province": "Salta", "locality": "Salta", "place": null}],
@@ -1127,7 +1127,6 @@
             "description": "",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Marat%C3%B3n%20Posadas%2Flogo.jpg",
             "links": [
-                { "type": "Web", "url": "https://maratonposadas.tierrarojasoft.com"},
                 { "type": "Instagram", "url": "https://www.instagram.com/maratonposadas"},
                 { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=61559134202609"}
             ],
@@ -1661,7 +1660,6 @@
             "description": "Ushuaia by UTMB se embarca hacia el fin del mundo en USHUAIA, en la magia del final de la Patagonia austral, en el extremo sur de la Argentina, el fin del mundo o como la llaman algunos: el principio de todo. Un evento con personalidad, con ADN PROPIO, que mantendrá su esencia de evento vibrante y desafío épico. ¿Estás preparado para vivir la experiencia Ushuaia by UTMB?",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Ushuaia%20by%20UTMB/logo.jpg",
             "links": [
-                { "type": "Web", "url": "https://ushuaia.utmb.world"},
                 { "type": "Instagram", "url": "https://www.instagram.com/ushuaia.byutmb"},
                 { "type": "Facebook", "url": "https://www.facebook.com/UshuaiabyUTMB"}
             ],
@@ -1782,7 +1780,6 @@
             "description": null,
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Pura%20Trail/logo.png",
             "links": [
-                { "type": "Web", "url": "https://esfuerzodeportivosr.com.ar/puratrail2026" },
                 { "type": "Instagram", "url": "https://www.instagram.com/puratrail" }
             ],
             "place": null,
@@ -1957,8 +1954,7 @@
             "description": null,
             "image": null,
             "links": [
-                { "type": "Web", "url": "https://asi.com.ar/run2026/" },
-                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+                { "type": "Web", "url": "https://asi.com.ar/run2026/" }
             ],
             "place": null,
             "places": [{"province": "Buenos Aires", "locality": "Caseros", "place": null}],
@@ -1995,8 +1991,7 @@
             "description": null,
             "image": null,
             "links": [
-                { "type": "Web", "url": "https://ecotrail.run/index/" },
-                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+                { "type": "Web", "url": "https://iloverunn.com/carrera/ecotrail-laguna/" }
             ],
             "place": null,
             "places": [{"province": "Buenos Aires", "locality": "Chascomús", "place": null}],
@@ -2014,8 +2009,7 @@
             "description": null,
             "image": null,
             "links": [
-                { "type": "Instagram", "url": "https://www.instagram.com/iloverunn/" },
-                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+                { "type": "Instagram", "url": "https://www.instagram.com/iloverunn/" }
             ],
             "place": null,
             "places": [{"province": "Buenos Aires", "locality": "Vicente López", "place": null}],
@@ -2237,8 +2231,7 @@
             "description": null,
             "image": null,
             "links": [
-                { "type": "Web", "url": "https://ecotrail.run/index/" },
-                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+                { "type": "Web", "url": "https://eventols.com/p/ecotrail-castelli" }
             ],
             "place": null,
             "places": [{"province": "Buenos Aires", "locality": "Castelli", "place": null}],
@@ -2312,7 +2305,7 @@
             "image": null,
             "links": [
                 { "type": "Instagram", "url": "https://www.instagram.com/iloverunn/" },
-                { "type": "Web", "url": "https://iloverunn.com/2024/index-3/" }
+                { "type": "Web", "url": "https://iloverunn.com/carrera/carrera-verde/" }
             ],
             "place": null,
             "places": [{"province": "Ciudad Autónoma de Buenos Aires", "locality": "Palermo", "place": null}],
