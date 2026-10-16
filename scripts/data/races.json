@@ -10,7 +10,7 @@
             "description": null,
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Cayafate%20Trail%2Flogo.png",
             "links": [
-                { "type": "Web", "url": "https://www.cronobottiming.com/cafayate-trail-4ta-edicion"},
+                { "type": "Web", "url": "https://www.cronobottiming.com/cafayate-trail-2026"},
                 { "type": "Instagram", "url": "https://www.instagram.com/cafayate_trail"}
             ],
             "place": null,
@@ -267,7 +267,7 @@
             "description": null,
             "image": null,
             "links": [
-                { "type": "Web", "url": "https://www.ecoatletas.com.ar"}
+                { "type": "Web", "url": "https://www.ecoatletas.com"}
             ],
             "place": null,
             "places": [{"province": "Tucumán", "locality": "Tafí del Valle", "place": null}],
@@ -303,7 +303,7 @@
             "description": "La carrera más épica de Argentina\n\nUn gran desafío para los corredores donde experimentarán las más diversas sensaciones mezcladas con la calidez de nuestra gente. Valhöll corre casi exclusivamente a través de senderos de montaña que permitirán a los corredores cruzar cerros en contacto con las cumbres más hermosas, en un contexto verdaderamente único. Estamos listos para recibirte y sorprenderte con un evento de categoría en un lugar tan diverso como encantador.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Valh%C3%B6ll%2Flogo.jpg",
             "links": [
-                { "type": "Web", "url": "https://valholl.utmb.world"},
+                { "type": "Web", "url": "https://valholl-ultratrail.com"},
                 { "type": "Instagram", "url": "https://www.instagram.com/argentinabyutmb"}
             ],
             "place": null,
@@ -576,7 +576,7 @@
             "description": "Hombres y mujeres, peregrinos de una aventura, enfrentan con coraje y determinación una larga travesía en forma 100% autosuficiente, caminando noches y días enteros, en pleno contacto con la naturaleza, en un entorno montañoso, aceptando los caprichos del clima y superando los obstáculos naturales que solo un recorrido salvaje como el de La Misión puede ofrecer... No es una carrera.... no es un Ultra Trail.... es La Misión.... una experiencia de vida.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/La%20Misi%C3%B3n%20Race%2Flogo.jpg",
             "links": [
-                { "type": "Web", "url": "https://lamisionrace.com"},
+                { "type": "Web", "url": "https://main.lamisionrace.com.ar/"},
                 { "type": "Instagram", "url": "https://www.instagram.com/tafitrail"},
                 { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100068527321292"}
             ],
@@ -854,7 +854,7 @@
             "description": "En el corazón de Cafayate, nace Qhapañanan, más que una carrera de trail running, es una experiencia que fusiona la pasión por el deporte con la riqueza cultural y la belleza natural de nuestra región.\n\nCon una trayectoria sólida desde 2021, nos enorgullece ser un faro de energía, exploración y comunidad porque creemos que el trail running es mucho más que recorrer kilómetros, es una conexión profunda con la cultura local y los impresionantes paisajes que nos rodean.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Qhapaq%C3%B1an%2Flogo.png",
             "links": [
-                { "type": "Web", "url": "https://trailrunningcafayate.com"},
+                { "type": "Web", "url": "https://trailrunningcafayate.com.ar"},
                 { "type": "Instagram", "url": "https://www.instagram.com/trailrunning.cafayate"}
             ],
             "place": null,
