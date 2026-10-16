@@ -11,10 +11,12 @@
     "db:studio": "drizzle-kit studio",
     "migrate": "tsx scripts/migrate-from-mysql.ts",
     "seed": "tsx scripts/seed.ts",
-    "db:reset": "tsx scripts/reset-db.ts && pnpm db:push && pnpm seed",
+    "db:reset": "tsx scripts/reset-db.ts && pnpm seed",
+    "db:reset:all": "tsx scripts/reset-db.ts --all && pnpm db:push && pnpm seed",
     "db:push:prod": "dotenv -e .env.production.local -- drizzle-kit push",
     "db:seed:prod": "dotenv -e .env.production.local -- tsx scripts/seed.ts",
-    "db:reset:prod": "dotenv -e .env.production.local -- tsx scripts/reset-db.ts && pnpm db:push:prod && pnpm db:seed:prod"
+    "db:reset:prod": "dotenv -e .env.production.local -- tsx scripts/reset-db.ts && pnpm db:seed:prod",
+    "db:reset:all:prod": "dotenv -e .env.production.local -- tsx scripts/reset-db.ts --all && pnpm db:push:prod && pnpm db:seed:prod"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",

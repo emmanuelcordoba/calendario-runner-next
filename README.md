@@ -52,11 +52,7 @@ pnpm db:push   # crea las tablas en local.db
 pnpm seed      # carga provincias, disciplinas, carreras y ediciones
 ```
 
-O en un solo comando:
-
-```bash
-pnpm db:reset
-```
+Estos dos son para la primera vez, con la base vacía. Una vez que las tablas existen, para recargar los datos alcanza con `pnpm db:reset` (ver [Resetear la base de datos](#resetear-la-base-de-datos)).
 
 ### 4. Levantar el servidor de desarrollo
 
@@ -81,18 +77,20 @@ pnpm start      # Iniciar servidor de producción
 ### Base de datos (local)
 
 ```bash
-pnpm db:push    # Aplicar el schema (crea las tablas si no existen)
-pnpm db:studio  # Abrir Drizzle Studio (UI visual de la base)
-pnpm seed       # Cargar datos desde scripts/data/*.json
-pnpm db:reset   # ⚠ Resetear todo: borra local.db, recrea tablas y carga el seed
+pnpm db:push      # Aplicar el schema (solo en una base vacía, ver más abajo)
+pnpm db:studio    # Abrir Drizzle Studio (UI visual de la base)
+pnpm seed         # Cargar datos desde scripts/data/*.json
+pnpm db:reset     # Recargar el catálogo desde los JSON (conserva las cuentas)
+pnpm db:reset:all # ⚠ Borra TODO, cuentas incluidas
 ```
 
 ### Base de datos (producción)
 
 ```bash
-pnpm db:push:prod   # Aplicar el schema en Turso producción
-pnpm db:seed:prod   # Cargar datos en producción
-pnpm db:reset:prod  # ⚠ Resetear producción completo
+pnpm db:push:prod       # Aplicar el schema en Turso producción
+pnpm db:seed:prod       # Cargar datos en producción
+pnpm db:reset:prod      # Recargar el catálogo en producción (conserva las cuentas)
+pnpm db:reset:all:prod  # ⚠ Borra TODO en producción, cuentas incluidas
 ```
 
 > Estos comandos leen las credenciales desde `.env.production.local` (ver abajo).
@@ -115,16 +113,29 @@ Estos archivos se commitean al repo. Para agregar o editar carreras, modificá l
 
 ## Resetear la base de datos
 
-Para empezar desde cero — útil cuando cambiás el schema o editás los datos de seed:
+Lo habitual, después de editar los JSON de `scripts/data/`:
 
 ```bash
 pnpm db:reset
 ```
 
 Esto hace en orden:
-1. Borra `local.db` (y archivos WAL si existen)
-2. Recrea todas las tablas con `pnpm db:push`
-3. Carga los datos con `pnpm seed`
+1. **Vacía** las tablas del catálogo: provincias, localidades, disciplinas, carreras, ediciones, lugares y links
+2. Carga los datos con `pnpm seed`
+
+**Las cuentas no se tocan.** `users` y `password_reset_tokens` quedan intactas, así que no perdés el acceso a `/admin`. El script avisa cuántos usuarios y admins conservó.
+
+### Por qué no corre `db:push`
+
+Las tablas se vacían en vez de borrarse, así que el schema ya está y no hay nada que aplicar. Además `drizzle-kit push` hoy **falla sobre una base que ya tiene los índices unique**: vuelve a emitir el `CREATE UNIQUE INDEX` de `races_slug_unique` y corta con `index already exists`. Solo funciona sobre una base vacía.
+
+Por eso, **si cambiás el schema** (`lib/db/schema.ts`), el camino es:
+
+```bash
+pnpm db:reset:all   # borra TODO, corre db:push y siembra
+```
+
+Eso sí borra las cuentas: después hay que volver a crear el admin (ver abajo).
 
 ---
 
@@ -232,9 +243,10 @@ TURSO_AUTH_TOKEN=tu-token-de-produccion
 Luego ejecutá contra producción desde tu máquina:
 
 ```bash
-pnpm db:push:prod   # aplica el schema en la DB de producción
-pnpm db:seed:prod   # carga los datos en producción
-pnpm db:reset:prod  # ⚠ resetea producción completo
+pnpm db:push:prod       # aplica el schema (solo en una base vacía)
+pnpm db:seed:prod       # carga los datos en producción
+pnpm db:reset:prod      # recarga el catálogo, conservando las cuentas
+pnpm db:reset:all:prod  # ⚠ borra TODO en producción, cuentas incluidas
 ```
 
 Vercel detecta automáticamente que el proyecto usa `pnpm` por el `pnpm-lock.yaml`.
