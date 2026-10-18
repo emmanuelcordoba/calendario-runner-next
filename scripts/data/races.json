@@ -387,8 +387,6 @@
             ],
             "place": "Salta - Jujuy",
             "places": [
-                {"province": "Salta", "locality": null, "place": "Chorrillos"},
-                {"province": "Salta", "locality": "Campo Quijano", "place": null},
                 {"province": "Jujuy", "locality": "Tumbaya", "place": null},
                 {"province": "Jujuy", "locality": "Purmamarca", "place": null},
                 {"province": "Jujuy", "locality": null, "place": "Salinas Grandes"}
@@ -427,7 +425,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/profile.php?id=100083266366025"}
             ],
             "place": null,
-            "places": [{"province": "Neuquén", "locality": "San Martín de los Andes", "place": null}],
+            "places": [{"province": "Río Negro", "locality": "San Carlos de Bariloche", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-12-01",
@@ -770,7 +768,7 @@
                 { "type": "Instagram", "url": "https://www.instagram.com/laetapaok"}
             ],
             "place": null,
-            "places": [{"province": "Neuquén", "locality": "San Martín de los Andes", "place": null}],
+            "places": [{"province": "Río Negro", "locality": "San Carlos de Bariloche", "place": null}],
             "editions": [
                 {
                     "start_date": "2024-12-01",
@@ -1034,7 +1032,7 @@
                 { "type": "Facebook", "url": "https://www.facebook.com/runaltascumbres"}
             ],
             "place": null,
-            "places": [{"province": "Córdoba", "locality": "Mina Clavero", "place": null}],
+            "places": [{"province": "Córdoba", "locality": "Villa Cura Brochero", "place": null}],
             "editions": [
                 {
                     "start_date": "2025-03-22",
