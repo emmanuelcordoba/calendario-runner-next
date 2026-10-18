@@ -6,7 +6,9 @@ export default auth((req) => {
     const isLoggedIn = !!session;
     const isAdmin = (session?.user as { isAdmin?: boolean })?.isAdmin ?? false;
 
-    if (nextUrl.pathname.startsWith('/admin')) {
+    // /placa vive fuera de /admin para no heredar el layout del panel, pero es
+    // una herramienta interna igual: se protege acá y además en la propia página.
+    if (nextUrl.pathname.startsWith('/admin') || nextUrl.pathname.startsWith('/placa')) {
         if (!isLoggedIn || !isAdmin) {
             return NextResponse.redirect(new URL('/login', nextUrl));
         }
@@ -22,5 +24,5 @@ export default auth((req) => {
 });
 
 export const config = {
-    matcher: ['/admin/:path*', '/perfil/:path*'],
+    matcher: ['/admin/:path*', '/placa/:path*', '/perfil/:path*'],
 };

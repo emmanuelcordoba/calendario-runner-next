@@ -8,6 +8,7 @@ import { logoutAction } from '@/actions/auth';
 
 const navItems = [
     { href: '/admin', label: 'Dashboard' },
+    { href: '/admin/proximas', label: 'Próximas carreras' },
     { href: '/admin/carreras', label: 'Carreras' },
     { href: '/admin/localidades', label: 'Localidades' },
     { href: '/admin/usuarios', label: 'Usuarios' },
