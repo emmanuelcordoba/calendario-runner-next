@@ -21,6 +21,43 @@ export function esFormato(v: string | undefined): v is FormatoId {
     return !!v && v in FORMATOS;
 }
 
+/**
+ * Los colores de la placa, literales y en un solo lugar.
+ *
+ * No son los tokens del tema del sitio a propósito: la placa se publica como
+ * imagen y tiene que verse igual con el sitio en claro o en oscuro. Y como el
+ * preview no puede armar clases de Tailwind desde una variable, los dos
+ * caminos las aplican con `style`, así no hay forma de que se desincronicen.
+ *
+ * Sobre el fondo oscuro, `marca` no puede ser el borgoña de la paleta: #73030D
+ * da 1.6:1 y el vino #732F3B da 2.0:1, ilegibles. #D76961 mantiene el matiz
+ * del borgoña, más claro, y da 5.6:1.
+ */
+export const TEMAS = {
+    claro: {
+        nombre: 'Claro',
+        fondo: '#F2F2F2',
+        tinta: '#0D0D0D',
+        marca: '#73030D',
+        suave: '#595959', // 6.3:1 sobre el fondo
+        tenue: '#8C8C8C',
+    },
+    oscuro: {
+        nombre: 'Oscuro',
+        fondo: '#0D0D0D',
+        tinta: '#F2F2F2',
+        marca: '#D76961', // 5.6:1 sobre el fondo
+        suave: '#8C8C8C', // 5.8:1 sobre el fondo
+        tenue: '#8C8C8C',
+    },
+} as const;
+
+export type TemaId = keyof typeof TEMAS;
+
+export function esTema(v: string | undefined): v is TemaId {
+    return !!v && v in TEMAS;
+}
+
 const DIAS = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
 const DIAS_CORTO = ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB'];
 const MESES = [

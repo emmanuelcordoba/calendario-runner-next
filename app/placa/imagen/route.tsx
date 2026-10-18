@@ -4,9 +4,12 @@ import { getUpcomingEditions } from '@/lib/queries/editions';
 import {
     FORMATOS,
     type FormatoId,
+    TEMAS,
+    type TemaId,
     agruparPorFecha,
     contarCarreras,
     esFormato,
+    esTema,
     nombreDiaCorto,
     numeroDia,
     quincenaPorDefecto,
@@ -16,8 +19,6 @@ import {
 export const dynamic = 'force-dynamic';
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
-const LIMA = '#a3e635';
-const GRIS = '#a3a3a3';
 
 export async function GET(request: Request) {
     if (!(await verifyAdmin())) {
@@ -32,6 +33,9 @@ export async function GET(request: Request) {
     const to = ISO.test(toRaw) && toRaw >= from ? toRaw : defTo;
     const formatoRaw = url.searchParams.get('formato') ?? undefined;
     const formato: FormatoId = esFormato(formatoRaw) ? formatoRaw : 'feed';
+    const temaRaw = url.searchParams.get('tema') ?? undefined;
+    const tema: TemaId = esTema(temaRaw) ? temaRaw : 'claro';
+    const { fondo: FONDO, tinta: TINTA, marca: MARCA, suave: GRIS, tenue: GRIS_SUAVE } = TEMAS[tema];
 
     const { ancho, alto } = FORMATOS[formato];
     const dias = agruparPorFecha(await getUpcomingEditions({ from, to }));
@@ -49,8 +53,8 @@ export async function GET(request: Request) {
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'space-between',
-                    backgroundColor: '#0a0a0a',
-                    color: '#ffffff',
+                    backgroundColor: FONDO,
+                    color: TINTA,
                     padding: '56px 64px',
                 }}
             >
@@ -60,7 +64,7 @@ export async function GET(request: Request) {
                             fontSize: 30,
                             fontWeight: 600,
                             letterSpacing: 6,
-                            color: LIMA,
+                            color: MARCA,
                             textTransform: 'uppercase',
                         }}
                     >
@@ -69,7 +73,7 @@ export async function GET(request: Request) {
                     <div style={{ fontSize: 48, fontWeight: 700, marginTop: 12 }}>
                         {rangoLegible(from, to)}
                     </div>
-                    <div style={{ width: 112, height: 4, backgroundColor: LIMA, marginTop: 24 }} />
+                    <div style={{ width: 112, height: 4, backgroundColor: MARCA, marginTop: 24 }} />
                 </div>
 
                 <div
@@ -97,7 +101,7 @@ export async function GET(request: Request) {
                                     fontSize: 24,
                                     fontWeight: 700,
                                     letterSpacing: 3,
-                                    color: LIMA,
+                                    color: MARCA,
                                 }}
                             >
                                 {`${nombreDiaCorto(dia.fecha)} ${numeroDia(dia.fecha)}`}
@@ -142,20 +146,20 @@ export async function GET(request: Request) {
                     ))}
 
                     {total === 0 && (
-                        <div style={{ fontSize: 30, color: '#737373' }}>
+                        <div style={{ fontSize: 30, color: GRIS_SUAVE }}>
                             No hay carreras publicadas en este período.
                         </div>
                     )}
                 </div>
 
-                <div style={{ fontSize: 24, color: '#737373' }}>calendariorunner.com.ar</div>
+                <div style={{ fontSize: 24, color: GRIS_SUAVE }}>calendariorunner.com.ar</div>
             </div>
         ),
         {
             width: ancho,
             height: alto,
             headers: {
-                'Content-Disposition': `attachment; filename="carreras-${from}-al-${to}.png"`,
+                'Content-Disposition': `attachment; filename="carreras-${from}-al-${to}-${formato}-${tema}.png"`,
                 'Cache-Control': 'no-store',
             },
         },
