@@ -109,6 +109,27 @@ scripts/data/
 
 Estos archivos se commitean al repo. Para agregar o editar carreras, modificá los JSONs y corré `pnpm db:reset`.
 
+Hoy: **113 carreras, 192 ediciones, 252 links, 143 localidades**. Una carrera con el nombre vacío queda como placeholder y el seed la saltea.
+
+El campo `published` es opcional en las carreras y en las ediciones, y por defecto es `true`. Se escribe solo para **ocultar algo del sitio sin borrarlo**; despublicar una carrera despublica sus ediciones.
+
+El array `places` cuelga de la **carrera**, no de la edición: un cambio de sede entre ediciones es raro, y lo que se publica es el lugar de llegada o donde se concentra el evento, no necesariamente la largada.
+
+### Huecos conocidos en los datos
+
+En octubre de 2026 se relevaron las 113 carreras contra sus fuentes oficiales y se volcó todo lo verificable. Esto es lo que quedó sin resolver:
+
+- **Instagram y Facebook sin verificar.** 86 carreras tienen Instagram y ninguna de esas cuentas se pudo revisar: requieren sesión. No se resuelve con búsqueda web — hay que mirarlas a mano.
+- **Seis carreras sin señales de vida recientes**, que se dejaron publicadas a propósito porque "no encontré nada" no es prueba de que dejaron de hacerse: Anime Run, Cross de Los Pagos de Areco, Maratón de Formosa, Tilcara Trail, y sobre todo **La Caldera Team Trail** (última edición nov-2024) y **Maratón Independencia** (jul-2024). Epic Patagonia sí se despublicó: su dominio rechaza la conexión.
+- **Siete ediciones sin distancias** (`[]`), con la fecha confirmada y las distancias sin publicar: Fiambalá 2025 y 2026, Raid de Los Andes 2025, Las Vallas 2026, Cruce Calchaquí 2026, 4 Refugios 2027 y Desafío Punta Negra 2027.
+- **Dos fechas flojas**: Ushuaia Epic Trail tiene `2026-11-22` sin respaldo (el evento fue del 20 al 22 y ninguna fuente dice qué día corrió el trail), y Maratón del Fin del Mundo tiene `2026-04-20`, que cayó lunes.
+- **Nombres con sponsor** sin alinear, varios con el año adentro ("NB 21K La Plata 2026"). Se dejaron como están: el `name` es de la carrera, no de la edición, y el slug se deriva de él, así que seguirle el sponsor cada año rompe URLs.
+- **Cinco grafías del kilómetro vertical**: `PRVertical`, `KV`, `KMV`, `Km Vertical` y `Vertical`, cada una tomada de la fuente de su carrera.
+- **Cinco carreras detectadas que no están en el JSON**: JUJUY Fuerza Sagrada by UTMB, Los 4 Elementos, Circuito de las Estaciones VERANO (20-dic-2026, Palermo), Carlos Paz Night Trail y Media Maratón Ciudad de Carlos Paz.
+- **Tres sitios oficiales devuelven 403 a clientes automatizados** y funcionan en navegador: `elcruce.com.ar`, `laetapa.com.ar` y `ultraalpina.com`. No están caídos.
+
+Dos cosas a tener en cuenta al verificar links: hubo dos dominios de carreras de Ushuaia (`ushuaiarun.com` y `ushuaiabyutmb.com`) que fueron tomados por sitios de apuestas, así que un `200` no alcanza — hay que mirar a dónde termina el redirect. Y algunas ediciones viejas se habían generado cambiándole el año a la fila anterior: si una fecha de fin de semana cae en día hábil, conviene desconfiar.
+
 ---
 
 ## Resetear la base de datos
