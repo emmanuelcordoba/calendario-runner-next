@@ -198,7 +198,7 @@
                 {
                     "start_date": "2027-06-04",
                     "end_date": "2027-06-06",
-                    "distances": ["8 km", "15 km", "26 km", "37 km", "56 km", "70 km"]
+                    "distances": ["KV", "8 km", "15 km", "26 km", "37 km", "56 km", "70 km"]
                 }
             ]
         },
@@ -1853,7 +1853,7 @@
                 {
                     "start_date": "2026-07-12",
                     "end_date": "2026-07-12",
-                    "distances": ["11 km", "21 km", "2x30K", "60 km"]
+                    "distances": ["11 km", "21 km", "2 x 30 km (postas)", "60 km"]
                 },
                 {
                     "start_date": "2027-07-11",
@@ -2541,7 +2541,7 @@
                 {
                     "start_date": "2026-12-12",
                     "end_date": "2026-12-13",
-                    "distances": ["8 km", "15 km", "25 km", "35 km", "50 km"]
+                    "distances": ["KMV", "Kids", "8 km", "15 km", "25 km", "35 km", "50 km"]
                 }
             ]
         },
