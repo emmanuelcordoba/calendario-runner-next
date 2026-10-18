@@ -18,8 +18,14 @@ export default function Pagination({ page, total, pageSize, basePath }: Props) {
     const pathname = usePathname();
     const searchParams = useSearchParams();
 
-    const buildHref = (p: number, s: number = pageSize) =>
-        `${basePath}?page=${p}&size=${s}`;
+    // Parte de los parámetros actuales en vez de armar la query desde cero:
+    // si no, paginar o cambiar el tamaño descartaba los filtros de búsqueda.
+    const buildHref = (p: number, s: number = pageSize) => {
+        const params = new URLSearchParams(searchParams.toString());
+        params.set('page', String(p));
+        params.set('size', String(s));
+        return `${basePath}?${params}`;
+    };
 
     const handleSizeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
         const newSize = Number(e.target.value);
