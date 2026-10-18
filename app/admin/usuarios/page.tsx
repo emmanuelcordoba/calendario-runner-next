@@ -5,13 +5,11 @@ import { asc, sql } from 'drizzle-orm';
 import { deleteUserAction } from '@/actions/users';
 import DeleteButton from '@/components/admin/delete-button';
 import Pagination from '@/components/admin/pagination';
+import { resolvePageSize } from '@/lib/pagination';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Usuarios - Admin' };
-
-const VALID_SIZES = [10, 20, 50, 100];
-const DEFAULT_SIZE = 20;
 
 interface Props {
     searchParams: Promise<{ page?: string; size?: string }>;
@@ -19,7 +17,7 @@ interface Props {
 
 export default async function AdminUsuariosPage({ searchParams }: Props) {
     const { page: pageParam, size: sizeParam } = await searchParams;
-    const pageSize = VALID_SIZES.includes(Number(sizeParam)) ? Number(sizeParam) : DEFAULT_SIZE;
+    const pageSize = resolvePageSize(sizeParam);
     const page = Math.max(1, Number(pageParam ?? 1));
     const offset = (page - 1) * pageSize;
 

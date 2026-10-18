@@ -2,8 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
-
-const PAGE_SIZES = [10, 20, 50, 100];
+import { PAGE_SIZES } from '@/lib/pagination';
 
 interface Props {
     page: number;

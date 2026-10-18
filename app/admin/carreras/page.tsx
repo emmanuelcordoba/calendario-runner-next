@@ -6,14 +6,12 @@ import { deleteRaceAction, toggleRacePublishedAction } from '@/actions/races';
 import DeleteButton from '@/components/admin/delete-button';
 import PublishToggle from '@/components/admin/publish-toggle';
 import Pagination from '@/components/admin/pagination';
+import { resolvePageSize } from '@/lib/pagination';
 import Filters from './filters';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Carreras - Admin' };
-
-const VALID_SIZES = [10, 20, 50, 100];
-const DEFAULT_SIZE = 20;
 
 interface Props {
     searchParams: Promise<{
@@ -27,9 +25,7 @@ interface Props {
 
 export default async function AdminCarrerasPage({ searchParams }: Props) {
     const params = await searchParams;
-    const pageSize = VALID_SIZES.includes(Number(params.size))
-        ? Number(params.size)
-        : DEFAULT_SIZE;
+    const pageSize = resolvePageSize(params.size);
     const page = Math.max(1, Number(params.page ?? 1));
 
     const q = params.q?.trim() ?? '';
