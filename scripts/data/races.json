@@ -378,7 +378,7 @@
         {
             "name": "Raid de Los Andes",
             "discipline": "Trail Running",
-            "description": "Carrera de tres etapas.\n\nEtapa 1 - Tren en las nubes\nPartirán desde la estación Chorrillos a 2121 msnm, desde allí el recorrido continúa por la ruta de el Tren a las Nubes disfrutando de un paisaje único, culminando en Campo Quijano.\n\nEtapa 2 - Cerro de los siete colores\nLa segunda etapa del Raid de los Andes comienza en Tumbaya y continúa con un recorrido inmerso en el Cerro de Siete Colores y llegarán a una altura de 2820msnm.\n\nEtapa 3 - Salinas Grandes\nTransitarán por uno de los desiertos de sal más imponentes del mundo. Salinas Grandes con más de 12.000 has. de sal a cielo abierto que encandilan por la vastedad infinita del color blanco.",
+            "description": "Carrera de dos etapas, en Jujuy.\n\nEtapa 1 - Salinas Grandes\nTransitarán por uno de los desiertos de sal más imponentes del mundo. Salinas Grandes con más de 12.000 has. de sal a cielo abierto que encandilan por la vastedad infinita del color blanco.\n\nEtapa 2 - Cerro de los siete colores\nComienza en Tumbaya y continúa con un recorrido inmerso en el Cerro de Siete Colores y llegarán a una altura de 2820msnm.",
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/Raid%20Columbia%2Flogo.jpg",
             "links": [
                 { "type": "Web", "url": "https://www.raidandes.com"},
@@ -1568,7 +1568,7 @@
         {
             "name": "Medio Maratón de La Plata",
             "discipline": "Running",
-            "description": "Viví un medio maratón donde cada kilómetro respira costanera, acantilados, playas y esa energía única que solo “La Feliz” sabe transmitir. El circuito te lleva por sus postales más emblemáticas: la rambla, el Atlántico de fondo y el pulso inconfundible de la ciudad.",
+            "description": null,
             "image": "https://pub-24eb8f7f8c1546fdaaf1c324b845975e.r2.dev/NB%20Race%20Series/logo.jpg",
             "links": [
                 { "type": "Web", "url": "https://www.newbalance.com.ar/21k-mar-de-plata-2026/race-series-mdp-21k.html"},
@@ -2400,7 +2400,7 @@
         {
             "name": "NB Media Maratón de Mar del Plata",
             "discipline": "Running",
-            "description": null,
+            "description": "Viví un medio maratón donde cada kilómetro respira costanera, acantilados, playas y esa energía única que solo “La Feliz” sabe transmitir. El circuito te lleva por sus postales más emblemáticas: la rambla, el Atlántico de fondo y el pulso inconfundible de la ciudad.",
             "image": null,
             "links": [
                 { "type": "Web", "url": "https://www.newbalance.com.ar/21k-mar-de-plata-2026/race-series-mdp-21k.html?" }
